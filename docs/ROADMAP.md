@@ -15,7 +15,7 @@
 | 1.1.1 | Definir regras de negócio | Alta | ✅ Done | `docs/BUSINESS_RULES.md` |
 | 1.1.2 | Criar dicionário de dados | Alta | ✅ Done | `docs/DATA_DICTIONARY.md` |
 | 1.1.3 | Criar arquitetura técnica | Alta | ✅ Done | `docs/ARCHITECTURE.md` |
-| 1.1.4 | Criar repositório GitHub | Alta | 🟡 In Progress | Commit inicial pronto; aguardando repo remoto |
+| 1.1.4 | Criar repositório GitHub | Alta | ✅ Done | Repo público [Landoftha/grao-nobre-analytics](https://github.com/Landoftha/grao-nobre-analytics) |
 | 1.1.5 | Configurar MCPs (GitHub + Linear) | Alta | ✅ Done | `mcp_config.json` configurado e testado |
 | 1.1.6 | Criar projeto no Linear | Alta | ✅ Done | Board e 14 tasks criadas via API |
 | 1.1.7 | Gerar dados sintéticos robustos | Alta | ✅ Done | CSVs em `data/raw/` (10 arquivos, 7218 vendas) |
