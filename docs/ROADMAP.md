@@ -15,11 +15,11 @@
 | 1.1.1 | Definir regras de negócio | Alta | ✅ Done | `docs/BUSINESS_RULES.md` |
 | 1.1.2 | Criar dicionário de dados | Alta | ✅ Done | `docs/DATA_DICTIONARY.md` |
 | 1.1.3 | Criar arquitetura técnica | Alta | ✅ Done | `docs/ARCHITECTURE.md` |
-| 1.1.4 | Criar repositório GitHub | Alta | ⬜ Todo | Repo `grao-nobre-analytics` |
-| 1.1.5 | Configurar MCPs (GitHub + Linear) | Alta | ⬜ Todo | `mcp_config.json` |
-| 1.1.6 | Criar projeto no Linear | Alta | ⬜ Todo | Board com tasks |
+| 1.1.4 | Criar repositório GitHub | Alta | 🟡 In Progress | Commit inicial pronto; aguardando repo remoto |
+| 1.1.5 | Configurar MCPs (GitHub + Linear) | Alta | ✅ Done | `mcp_config.json` configurado e testado |
+| 1.1.6 | Criar projeto no Linear | Alta | ✅ Done | Board e 14 tasks criadas via API |
 | 1.1.7 | Gerar dados sintéticos robustos | Alta | ✅ Done | CSVs em `data/raw/` (10 arquivos, 7218 vendas) |
-| 1.1.8 | Criar script de validação de dados | Média | ⬜ Todo | `scripts/validate_data.py` |
+| 1.1.8 | Criar script de validação de dados | Média | ✅ Done | `scripts/validate_data.py` (16.647 registros validados) |
 
 ### Sprint 1.2 — Dashboard Power BI (Semana 3-4)
 
