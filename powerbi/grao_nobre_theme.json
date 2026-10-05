@@ -1,0 +1,23 @@
+{
+  "name": "Grao Nobre Theme",
+  "dataColors": [
+    "#2D1810",
+    "#C4956A",
+    "#E8B931",
+    "#6F4E37",
+    "#2ECC71",
+    "#E74C3C",
+    "#3498DB",
+    "#9B59B6"
+  ],
+  "background": "#F5F0EB",
+  "foreground": "#2D1810",
+  "tableAccent": "#C4956A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspace": [{ "color": { "solid": { "color": "#F5F0EB" } } }]
+      }
+    }
+  }
+}
