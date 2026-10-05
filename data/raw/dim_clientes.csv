@@ -1,0 +1,551 @@
+cliente_id,nome,email,telefone,cidade,estado,regiao,data_cadastro,faixa_etaria,genero,canal_aquisicao,segmento_valor,status_churn,aceita_marketing
+CLI001,Sr. Apollo Sousa,pietrocarvalho@hotmail.com,5524996001338,Florianópolis,SC,Sul,2025-11-19,41-50,M,Google Ads,Ouro,Ativo,True
+CLI002,Apollo Novais,ccamara@abreu.com.br,5538965423511,Salvador,BA,Nordeste,2025-09-05,31-40,M,Google Ads,Prata,Churned,True
+CLI003,Calebe Fogaça,caio78@hotmail.com,5579918495931,Joinville,SC,Sul,2025-12-11,41-50,M,Indicação,Ouro,Ativo,True
+CLI004,Heloísa Vargas,da-conceicaoguilherme@outlook.com.br,5562975255341,Curitiba,PR,Sul,2025-06-11,41-50,F,Google Ads,Ouro,Ativo,True
+CLI005,Enzo Gabriel Nascimento,maria-eduardagarcia@porto.com.br,5548950305641,Santos,SP,Sudeste,2026-05-08,25-30,M,Meta Ads,Bronze,Ativo,True
+CLI006,Levi Cunha,dramos@yahoo.com.br,5555923884969,Curitiba,PR,Sul,2025-05-02,41-50,N,Orgânico,Ouro,Em risco,True
+CLI007,Maria Cecília Câmara,wborges@camargo.gov.br,5538969166978,Juiz de Fora,MG,Sudeste,2026-02-26,31-40,F,Influenciador,Bronze,Inativo,True
+CLI008,Alexia Rodrigues,carolina14@castro.br,5511948281489,Campinas,SP,Sudeste,2025-07-02,41-50,F,Direto,Prata,Em risco,False
+CLI009,Eduardo Freitas,peixotoayla@almeida.com,5575943039117,Niterói,RJ,Sudeste,2025-07-28,41-50,M,Meta Ads,Ouro,Inativo,True
+CLI010,Yasmin Vargas,maria-lauranovaes@da.br,5547983465787,Curitiba,PR,Sul,2025-12-31,31-40,F,Google Ads,Bronze,Ativo,True
+CLI011,Josué Câmara,asafe98@pastor.com,5518931051834,Petrópolis,RJ,Sudeste,2026-04-11,41-50,M,Google Ads,Bronze,Ativo,True
+CLI012,Dr. Heitor Nogueira,yda-cruz@jesus.net,5527916566701,São Paulo,SP,Sudeste,2025-04-09,41-50,M,Meta Ads,Ouro,Inativo,False
+CLI013,Nathan Siqueira,da-cruzmatheus@uol.com.br,5589926247317,Juiz de Fora,MG,Sudeste,2025-11-14,25-30,M,Indicação,Ouro,Ativo,False
+CLI014,Beatriz Aragão,sarenan@jesus.net,5583902606474,Niterói,RJ,Sudeste,2025-09-26,25-30,F,Indicação,Prata,Ativo,True
+CLI015,Raquel Cassiano,pedro-henrique09@souza.com,5517997882081,Petrópolis,RJ,Sudeste,2025-05-14,31-40,N,Google Ads,Ouro,Inativo,True
+CLI016,Bernardo Peixoto,isiscampos@pacheco.gov.br,5522969985435,São Paulo,SP,Sudeste,2025-11-25,51-60,M,Google Ads,Prata,Ativo,True
+CLI017,Julia Gonçalves,maria-cecilia51@marques.gov.br,5527918384251,Chapecó,SC,Sul,2025-05-18,31-40,F,Direto,Ouro,Em risco,False
+CLI018,Maria Eduarda da Paz,tnogueira@pimenta.com.br,5512984124118,Brasília,DF,Centro-Oeste,2025-10-09,41-50,F,Google Ads,Prata,Em risco,True
+CLI019,Júlia da Paz,nicolas48@da.com.br,5517916400524,Feira de Santana,BA,Nordeste,2025-06-30,25-30,F,Meta Ads,Prata,Inativo,False
+CLI020,Melina Novaes,camargodom@yahoo.com.br,5515959826204,Brasília,DF,Centro-Oeste,2025-08-02,60+,F,Email Marketing,Prata,Ativo,True
+CLI021,Ana Cecília Fogaça,gustavofogaca@pinto.com.br,5537932260256,Joinville,SC,Sul,2025-08-19,25-30,F,Email Marketing,Ouro,Churned,True
+CLI022,Sr. João Felipe Castro,eandrade@costa.org,5549930365414,Belo Horizonte,MG,Sudeste,2025-12-26,31-40,M,Orgânico,Ouro,Ativo,True
+CLI023,Sophia Guerra,camargovicente@yahoo.com.br,5555901965569,Manaus,AM,Norte,2025-05-25,25-30,F,Google Ads,Prata,Churned,True
+CLI024,Danilo Gomes,caio60@fonseca.gov.br,5569995148465,Salvador,BA,Nordeste,2025-10-20,60+,M,Orgânico,Bronze,Ativo,True
+CLI025,Laís Novaes,laurarios@rocha.com.br,5542999468044,São Luís,MA,Nordeste,2025-07-19,25-30,F,Influenciador,Ouro,Churned,True
+CLI026,Pedro Viana,cmacedo@uol.com.br,5598972148951,Juiz de Fora,MG,Sudeste,2025-07-20,41-50,M,Indicação,Ouro,Churned,True
+CLI027,Leonardo Câmara,benicioaparecida@melo.br,5585993676320,Petrópolis,RJ,Sudeste,2025-11-18,31-40,M,Google Ads,Prata,Ativo,True
+CLI028,Mariana Câmara,jaragao@campos.com.br,5592988957986,Juiz de Fora,MG,Sudeste,2025-07-09,25-30,F,Google Ads,Prata,Em risco,True
+CLI029,Melissa Castro,wda-luz@uol.com.br,5562987347143,Anápolis,GO,Centro-Oeste,2025-07-18,18-24,F,Google Ads,Ouro,Inativo,True
+CLI030,Lívia Dias,kevinda-conceicao@sales.com,5547916658760,Sorocaba,SP,Sudeste,2025-09-21,31-40,F,Google Ads,Ouro,Ativo,True
+CLI031,Mariah Gomes,amendes@da.com.br,5581968893734,Ribeirão Preto,SP,Sudeste,2025-05-02,31-40,F,Meta Ads,Prata,Ativo,True
+CLI032,Raquel Alves,jade27@yahoo.com.br,5514969901627,Porto Alegre,RS,Sul,2025-07-22,18-24,F,Indicação,Prata,Ativo,True
+CLI033,Benicio da Luz,otavio75@terra.com.br,5579946417080,Sorocaba,SP,Sudeste,2025-10-17,31-40,M,Meta Ads,Bronze,Ativo,True
+CLI034,Henry Gabriel Rezende,sabento@costa.com,5551927193745,Vila Velha,ES,Sudeste,2025-03-03,41-50,M,Influenciador,Ouro,Inativo,True
+CLI035,Bruna Vasconcelos,henrique90@oliveira.gov.br,5579963193149,Belo Horizonte,MG,Sudeste,2025-04-25,60+,F,Influenciador,Ouro,Churned,True
+CLI036,Asafe Ferreira,davi-miguel85@gmail.com,5585971657262,Belo Horizonte,MG,Sudeste,2025-07-26,51-60,M,Influenciador,Ouro,Em risco,True
+CLI037,Dra. Júlia Pimenta,ulopes@bol.com.br,5568931473799,Niterói,RJ,Sudeste,2025-11-03,25-30,F,Indicação,Bronze,Em risco,True
+CLI038,Maria Helena Fernandes,lduarte@cunha.br,5555954948083,Santa Maria,RS,Sul,2026-06-05,25-30,N,Meta Ads,Prata,Ativo,True
+CLI039,Isabella Silveira,wnovais@uol.com.br,5593977014363,Juiz de Fora,MG,Sudeste,2025-07-03,25-30,F,Google Ads,Ouro,Ativo,False
+CLI040,Léo Melo,jsouza@terra.com.br,5574974443135,Belo Horizonte,MG,Sudeste,2025-03-27,60+,M,Google Ads,Diamante,Em risco,True
+CLI041,Zoe Teixeira,pedrosousa@da.com.br,5563913435240,Caxias do Sul,RS,Sul,2025-03-23,31-40,F,Direto,Ouro,Churned,True
+CLI042,Dra. Carolina da Mota,novaesana@porto.com,5512994777520,São Paulo,SP,Sudeste,2025-07-08,31-40,F,Orgânico,Ouro,Churned,False
+CLI043,Pietra Camargo,emendonca@cassiano.com.br,5565913186999,Santos,SP,Sudeste,2026-04-11,25-30,F,Meta Ads,Ouro,Ativo,True
+CLI044,Stephany Garcia,lda-rosa@outlook.com.br,5566999091334,Curitiba,PR,Sul,2025-03-18,18-24,F,Orgânico,Ouro,Churned,True
+CLI045,Srta. Eduarda da Costa,castroandre@machado.com.br,5593940344713,Juiz de Fora,MG,Sudeste,2025-08-07,25-30,F,Direto,Ouro,Em risco,False
+CLI046,Gael Henrique Lima,kaiqueda-mata@barbosa.com.br,5566999471746,Londrina,PR,Sul,2025-10-12,31-40,M,Orgânico,Ouro,Ativo,False
+CLI047,Sarah Nogueira,mbarros@gmail.com,5587959401399,Recife,PE,Nordeste,2025-06-09,41-50,F,Orgânico,Prata,Churned,True
+CLI048,Juliana Oliveira,maria-isismoreira@da.com,5587971756551,Brasília,DF,Centro-Oeste,2025-12-26,25-30,F,Google Ads,Ouro,Inativo,True
+CLI049,Lucas Jesus,isadora80@live.com,5524954516808,Blumenau,SC,Sul,2026-01-27,25-30,M,Indicação,Prata,Em risco,True
+CLI050,Noah Aragão,melina70@da.org,5588971093248,Goiânia,GO,Centro-Oeste,2025-04-14,25-30,M,Meta Ads,Prata,Churned,True
+CLI051,Maria Luísa Borges,martinsisaac@monteiro.edu.br,5561967737826,Feira de Santana,BA,Nordeste,2025-11-15,25-30,F,Meta Ads,Ouro,Ativo,True
+CLI052,Sophia Souza,da-motakamilly@viana.edu.br,5561904499727,Campinas,SP,Sudeste,2025-10-27,31-40,F,Email Marketing,Ouro,Ativo,True
+CLI053,Rafaela Ferreira,umarques@uol.com.br,5551996360576,Santos,SP,Sudeste,2025-08-05,31-40,N,Direto,Bronze,Ativo,True
+CLI054,Clarice Monteiro,milenapastor@brito.com.br,5588918702621,Londrina,PR,Sul,2025-06-03,41-50,F,Meta Ads,Ouro,Ativo,False
+CLI055,João Fernandes,fariassophie@outlook.com.br,5567978091343,Belém,PA,Norte,2026-02-14,51-60,M,Google Ads,Diamante,Ativo,True
+CLI056,Sr. Pedro Henrique Brito,scavalcante@alves.com,5568904556238,Ribeirão Preto,SP,Sudeste,2025-04-19,18-24,M,Indicação,Ouro,Churned,False
+CLI057,Fernando Cavalcante,pimentagiovanna@monteiro.net,5592947407482,Recife,PE,Nordeste,2025-06-24,25-30,M,Email Marketing,Ouro,Em risco,False
+CLI058,Pedro Miguel Ferreira,qsales@live.com,5565936713695,Brasília,DF,Centro-Oeste,2025-11-10,25-30,M,Influenciador,Ouro,Ativo,False
+CLI059,Juan Sampaio,ribeiroisabela@bol.com.br,5512990974395,Brasília,DF,Centro-Oeste,2025-11-06,18-24,M,Google Ads,Prata,Ativo,False
+CLI060,Esther Pinto,gaelpires@gmail.com,5566970952145,Belém,PA,Norte,2026-02-17,31-40,F,Orgânico,Ouro,Ativo,False
+CLI061,Dr. Erick Costa,sofia84@da.com.br,5571917123685,Curitiba,PR,Sul,2025-05-24,25-30,M,Direto,Prata,Ativo,False
+CLI062,Maria Laura Albuquerque,marquesemilly@bol.com.br,5579951370985,Curitiba,PR,Sul,2026-01-18,31-40,F,Meta Ads,Ouro,Ativo,True
+CLI063,Henry Ramos,tsampaio@camargo.com,5516904711382,Manaus,AM,Norte,2025-10-04,31-40,M,Orgânico,Prata,Em risco,True
+CLI064,Mirella Freitas,kamillyrezende@hotmail.com,5595996405377,Sorocaba,SP,Sudeste,2025-09-22,41-50,F,Direto,Prata,Churned,True
+CLI065,Maria Cecília Brito,davi64@uol.com.br,5532971390053,Petrópolis,RJ,Sudeste,2025-08-19,51-60,F,Orgânico,Prata,Churned,True
+CLI066,Gabrielly Azevedo,ravi-luccafarias@viana.org,5535928421020,Anápolis,GO,Centro-Oeste,2026-02-08,41-50,F,Meta Ads,Ouro,Ativo,True
+CLI067,Isabela Pastor,cavalcantivinicius@gmail.com,5533968117758,Ribeirão Preto,SP,Sudeste,2025-04-11,41-50,F,Influenciador,Ouro,Em risco,True
+CLI068,Bianca Machado,siqueiraraquel@marques.gov.br,5514907661771,Belo Horizonte,MG,Sudeste,2025-03-21,25-30,F,Google Ads,Ouro,Em risco,True
+CLI069,Luna Pereira,cardosoyan@garcia.gov.br,5564978961183,Ponta Grossa,PR,Sul,2026-03-13,31-40,F,Google Ads,Ouro,Ativo,False
+CLI070,Milena da Conceição,maria66@hotmail.com,5567965452711,Recife,PE,Nordeste,2025-11-20,41-50,F,Meta Ads,Ouro,Em risco,True
+CLI071,Caleb Lopes,jose-pedro80@rios.com,5584956049451,Campinas,SP,Sudeste,2026-02-18,41-50,M,Google Ads,Ouro,Ativo,True
+CLI072,Sofia Cunha,gcamara@novais.br,5531949368998,Ponta Grossa,PR,Sul,2025-12-23,31-40,F,Email Marketing,Ouro,Ativo,False
+CLI073,Juliana Alves,ana-luiza55@cirino.gov.br,5583912018366,Chapecó,SC,Sul,2025-07-19,31-40,F,Google Ads,Ouro,Em risco,True
+CLI074,Manuela Castro,aylla99@hotmail.com,5517922901476,Salvador,BA,Nordeste,2026-01-29,41-50,F,Google Ads,Ouro,Em risco,True
+CLI075,Melina Leão,oliviacamargo@terra.com.br,5587914978403,Petrópolis,RJ,Sudeste,2025-11-02,25-30,F,Email Marketing,Prata,Ativo,True
+CLI076,Ana Laura Abreu,otavio24@duarte.com,5511976226838,Pelotas,RS,Sul,2025-07-12,60+,F,Influenciador,Ouro,Em risco,True
+CLI077,Maria Barbosa,lopesarthur-miguel@live.com,5521959696641,Juiz de Fora,MG,Sudeste,2025-09-14,31-40,F,Google Ads,Ouro,Em risco,True
+CLI078,Alícia Duarte,xsales@lopes.net,5587996816453,Feira de Santana,BA,Nordeste,2025-05-24,41-50,F,Orgânico,Ouro,Churned,True
+CLI079,Eloá Barbosa,ceciliaferreira@da.org,5545929212779,Santos,SP,Sudeste,2026-09-08,25-30,F,Meta Ads,Bronze,Churned,True
+CLI080,Pietro Rodrigues,kevin71@live.com,5588944905814,Ribeirão Preto,SP,Sudeste,2025-03-15,41-50,M,Indicação,Ouro,Em risco,True
+CLI081,Rael Andrade,allana11@martins.gov.br,5516979359782,Uberlândia,MG,Sudeste,2025-02-26,18-24,M,Email Marketing,Ouro,Ativo,True
+CLI082,Rael Caldeira,montenegroluiz-felipe@gmail.com,5553977889255,São Luís,MA,Nordeste,2025-06-09,51-60,M,Email Marketing,Ouro,Ativo,True
+CLI083,Mathias Jesus,vieirabruna@hotmail.com,5569918644925,Ponta Grossa,PR,Sul,2025-10-26,51-60,M,Direto,Ouro,Ativo,True
+CLI084,Diego Ferreira,mcardoso@hotmail.com,5566986528168,Juiz de Fora,MG,Sudeste,2025-04-27,51-60,M,Orgânico,Ouro,Ativo,True
+CLI085,Antony Fonseca,paulofernandes@live.com,5544932214188,Petrópolis,RJ,Sudeste,2025-05-05,41-50,M,Meta Ads,Prata,Churned,True
+CLI086,Dra. Ana Carolina Ribeiro,fernandacassiano@yahoo.com.br,5543992706537,Sorocaba,SP,Sudeste,2025-10-20,31-40,F,Influenciador,Ouro,Ativo,True
+CLI087,João Miguel Sá,sophieda-costa@bol.com.br,5593935977468,Ribeirão Preto,SP,Sudeste,2025-08-22,25-30,M,Orgânico,Ouro,Inativo,True
+CLI088,Otto Castro,theodoroaragao@freitas.edu.br,5528981412478,Santos,SP,Sudeste,2025-09-24,31-40,M,Influenciador,Prata,Churned,False
+CLI089,Pedro Henrique Borges,bferreira@aragao.br,5597953615305,Rio de Janeiro,RJ,Sudeste,2026-01-10,31-40,M,Indicação,Prata,Em risco,False
+CLI090,Lívia Vieira,brenoda-paz@sampaio.com.br,5534977901043,Curitiba,PR,Sul,2025-07-10,41-50,F,Indicação,Ouro,Ativo,False
+CLI091,Vitória Lima,renan41@da.gov.br,5591911798089,São Paulo,SP,Sudeste,2025-08-09,31-40,F,Google Ads,Ouro,Em risco,True
+CLI092,Diego da Rocha,pimentaclarice@uol.com.br,5585921851888,São Luís,MA,Nordeste,2025-06-19,41-50,M,Email Marketing,Ouro,Ativo,True
+CLI093,Yuri Almeida,oaparecida@outlook.com.br,5577940515319,Salvador,BA,Nordeste,2025-08-22,41-50,M,Google Ads,Ouro,Ativo,True
+CLI094,Dr. Davi Luiz Aparecida,luiz-fernando77@yahoo.com.br,5534917043030,Vila Velha,ES,Sudeste,2025-08-17,31-40,M,Indicação,Prata,Inativo,True
+CLI095,Luana Moraes,cda-cunha@uol.com.br,5563950541566,Florianópolis,SC,Sul,2025-11-18,41-50,F,Meta Ads,Prata,Em risco,True
+CLI096,Dr. Matheus Fernandes,fsales@moreira.org,5522961692845,Recife,PE,Nordeste,2025-12-21,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI097,Bruno Duarte,maite96@yahoo.com.br,5588957059640,Ponta Grossa,PR,Sul,2025-12-07,41-50,N,Google Ads,Prata,Ativo,True
+CLI098,Nathan Fonseca,casa-grandeluna@cardoso.net,5575956909275,Fortaleza,CE,Nordeste,2025-04-12,31-40,N,Indicação,Ouro,Inativo,True
+CLI099,Melina Teixeira,sofiafonseca@dias.gov.br,5562931027868,Olinda,PE,Nordeste,2025-07-23,31-40,F,Email Marketing,Ouro,Ativo,True
+CLI100,Julia Vasconcelos,ncunha@bol.com.br,5595931217271,Curitiba,PR,Sul,2025-06-20,25-30,F,Orgânico,Ouro,Em risco,True
+CLI101,Dr. Luiz Felipe Santos,ana-clara22@moraes.net,5532932370589,Pelotas,RS,Sul,2025-08-25,18-24,M,Influenciador,Ouro,Ativo,True
+CLI102,Nina Novaes,azevedoana-luiza@silva.com.br,5594986691251,Olinda,PE,Nordeste,2026-03-14,25-30,F,Orgânico,Ouro,Em risco,True
+CLI103,Nina Rodrigues,luiz-otaviovargas@yahoo.com.br,5587980182422,Belo Horizonte,MG,Sudeste,2025-05-23,25-30,F,Indicação,Ouro,Ativo,True
+CLI104,Henry Gabriel Ferreira,da-cunhamatteo@icloud.com,5562924981829,Santa Maria,RS,Sul,2025-06-16,31-40,M,Google Ads,Ouro,Ativo,True
+CLI105,Eduardo Cavalcante,alvesenrico@gmail.com,5555939690784,Cascavel,PR,Sul,2025-08-25,31-40,M,Orgânico,Ouro,Churned,False
+CLI106,Dr. Rodrigo da Cruz,maria10@yahoo.com.br,5588967735925,Uberlândia,MG,Sudeste,2025-07-14,41-50,M,Meta Ads,Ouro,Em risco,True
+CLI107,Sra. Manuella Guerra,olivia81@da.br,5532947321046,São Paulo,SP,Sudeste,2025-06-16,41-50,F,Direto,Ouro,Inativo,True
+CLI108,Mariah da Cruz,ana-sophia32@moraes.br,5596947016873,Feira de Santana,BA,Nordeste,2025-10-05,41-50,F,Direto,Prata,Ativo,True
+CLI109,Luiz Gustavo Aragão,maya97@nascimento.com,5528962456506,Campinas,SP,Sudeste,2025-09-10,25-30,M,Meta Ads,Ouro,Ativo,True
+CLI110,Evelyn Fonseca,gomesmirella@live.com,5562999121655,São Paulo,SP,Sudeste,2025-06-08,60+,F,Orgânico,Bronze,Churned,True
+CLI111,Luiz Otávio Sá,nicoleguerra@aparecida.com,5569978729825,Brasília,DF,Centro-Oeste,2025-03-15,25-30,M,Google Ads,Ouro,Churned,True
+CLI112,Liam Castro,barbara88@icloud.com,5595994705516,Curitiba,PR,Sul,2026-02-11,25-30,M,Influenciador,Prata,Ativo,True
+CLI113,Leandro Vieira,pda-luz@silveira.br,5541989623091,Juiz de Fora,MG,Sudeste,2025-06-18,31-40,M,Google Ads,Ouro,Ativo,True
+CLI114,Allana Macedo,acassiano@uol.com.br,5584989702838,Londrina,PR,Sul,2026-05-21,25-30,F,Email Marketing,Prata,Ativo,True
+CLI115,Rhavi Moura,luiz-felipe78@terra.com.br,5574949733484,Cascavel,PR,Sul,2026-03-24,31-40,M,Influenciador,Bronze,Ativo,True
+CLI116,Letícia Vargas,marianadias@live.com,5573984419866,Petrópolis,RJ,Sudeste,2025-11-29,31-40,F,Orgânico,Ouro,Ativo,False
+CLI117,Diogo da Rocha,emanuel57@souza.br,5547938484219,Campinas,SP,Sudeste,2025-04-30,25-30,M,Google Ads,Ouro,Ativo,True
+CLI118,Sr. Joaquim Aragão,cauabrito@farias.com.br,5593912082677,Ribeirão Preto,SP,Sudeste,2025-06-04,31-40,M,Orgânico,Ouro,Ativo,True
+CLI119,Sr. João Pedro Duarte,vargasfelipe@uol.com.br,5515926206724,Santa Maria,RS,Sul,2025-09-08,18-24,M,Google Ads,Ouro,Ativo,True
+CLI120,Alexia da Rosa,alice78@carvalho.com.br,5597974315274,Joinville,SC,Sul,2025-06-08,31-40,F,Orgânico,Ouro,Ativo,False
+CLI121,Srta. Alice Sousa,matheus29@outlook.com.br,5586985161227,Fortaleza,CE,Nordeste,2025-08-12,18-24,F,Email Marketing,Ouro,Ativo,False
+CLI122,Isadora Abreu,cda-costa@bol.com.br,5569949904530,Vila Velha,ES,Sudeste,2025-02-24,25-30,F,Indicação,Ouro,Churned,False
+CLI123,Srta. Nina das Neves,grodrigues@sales.com,5564959332727,Uberlândia,MG,Sudeste,2026-02-02,31-40,F,Orgânico,Prata,Ativo,True
+CLI124,Dra. Maria Fernanda Leão,thalesrodrigues@hotmail.com,5589985191088,Florianópolis,SC,Sul,2025-11-05,25-30,F,Direto,Bronze,Ativo,True
+CLI125,Vitor Gabriel Cassiano,raquel71@silva.com,5598970728679,Cuiabá,MT,Centro-Oeste,2025-08-03,31-40,M,Email Marketing,Ouro,Em risco,True
+CLI126,Nicole Rocha,goncalvesthomas@gmail.com,5547991065180,Niterói,RJ,Sudeste,2026-06-16,25-30,F,Orgânico,Ouro,Ativo,True
+CLI127,Ravy Andrade,xcirino@yahoo.com.br,5585956766182,Santos,SP,Sudeste,2025-06-20,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI128,Sra. Bárbara Cavalcanti,pietroabreu@gmail.com,5565978686337,Niterói,RJ,Sudeste,2026-06-15,25-30,F,Direto,Ouro,Ativo,True
+CLI129,Daniela da Mota,andradelarissa@da.com,5527990790306,Niterói,RJ,Sudeste,2025-03-19,25-30,F,Google Ads,Diamante,Em risco,False
+CLI130,Igor Nogueira,carvalhomilena@da.com.br,5567999534283,Fortaleza,CE,Nordeste,2025-02-23,41-50,M,Orgânico,Ouro,Ativo,True
+CLI131,Kaique da Mota,leticianovais@aragao.br,5579985662462,Ponta Grossa,PR,Sul,2026-01-28,31-40,M,Email Marketing,Ouro,Ativo,True
+CLI132,Renan da Costa,joao-pedro70@leao.edu.br,5534963435175,Vila Velha,ES,Sudeste,2025-06-25,51-60,M,Orgânico,Ouro,Ativo,True
+CLI133,Vitor Gabriel Silveira,da-matagabriela@barbosa.com.br,5547973540331,Recife,PE,Nordeste,2025-09-24,25-30,M,Google Ads,Prata,Inativo,True
+CLI134,Sra. Isabelly Sampaio,jda-costa@vasconcelos.org,5579978544587,Fortaleza,CE,Nordeste,2025-12-17,31-40,F,Google Ads,Prata,Ativo,True
+CLI135,Beatriz Silveira,nicolas55@outlook.com.br,5516993204899,Pelotas,RS,Sul,2026-03-12,31-40,F,Orgânico,Prata,Ativo,True
+CLI136,Sra. Laís Cassiano,raul69@monteiro.gov.br,5571947772522,Campinas,SP,Sudeste,2025-06-08,51-60,F,Orgânico,Ouro,Churned,False
+CLI137,Dr. Francisco Nogueira,barbosacalebe@jesus.com.br,5549912038750,Ponta Grossa,PR,Sul,2025-09-19,31-40,M,Email Marketing,Prata,Ativo,True
+CLI138,Rafaela Ribeiro,abreusophia@icloud.com,5584900848408,Santa Maria,RS,Sul,2025-09-01,51-60,F,Meta Ads,Ouro,Em risco,True
+CLI139,Dr. Felipe Caldeira,rodrigocorreia@fogaca.org,5582915679334,Feira de Santana,BA,Nordeste,2025-02-23,31-40,M,Meta Ads,Ouro,Churned,True
+CLI140,Sr. Arthur Gabriel Borges,jgarcia@live.com,5518902176591,Joinville,SC,Sul,2025-10-16,51-60,M,Meta Ads,Ouro,Ativo,True
+CLI141,Ana Cecília da Conceição,cda-mata@rodrigues.edu.br,5515925039261,Anápolis,GO,Centro-Oeste,2025-12-04,31-40,F,Indicação,Bronze,Em risco,False
+CLI142,Enrico Nunes,irocha@gomes.com.br,5534918501631,Belo Horizonte,MG,Sudeste,2025-11-08,25-30,M,Direto,Ouro,Ativo,True
+CLI143,Maria Laura Vasconcelos,portoyago@live.com,5595935866296,Fortaleza,CE,Nordeste,2025-10-11,31-40,F,Orgânico,Prata,Ativo,True
+CLI144,Juan da Cruz,da-mataleandro@silva.com.br,5537965511047,Caxias do Sul,RS,Sul,2025-12-10,18-24,M,Email Marketing,Bronze,Ativo,True
+CLI145,Júlia Caldeira,cirinolorena@novais.edu.br,5598961015819,Rio de Janeiro,RJ,Sudeste,2025-12-18,51-60,F,Influenciador,Prata,Em risco,True
+CLI146,Luan Gomes,julia61@oliveira.gov.br,5579922444721,Ponta Grossa,PR,Sul,2025-05-29,51-60,M,Google Ads,Prata,Ativo,True
+CLI147,Pedro Henrique da Mota,maria-sophia15@bol.com.br,5553979937124,Vitória,ES,Sudeste,2026-05-06,41-50,M,Meta Ads,Bronze,Ativo,True
+CLI148,Miguel Farias,lunna56@yahoo.com.br,5565959375265,Brasília,DF,Centro-Oeste,2026-01-17,25-30,M,Meta Ads,Ouro,Ativo,True
+CLI149,Rebeca Oliveira,fernanda46@camargo.gov.br,5545998280737,Santos,SP,Sudeste,2025-07-13,31-40,F,Google Ads,Ouro,Em risco,True
+CLI150,Bernardo Vieira,ocarvalho@bol.com.br,5551942661797,Recife,PE,Nordeste,2025-06-26,25-30,M,Orgânico,Prata,Em risco,True
+CLI151,Murilo Nascimento,vieiraeloah@icloud.com,5522913529096,Juiz de Fora,MG,Sudeste,2025-07-14,25-30,M,Orgânico,Ouro,Em risco,True
+CLI152,Pedro Caldeira,da-luzpedro-miguel@machado.br,5597925071461,Ribeirão Preto,SP,Sudeste,2025-11-23,51-60,M,Indicação,Prata,Ativo,True
+CLI153,Cecília Ferreira,maria-alice38@live.com,5573971775140,Cascavel,PR,Sul,2026-02-06,25-30,F,Direto,Ouro,Ativo,True
+CLI154,Sr. Antônio Fernandes,ryanmoreira@novaes.edu.br,5586973622660,Ponta Grossa,PR,Sul,2026-05-03,51-60,M,Google Ads,Bronze,Ativo,True
+CLI155,Sr. Rael Pastor,tabreu@uol.com.br,5546941918255,Maringá,PR,Sul,2025-07-27,18-24,M,Email Marketing,Ouro,Churned,True
+CLI156,Natália Camargo,omoura@terra.com.br,5581996915579,Brasília,DF,Centro-Oeste,2025-04-19,51-60,F,Indicação,Ouro,Inativo,False
+CLI157,Letícia Pimenta,ana-sophiacampos@das.br,5535986692966,Salvador,BA,Nordeste,2025-07-02,31-40,F,Meta Ads,Prata,Churned,True
+CLI158,Raquel Porto,marianada-paz@cirino.gov.br,5517950723688,Caxias do Sul,RS,Sul,2025-06-01,31-40,F,Influenciador,Ouro,Em risco,True
+CLI159,Sra. Maria Luísa Rodrigues,csantos@live.com,5541919034043,Petrópolis,RJ,Sudeste,2025-12-15,31-40,F,Google Ads,Ouro,Ativo,True
+CLI160,Laura Cavalcante,gnovaes@hotmail.com,5531948580783,Rio de Janeiro,RJ,Sudeste,2025-07-20,25-30,N,Orgânico,Ouro,Ativo,True
+CLI161,Bella Sousa,benicio74@borges.br,5532933959629,Goiânia,GO,Centro-Oeste,2025-06-27,25-30,F,Email Marketing,Prata,Churned,True
+CLI162,Gustavo Costela,sophia49@duarte.org,5561981260422,Feira de Santana,BA,Nordeste,2025-07-28,41-50,M,Orgânico,Prata,Churned,True
+CLI163,Diogo Silva,isabelmendonca@yahoo.com.br,5561966711684,Ponta Grossa,PR,Sul,2025-06-26,60+,M,Email Marketing,Prata,Ativo,True
+CLI164,Sra. Mirella Mendonça,vasconcelosfrancisco@live.com,5574918636374,Sorocaba,SP,Sudeste,2025-05-27,25-30,F,Meta Ads,Ouro,Churned,True
+CLI165,João Miguel Fernandes,vviana@aparecida.gov.br,5591901277063,Petrópolis,RJ,Sudeste,2026-03-31,51-60,M,Google Ads,Bronze,Ativo,True
+CLI166,Sr. Kevin Castro,rezendeeloah@bol.com.br,5522952064361,Brasília,DF,Centro-Oeste,2025-05-19,51-60,M,Google Ads,Ouro,Ativo,False
+CLI167,Sr. Alexandre Cunha,cardosorael@icloud.com,5588900516271,Anápolis,GO,Centro-Oeste,2025-12-14,41-50,M,Google Ads,Prata,Ativo,True
+CLI168,Matheus Borges,diasemilly@carvalho.br,5534921890927,Manaus,AM,Norte,2025-04-03,25-30,M,Influenciador,Ouro,Inativo,True
+CLI169,Hadassa Pires,rpimenta@cunha.com,5527921965652,Santa Maria,RS,Sul,2025-11-13,31-40,F,Indicação,Prata,Em risco,True
+CLI170,Kamilly Ramos,alicevasconcelos@ribeiro.net,5599998364037,Fortaleza,CE,Nordeste,2026-05-09,51-60,F,Meta Ads,Prata,Ativo,True
+CLI171,Brenda da Costa,mouraapollo@terra.com.br,5567926965827,Rio de Janeiro,RJ,Sudeste,2025-06-02,51-60,F,Google Ads,Prata,Ativo,True
+CLI172,Antony Pastor,da-luzpedro@araujo.edu.br,5563986661889,Belém,PA,Norte,2025-05-14,18-24,N,Meta Ads,Ouro,Ativo,False
+CLI173,Lara Barros,moraesnicolas@yahoo.com.br,5568969146303,Fortaleza,CE,Nordeste,2025-08-06,41-50,F,Indicação,Prata,Inativo,True
+CLI174,Pedro Henrique Camargo,das-nevesluiz-fernando@hotmail.com,5512920275884,Recife,PE,Nordeste,2025-04-15,60+,M,Email Marketing,Ouro,Em risco,False
+CLI175,Marcelo Cardoso,vargasbento@terra.com.br,5586948149177,Juiz de Fora,MG,Sudeste,2025-05-05,25-30,M,Influenciador,Prata,Churned,True
+CLI176,Maria Cecília Araújo,emillycastro@bol.com.br,5528991380003,Goiânia,GO,Centro-Oeste,2026-07-22,25-30,N,Direto,Prata,Ativo,True
+CLI177,Ravy Fonseca,luiz-henriqueandrade@icloud.com,5585935365419,Recife,PE,Nordeste,2026-01-14,41-50,M,Google Ads,Bronze,Churned,True
+CLI178,Dante Montenegro,pietromoreira@guerra.br,5563945187053,Maringá,PR,Sul,2025-05-02,18-24,M,Meta Ads,Ouro,Inativo,True
+CLI179,Liz Sousa,lfreitas@vargas.com.br,5545983206038,São Paulo,SP,Sudeste,2026-02-17,31-40,F,Email Marketing,Prata,Ativo,True
+CLI180,Alexia Farias,usousa@caldeira.net,5551967024103,Juiz de Fora,MG,Sudeste,2025-07-05,18-24,F,Email Marketing,Prata,Em risco,True
+CLI181,Noah Sampaio,fsouza@hotmail.com,5597926199062,Rio de Janeiro,RJ,Sudeste,2025-10-19,18-24,M,Orgânico,Prata,Ativo,True
+CLI182,Lavínia da Luz,vsampaio@terra.com.br,5567974313291,Uberlândia,MG,Sudeste,2025-08-23,18-24,F,Google Ads,Ouro,Em risco,True
+CLI183,Cauê Cavalcante,adias@hotmail.com,5574937474112,Cascavel,PR,Sul,2026-01-19,31-40,N,Meta Ads,Prata,Ativo,True
+CLI184,Dr. Asafe Cunha,fernandosilva@uol.com.br,5574968044206,Petrópolis,RJ,Sudeste,2025-11-02,31-40,M,Email Marketing,Prata,Inativo,True
+CLI185,Yan da Cruz,zcaldeira@campos.com.br,5548923651994,Brasília,DF,Centro-Oeste,2025-06-05,31-40,M,Influenciador,Prata,Em risco,False
+CLI186,Alícia Azevedo,fcardoso@campos.com,5592902966706,Petrópolis,RJ,Sudeste,2025-05-06,25-30,F,Meta Ads,Ouro,Em risco,True
+CLI187,Dr. Erick Fogaça,yanda-mota@cassiano.com,5553947687014,Ribeirão Preto,SP,Sudeste,2025-04-05,18-24,M,Email Marketing,Ouro,Churned,True
+CLI188,Cecilia Leão,yasminvieira@garcia.br,5594987598564,Salvador,BA,Nordeste,2025-12-04,31-40,F,Orgânico,Prata,Em risco,True
+CLI189,Amanda Dias,vasconcelosalana@melo.br,5549921334803,Santos,SP,Sudeste,2025-04-02,51-60,F,Direto,Ouro,Em risco,False
+CLI190,Maria Julia Fogaça,renanpastor@sousa.com.br,5574990599293,Santos,SP,Sudeste,2025-08-31,31-40,F,Meta Ads,Prata,Churned,True
+CLI191,Ágatha das Neves,fandrade@da.net,5513987059325,Caxias do Sul,RS,Sul,2025-08-28,51-60,F,Meta Ads,Ouro,Ativo,True
+CLI192,Srta. Luna Araújo,joao-miguelvasconcelos@moura.com,5577969154522,Londrina,PR,Sul,2025-08-01,41-50,N,Email Marketing,Prata,Em risco,True
+CLI193,Sra. Raquel Rezende,eduardacamara@yahoo.com.br,5579944220969,Florianópolis,SC,Sul,2025-10-27,31-40,F,Indicação,Prata,Ativo,True
+CLI194,Fernando Pereira,gustavo-henriquemonteiro@yahoo.com.br,5569913552157,Maringá,PR,Sul,2025-04-16,51-60,M,Meta Ads,Ouro,Ativo,True
+CLI195,João Costela,ferreiratheo@silveira.com,5581976267658,Porto Alegre,RS,Sul,2025-04-23,25-30,M,Indicação,Prata,Churned,True
+CLI196,Carlos Eduardo Mendes,marcelabarbosa@da.br,5555911526218,Ribeirão Preto,SP,Sudeste,2025-11-17,31-40,M,Google Ads,Prata,Ativo,True
+CLI197,Maitê Peixoto,lopeslucas@outlook.com.br,5538901533688,São Luís,MA,Nordeste,2025-06-12,51-60,F,Google Ads,Ouro,Ativo,True
+CLI198,Larissa da Rosa,aragaoisabel@cassiano.com,5575906149731,Ribeirão Preto,SP,Sudeste,2025-11-28,41-50,F,Orgânico,Prata,Em risco,True
+CLI199,Gabrielly Cavalcante,meloigor@bol.com.br,5582977418625,Salvador,BA,Nordeste,2025-08-31,31-40,F,Google Ads,Ouro,Ativo,True
+CLI200,Maria Eduarda Cirino,da-luzlunna@live.com,5555934902115,Uberlândia,MG,Sudeste,2025-11-18,18-24,F,Meta Ads,Ouro,Ativo,True
+CLI201,Noah Sá,gomesrebeca@nascimento.gov.br,5593993741608,Londrina,PR,Sul,2025-07-12,41-50,M,Email Marketing,Prata,Em risco,True
+CLI202,Stella Oliveira,samanuela@cavalcante.com,5516961632945,Uberlândia,MG,Sudeste,2025-05-28,25-30,F,Meta Ads,Prata,Em risco,True
+CLI203,Sr. Caio Gomes,yuri87@gmail.com,5599961622999,Fortaleza,CE,Nordeste,2026-05-29,18-24,M,Influenciador,Bronze,Ativo,True
+CLI204,Bianca Nunes,stella56@gomes.gov.br,5595999702462,Vila Velha,ES,Sudeste,2026-06-19,31-40,F,Orgânico,Prata,Em risco,True
+CLI205,Maria Liz Andrade,renan07@bol.com.br,5577905444713,São Paulo,SP,Sudeste,2026-04-12,60+,N,Google Ads,Ouro,Ativo,True
+CLI206,Kaique Souza,vitor-gabriel69@hotmail.com,5544973678508,Pelotas,RS,Sul,2025-10-15,25-30,M,Email Marketing,Ouro,Em risco,True
+CLI207,Benício das Neves,sabrinanunes@gmail.com,5542933030705,Uberlândia,MG,Sudeste,2025-09-01,51-60,M,Indicação,Ouro,Em risco,True
+CLI208,Srta. Kamilly Freitas,hporto@gmail.com,5551957972798,São Paulo,SP,Sudeste,2025-03-11,31-40,F,Google Ads,Ouro,Churned,True
+CLI209,Luiz Felipe Castro,da-pazbenjamin@outlook.com.br,5517929333346,Cuiabá,MT,Centro-Oeste,2025-10-12,25-30,M,Google Ads,Bronze,Em risco,True
+CLI210,Alícia Vasconcelos,pcardoso@peixoto.org,5566946657437,Salvador,BA,Nordeste,2025-06-01,25-30,F,Email Marketing,Ouro,Ativo,True
+CLI211,Stephany Pinto,abreunina@terra.com.br,5563941715454,Feira de Santana,BA,Nordeste,2025-04-04,41-50,F,Influenciador,Ouro,Churned,False
+CLI212,Letícia Correia,danilopeixoto@ribeiro.br,5534907446660,Maringá,PR,Sul,2025-10-10,25-30,F,Google Ads,Ouro,Em risco,True
+CLI213,Esther Fernandes,wrios@cavalcante.com.br,5543941724825,Curitiba,PR,Sul,2026-06-19,31-40,F,Google Ads,Prata,Ativo,True
+CLI214,Srta. Hellena Fogaça,laura55@pacheco.org,5592917099917,Maringá,PR,Sul,2025-03-31,18-24,F,Influenciador,Diamante,Ativo,True
+CLI215,Sarah Campos,julia02@yahoo.com.br,5545956972521,Uberlândia,MG,Sudeste,2025-08-10,31-40,F,Direto,Ouro,Ativo,True
+CLI216,Lucas Gabriel Pires,danilo07@costela.com.br,5541992712966,Goiânia,GO,Centro-Oeste,2025-06-12,25-30,M,Orgânico,Ouro,Ativo,True
+CLI217,Mariane Mendes,andradesophie@uol.com.br,5577905830033,Santos,SP,Sudeste,2025-11-16,60+,F,Google Ads,Prata,Ativo,True
+CLI218,Dr. Leonardo Cardoso,lmontenegro@cavalcante.com,5516944789856,Santa Maria,RS,Sul,2025-11-29,31-40,M,Orgânico,Ouro,Ativo,False
+CLI219,Srta. Manuela Mendonça,lucasguerra@gmail.com,5549932309821,Niterói,RJ,Sudeste,2025-06-30,41-50,F,Google Ads,Prata,Em risco,True
+CLI220,Ana Carolina Garcia,peixotocalebe@hotmail.com,5513901676184,Cascavel,PR,Sul,2025-06-25,41-50,F,Meta Ads,Ouro,Em risco,True
+CLI221,Eduardo Costela,laura18@pinto.gov.br,5534961891411,Goiânia,GO,Centro-Oeste,2025-12-31,31-40,M,Orgânico,Bronze,Ativo,True
+CLI222,Gael Henrique Pereira,rebeca35@da.com,5516987375300,Belém,PA,Norte,2025-05-28,25-30,M,Indicação,Ouro,Ativo,True
+CLI223,Srta. Brenda Oliveira,fernandovasconcelos@icloud.com,5521914374470,Blumenau,SC,Sul,2025-03-31,41-50,F,Indicação,Ouro,Em risco,True
+CLI224,Erick Aparecida,ana-sophia61@hotmail.com,5516902255794,Porto Alegre,RS,Sul,2025-10-15,41-50,M,Meta Ads,Ouro,Ativo,True
+CLI225,Sr. Marcelo Fernandes,guerraisabelly@da.com.br,5581976212021,Campinas,SP,Sudeste,2025-09-06,31-40,M,Email Marketing,Ouro,Ativo,False
+CLI226,Rafaela Nunes,gabriellyvasconcelos@terra.com.br,5514927716701,Santos,SP,Sudeste,2025-09-24,51-60,F,Google Ads,Prata,Inativo,False
+CLI227,Luara Albuquerque,rafaela89@lopes.com.br,5553975628900,Brasília,DF,Centro-Oeste,2026-01-28,41-50,F,Influenciador,Bronze,Em risco,True
+CLI228,Srta. Sofia Melo,domsa@live.com,5568935408386,Campinas,SP,Sudeste,2026-01-04,51-60,F,Email Marketing,Prata,Ativo,True
+CLI229,Isabela Barros,coliveira@hotmail.com,5596975170166,Niterói,RJ,Sudeste,2025-09-05,31-40,N,Indicação,Ouro,Ativo,True
+CLI230,Yan Abreu,nicole83@fernandes.br,5517937589975,Feira de Santana,BA,Nordeste,2025-08-20,25-30,N,Google Ads,Prata,Em risco,True
+CLI231,Sra. Bruna Brito,fernandesdaniela@novaes.edu.br,5577910272614,Goiânia,GO,Centro-Oeste,2025-05-17,31-40,N,Direto,Ouro,Churned,True
+CLI232,Gael Henrique Correia,dcunha@silva.com.br,5585909177982,Ponta Grossa,PR,Sul,2025-03-28,31-40,M,Meta Ads,Diamante,Em risco,True
+CLI233,André Moura,epacheco@sales.com.br,5533916995866,Blumenau,SC,Sul,2025-09-10,18-24,M,Orgânico,Prata,Em risco,False
+CLI234,Josué da Mota,ana-beatriz72@yahoo.com.br,5584998485833,Porto Alegre,RS,Sul,2025-12-08,25-30,M,Email Marketing,Ouro,Ativo,False
+CLI235,Lavínia Rodrigues,luiz-henriquemontenegro@icloud.com,5568915879968,Ribeirão Preto,SP,Sudeste,2026-02-20,25-30,F,Influenciador,Prata,Ativo,False
+CLI236,Otávio Albuquerque,garciajoao-vitor@rios.net,5561924420438,Vila Velha,ES,Sudeste,2026-03-13,18-24,M,Orgânico,Prata,Ativo,False
+CLI237,Maria Alice Machado,heloisada-costa@sales.gov.br,5517966658004,Rio de Janeiro,RJ,Sudeste,2026-03-14,25-30,F,Google Ads,Ouro,Ativo,True
+CLI238,Melina Câmara,mathiasda-rocha@live.com,5542912281606,São Paulo,SP,Sudeste,2025-11-21,25-30,F,Email Marketing,Ouro,Churned,True
+CLI239,João Cardoso,anthony57@aparecida.gov.br,5517994798515,Santa Maria,RS,Sul,2025-06-18,31-40,M,Influenciador,Diamante,Ativo,True
+CLI240,Henry Cirino,kamillynogueira@borges.br,5548935554398,Sorocaba,SP,Sudeste,2025-07-21,31-40,M,Google Ads,Ouro,Em risco,True
+CLI241,Anthony Camargo,pda-costa@uol.com.br,5516956164840,Ribeirão Preto,SP,Sudeste,2025-12-14,41-50,M,Orgânico,Prata,Ativo,False
+CLI242,Marcelo Moraes,saparecida@uol.com.br,5568981128801,Juiz de Fora,MG,Sudeste,2025-10-08,18-24,M,Orgânico,Ouro,Em risco,True
+CLI243,Heitor Rodrigues,costelastephany@outlook.com.br,5521920750110,Petrópolis,RJ,Sudeste,2026-01-09,31-40,M,Orgânico,Ouro,Ativo,True
+CLI244,Isis Novais,valentimjesus@machado.gov.br,5583965061809,Uberlândia,MG,Sudeste,2025-09-08,18-24,F,Orgânico,Ouro,Ativo,False
+CLI245,Augusto Sampaio,milena14@pereira.com,5563976607283,Uberlândia,MG,Sudeste,2025-09-17,51-60,M,Google Ads,Ouro,Ativo,True
+CLI246,Maria Júlia Vieira,ana-ceciliarocha@terra.com.br,5512988210099,Feira de Santana,BA,Nordeste,2025-08-25,41-50,F,Meta Ads,Prata,Ativo,True
+CLI247,Vitor Gabriel Novaes,otto53@ramos.com.br,5598922239431,Feira de Santana,BA,Nordeste,2025-07-21,25-30,M,Meta Ads,Ouro,Ativo,True
+CLI248,Benjamim Sá,da-rochadavi-luiz@bol.com.br,5527939755231,Fortaleza,CE,Nordeste,2026-04-24,60+,M,Orgânico,Bronze,Ativo,True
+CLI249,Ana Lívia Correia,vmachado@bol.com.br,5537999556205,Santa Maria,RS,Sul,2025-07-06,18-24,F,Google Ads,Ouro,Inativo,False
+CLI250,Hellena Silva,eloah25@live.com,5592975478129,Maringá,PR,Sul,2025-11-05,31-40,F,Direto,Prata,Inativo,True
+CLI251,João Lucas Carvalho,eduardo10@pacheco.br,5547908488725,Salvador,BA,Nordeste,2025-06-14,25-30,M,Influenciador,Prata,Ativo,True
+CLI252,Heloisa Vargas,maria-fernandamontenegro@icloud.com,5524965803928,Maringá,PR,Sul,2026-04-16,31-40,F,Meta Ads,Bronze,Em risco,False
+CLI253,Melissa Castro,maria-sophiafogaca@camara.net,5519945303856,Londrina,PR,Sul,2025-05-04,31-40,F,Orgânico,Ouro,Ativo,True
+CLI254,Mirella Aparecida,gustavo84@pacheco.edu.br,5542966591846,Olinda,PE,Nordeste,2025-05-28,18-24,F,Orgânico,Prata,Churned,True
+CLI255,Stella Guerra,mariah79@gmail.com,5597927231843,Curitiba,PR,Sul,2026-01-16,25-30,F,Meta Ads,Ouro,Ativo,True
+CLI256,Ester Castro,ribeiroraul@outlook.com.br,5569917773926,Ribeirão Preto,SP,Sudeste,2025-10-25,31-40,F,Google Ads,Prata,Ativo,True
+CLI257,Joaquim Aparecida,joao-felipepires@oliveira.com,5541942869904,Manaus,AM,Norte,2025-07-21,41-50,M,Email Marketing,Prata,Em risco,True
+CLI258,Henrique Machado,ocavalcante@outlook.com.br,5535992984257,Petrópolis,RJ,Sudeste,2025-12-07,41-50,N,Indicação,Ouro,Em risco,True
+CLI259,Ana Lívia da Conceição,gcardoso@gmail.com,5545988629127,Chapecó,SC,Sul,2025-08-27,18-24,F,Google Ads,Bronze,Em risco,True
+CLI260,Ana Carolina Viana,mendesjose-pedro@vasconcelos.gov.br,5587986508637,Petrópolis,RJ,Sudeste,2025-07-13,18-24,F,Google Ads,Ouro,Churned,True
+CLI261,Luiz Fernando Pastor,qcarvalho@vargas.net,5522949864300,Rio de Janeiro,RJ,Sudeste,2025-07-26,31-40,M,Orgânico,Ouro,Em risco,True
+CLI262,Stephany Campos,nrezende@jesus.br,5528926944869,Curitiba,PR,Sul,2026-03-08,18-24,F,Google Ads,Ouro,Em risco,False
+CLI263,Kamilly Rodrigues,julianovaes@icloud.com,5594925887449,Santos,SP,Sudeste,2025-12-24,41-50,F,Google Ads,Ouro,Ativo,True
+CLI264,Maria Laura Sousa,souzaraul@viana.com.br,5538913865890,Manaus,AM,Norte,2025-11-15,25-30,F,Influenciador,Prata,Em risco,False
+CLI265,Mathias Porto,casa-grandemaria-julia@borges.com,5555935190669,Rio de Janeiro,RJ,Sudeste,2025-09-21,41-50,N,Direto,Prata,Churned,True
+CLI266,Dra. Laura Silva,mayamacedo@costa.com.br,5599943098839,Pelotas,RS,Sul,2025-08-09,51-60,F,Influenciador,Ouro,Ativo,False
+CLI267,Arthur Miguel Fonseca,castroerick@vasconcelos.br,5574966938011,Blumenau,SC,Sul,2025-06-28,31-40,M,Google Ads,Ouro,Ativo,True
+CLI268,Larissa Silveira,yuri39@uol.com.br,5591969042681,Recife,PE,Nordeste,2026-02-11,31-40,F,Orgânico,Bronze,Ativo,False
+CLI269,Ana Sophia Montenegro,igor84@icloud.com,5554976973577,São Paulo,SP,Sudeste,2025-04-13,18-24,F,Meta Ads,Ouro,Churned,True
+CLI270,Ana Mendes,davi-luiz63@dias.edu.br,5512943416518,Niterói,RJ,Sudeste,2025-03-20,41-50,N,Google Ads,Prata,Ativo,True
+CLI271,Olívia Dias,vitor-gabrielcirino@uol.com.br,5596933343333,Petrópolis,RJ,Sudeste,2025-12-01,31-40,F,Google Ads,Prata,Ativo,True
+CLI272,Luiz Henrique Cassiano,barrosmarina@teixeira.com,5594959579472,Joinville,SC,Sul,2025-07-12,31-40,M,Influenciador,Ouro,Em risco,True
+CLI273,João Lucas Gonçalves,cauemoura@mendes.edu.br,5515985627187,Campinas,SP,Sudeste,2026-03-03,25-30,M,Direto,Prata,Ativo,False
+CLI274,Alexia Albuquerque,gpacheco@fonseca.gov.br,5555928434795,Uberlândia,MG,Sudeste,2026-01-04,51-60,F,Meta Ads,Prata,Em risco,True
+CLI275,Ester Monteiro,larissasampaio@terra.com.br,5575964729293,Santos,SP,Sudeste,2025-09-06,31-40,F,Google Ads,Prata,Ativo,True
+CLI276,Júlia da Costa,jcosta@yahoo.com.br,5593902672885,Joinville,SC,Sul,2026-01-07,41-50,F,Indicação,Ouro,Ativo,False
+CLI277,Letícia da Cunha,sbrito@araujo.br,5527975455884,Belo Horizonte,MG,Sudeste,2026-02-03,25-30,F,Direto,Ouro,Ativo,True
+CLI278,Alícia Jesus,miguel99@vasconcelos.br,5598977169472,Sorocaba,SP,Sudeste,2026-02-20,31-40,F,Indicação,Prata,Em risco,True
+CLI279,Maitê Leão,barroslorenzo@terra.com.br,5549955449647,Maringá,PR,Sul,2025-08-01,31-40,F,Email Marketing,Ouro,Ativo,True
+CLI280,Stephany Machado,leoalmeida@yahoo.com.br,5551941326111,São Paulo,SP,Sudeste,2025-03-18,25-30,F,Meta Ads,Ouro,Inativo,True
+CLI281,Ana Júlia Alves,caldeiravinicius@yahoo.com.br,5522964334722,Santos,SP,Sudeste,2025-01-27,41-50,N,Influenciador,Diamante,Churned,True
+CLI282,Enzo Gabriel Alves,aylla77@novaes.br,5534982997968,Petrópolis,RJ,Sudeste,2026-02-07,25-30,M,Google Ads,Prata,Ativo,True
+CLI283,Dra. Yasmin das Neves,onogueira@hotmail.com,5588945642400,São Paulo,SP,Sudeste,2025-09-06,25-30,F,Meta Ads,Prata,Ativo,True
+CLI284,Catarina Ferreira,anascimento@live.com,5594940649308,Brasília,DF,Centro-Oeste,2025-05-18,41-50,F,Direto,Ouro,Em risco,True
+CLI285,Esther Jesus,kda-cruz@outlook.com.br,5579934163894,Sorocaba,SP,Sudeste,2025-10-08,31-40,F,Influenciador,Prata,Ativo,True
+CLI286,Vitor da Mata,davi-miguelcirino@yahoo.com.br,5564917974973,Niterói,RJ,Sudeste,2025-09-27,60+,M,Google Ads,Prata,Ativo,True
+CLI287,Antony Cassiano,cirinogustavo@da.com,5588903120735,Juiz de Fora,MG,Sudeste,2025-10-03,41-50,M,Meta Ads,Ouro,Ativo,True
+CLI288,Leonardo Viana,maria-fernanda05@hotmail.com,5535904618723,Santos,SP,Sudeste,2025-07-25,41-50,M,Email Marketing,Prata,Churned,True
+CLI289,Mateus Albuquerque,helenavargas@da.com.br,5515937183764,Joinville,SC,Sul,2025-12-13,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI290,Sr. Asafe Souza,maria-luisa43@aragao.com.br,5547913650249,Juiz de Fora,MG,Sudeste,2025-05-06,41-50,N,Google Ads,Ouro,Ativo,True
+CLI291,Miguel Vieira,aparecidamaria-laura@freitas.net,5538971950052,Olinda,PE,Nordeste,2025-08-05,31-40,M,Meta Ads,Prata,Ativo,True
+CLI292,Sr. Davi Lucas Mendonça,cecilia73@sales.br,5534940778487,Rio de Janeiro,RJ,Sudeste,2025-06-04,18-24,M,Google Ads,Ouro,Ativo,True
+CLI293,Ester Nogueira,maria-helena49@icloud.com,5538918274485,Petrópolis,RJ,Sudeste,2025-12-09,51-60,F,Google Ads,Prata,Ativo,True
+CLI294,Alexandre Vasconcelos,arthur-miguelpinto@terra.com.br,5551951863878,Petrópolis,RJ,Sudeste,2025-06-11,41-50,M,Meta Ads,Ouro,Ativo,False
+CLI295,João Miguel Duarte,henry18@hotmail.com,5516922031731,Juiz de Fora,MG,Sudeste,2025-04-09,31-40,M,Orgânico,Ouro,Em risco,True
+CLI296,Maria Julia Ribeiro,carlos-eduardo53@hotmail.com,5512937170586,Ribeirão Preto,SP,Sudeste,2025-10-26,31-40,F,Email Marketing,Bronze,Churned,True
+CLI297,Sr. João Felipe Moura,da-rosaeduardo@moreira.com.br,5549986338392,Ribeirão Preto,SP,Sudeste,2025-10-19,25-30,N,Indicação,Prata,Inativo,True
+CLI298,Maria Vitória Souza,maria-cecilia61@vieira.br,5597952897558,Curitiba,PR,Sul,2025-04-09,31-40,F,Google Ads,Ouro,Inativo,True
+CLI299,Maria Fernanda Jesus,rodrigo98@uol.com.br,5579984577600,Fortaleza,CE,Nordeste,2026-01-25,41-50,F,Google Ads,Ouro,Ativo,True
+CLI300,Allana Moreira,anthony-gabriel43@dias.com.br,5562988899210,Ribeirão Preto,SP,Sudeste,2025-09-29,25-30,F,Google Ads,Ouro,Ativo,True
+CLI301,Luiz Henrique Cassiano,emanuelly93@da.gov.br,5583993157279,Feira de Santana,BA,Nordeste,2025-07-17,51-60,M,Indicação,Ouro,Em risco,True
+CLI302,Kaique Andrade,vasconcelosdaniel@terra.com.br,5573966139060,Santos,SP,Sudeste,2025-02-18,60+,M,Orgânico,Diamante,Ativo,False
+CLI303,Valentina Aparecida,beatrizmontenegro@uol.com.br,5537906799813,Petrópolis,RJ,Sudeste,2025-12-16,31-40,F,Meta Ads,Bronze,Ativo,True
+CLI304,João Vitor Viana,joaofernandes@hotmail.com,5593990864168,Blumenau,SC,Sul,2025-10-13,31-40,M,Google Ads,Ouro,Em risco,True
+CLI305,Caroline Teixeira,mnovais@goncalves.gov.br,5545989833146,Maringá,PR,Sul,2025-11-04,41-50,F,Indicação,Ouro,Ativo,True
+CLI306,Caio Camargo,wfonseca@uol.com.br,5568959042597,Juiz de Fora,MG,Sudeste,2025-11-24,51-60,M,Email Marketing,Ouro,Ativo,True
+CLI307,Diogo Macedo,murilorodrigues@cassiano.com.br,5522910392405,Santa Maria,RS,Sul,2025-03-11,51-60,M,Meta Ads,Diamante,Em risco,True
+CLI308,Sr. Leandro Machado,fariasotto@icloud.com,5547938848792,São Paulo,SP,Sudeste,2025-07-29,25-30,M,Indicação,Bronze,Inativo,True
+CLI309,Sr. Marcos Vinicius Pacheco,luigi04@vieira.org,5517970164510,Ponta Grossa,PR,Sul,2026-02-06,25-30,M,Email Marketing,Ouro,Ativo,True
+CLI310,Matheus da Conceição,diasmaria-vitoria@icloud.com,5524923878003,Curitiba,PR,Sul,2025-04-18,31-40,M,Orgânico,Ouro,Em risco,True
+CLI311,Leandro Farias,ksouza@gmail.com,5573955438404,Juiz de Fora,MG,Sudeste,2025-09-02,25-30,M,Google Ads,Ouro,Ativo,True
+CLI312,Ana Novais,kevinfernandes@outlook.com.br,5534916893639,Caxias do Sul,RS,Sul,2025-04-14,18-24,F,Orgânico,Prata,Churned,True
+CLI313,Paulo das Neves,inogueira@uol.com.br,5534998324826,Vila Velha,ES,Sudeste,2025-12-07,31-40,N,Google Ads,Ouro,Ativo,True
+CLI314,Eduarda Dias,cirinoanna-liz@siqueira.br,5584947423122,Florianópolis,SC,Sul,2025-09-06,41-50,F,Google Ads,Ouro,Em risco,False
+CLI315,Juliana Pereira,ravirodrigues@fogaca.com.br,5594928975267,Campinas,SP,Sudeste,2025-12-07,31-40,F,Email Marketing,Ouro,Ativo,True
+CLI316,Cecilia Castro,beniciojesus@da.net,5545931279757,Fortaleza,CE,Nordeste,2025-11-16,25-30,F,Indicação,Ouro,Inativo,True
+CLI317,Paulo Guerra,usilveira@pimenta.com.br,5515981770388,Santos,SP,Sudeste,2026-04-04,31-40,N,Google Ads,Ouro,Ativo,True
+CLI318,Ana Cecília Novais,correiaana@live.com,5582944726490,Manaus,AM,Norte,2026-04-15,51-60,F,Google Ads,Prata,Ativo,True
+CLI319,Sr. Ravi Ramos,silveiramelissa@hotmail.com,5543998266570,Olinda,PE,Nordeste,2025-03-31,25-30,M,Orgânico,Ouro,Em risco,True
+CLI320,Rafael Pastor,qborges@sales.gov.br,5538911175186,Feira de Santana,BA,Nordeste,2025-10-29,31-40,M,Email Marketing,Ouro,Ativo,False
+CLI321,Dra. Eduarda Garcia,vargasluigi@terra.com.br,5537922206447,Anápolis,GO,Centro-Oeste,2026-04-17,31-40,F,Google Ads,Bronze,Ativo,True
+CLI322,Fernando Campos,andrepinto@albuquerque.br,5596978097339,Santos,SP,Sudeste,2025-09-26,51-60,M,Google Ads,Bronze,Em risco,True
+CLI323,Dr. Rafael Jesus,peixotoanthony-gabriel@uol.com.br,5562998302205,Maringá,PR,Sul,2026-05-28,25-30,M,Indicação,Prata,Ativo,True
+CLI324,Diogo Andrade,erick01@outlook.com.br,5542924999827,Porto Alegre,RS,Sul,2025-08-07,41-50,M,Orgânico,Prata,Churned,True
+CLI325,Dra. Maria Cecília Andrade,ayla56@teixeira.com.br,5519947214586,Vila Velha,ES,Sudeste,2026-01-09,41-50,N,Indicação,Prata,Ativo,True
+CLI326,Giovanna Sampaio,caldeirasarah@mendes.com.br,5563969548995,Londrina,PR,Sul,2026-05-08,31-40,N,Orgânico,Ouro,Ativo,True
+CLI327,Sara Moreira,ncirino@uol.com.br,5564930107139,Santa Maria,RS,Sul,2025-05-13,41-50,F,Email Marketing,Ouro,Ativo,True
+CLI328,Noah Aparecida,otavio03@bol.com.br,5554914488501,Porto Alegre,RS,Sul,2025-08-21,31-40,M,Orgânico,Ouro,Ativo,False
+CLI329,Sra. Manuela Gonçalves,mathiasfarias@rocha.br,5593902727857,Sorocaba,SP,Sudeste,2026-05-01,51-60,F,Google Ads,Ouro,Em risco,True
+CLI330,Ana Laura Moreira,stella03@terra.com.br,5574912405682,Brasília,DF,Centro-Oeste,2025-11-12,25-30,F,Google Ads,Ouro,Ativo,True
+CLI331,Maria Julia Cirino,ana-vitoria04@borges.br,5551957438421,Belo Horizonte,MG,Sudeste,2025-11-26,31-40,F,Orgânico,Prata,Ativo,True
+CLI332,Ana Carolina Vasconcelos,macedonatalia@mendes.com,5544957845218,Niterói,RJ,Sudeste,2026-01-25,41-50,F,Meta Ads,Prata,Ativo,True
+CLI333,Srta. Gabrielly Silveira,tgomes@abreu.com,5524957018409,Florianópolis,SC,Sul,2025-08-27,31-40,F,Indicação,Ouro,Em risco,True
+CLI334,Giovanna Duarte,allanada-mota@vargas.br,5532942241098,Anápolis,GO,Centro-Oeste,2025-12-11,18-24,F,Meta Ads,Bronze,Em risco,True
+CLI335,Bella Costela,vitor-hugo24@uol.com.br,5541914958702,Belém,PA,Norte,2025-11-06,31-40,F,Influenciador,Ouro,Ativo,False
+CLI336,Olivia Rocha,gomescaue@lima.com,5589995453817,Rio de Janeiro,RJ,Sudeste,2025-07-08,41-50,F,Indicação,Ouro,Churned,True
+CLI337,Davi Lucca Borges,marquesana-luiza@live.com,5593933294562,Londrina,PR,Sul,2025-08-25,60+,M,Meta Ads,Prata,Em risco,False
+CLI338,Dra. Luísa Viana,bmendonca@hotmail.com,5593915772459,Fortaleza,CE,Nordeste,2026-05-22,60+,F,Orgânico,Prata,Ativo,True
+CLI339,Davi Lucas Moraes,ysilva@duarte.gov.br,5521948769639,Rio de Janeiro,RJ,Sudeste,2025-06-07,25-30,M,Meta Ads,Ouro,Em risco,False
+CLI340,Eduarda Mendes,fernandesoliver@outlook.com.br,5587995832197,Porto Alegre,RS,Sul,2026-02-16,18-24,F,Indicação,Prata,Ativo,False
+CLI341,Ravi Duarte,tcavalcanti@azevedo.gov.br,5528996570132,Brasília,DF,Centro-Oeste,2025-10-10,25-30,M,Google Ads,Ouro,Em risco,True
+CLI342,Agatha Sá,marcelanascimento@gomes.gov.br,5589933549465,Porto Alegre,RS,Sul,2026-01-17,25-30,F,Google Ads,Ouro,Ativo,True
+CLI343,Anthony Pimenta,ana-beatrizaraujo@terra.com.br,5517908514036,Salvador,BA,Nordeste,2026-01-21,25-30,M,Direto,Bronze,Inativo,False
+CLI344,Dra. Maria Júlia Pires,yguerra@outlook.com.br,5547927238656,Blumenau,SC,Sul,2025-10-29,25-30,N,Influenciador,Prata,Ativo,True
+CLI345,Laura Rios,antoniobarbosa@casa.br,5587921267969,Niterói,RJ,Sudeste,2025-07-17,18-24,F,Direto,Prata,Inativo,False
+CLI346,Rafael Moraes,wgomes@uol.com.br,5543969097384,Chapecó,SC,Sul,2026-04-06,31-40,M,Google Ads,Prata,Ativo,True
+CLI347,Yago Oliveira,andrademaria-sophia@terra.com.br,5531997128478,Petrópolis,RJ,Sudeste,2026-02-04,25-30,M,Meta Ads,Ouro,Ativo,True
+CLI348,Stephany Pimenta,maria-juliapires@rodrigues.edu.br,5566990580778,Feira de Santana,BA,Nordeste,2025-10-23,25-30,F,Google Ads,Ouro,Em risco,True
+CLI349,Luísa Leão,amanda20@bol.com.br,5555907929049,Rio de Janeiro,RJ,Sudeste,2025-10-18,31-40,F,Direto,Ouro,Ativo,True
+CLI350,Laura Mendonça,mirellabarbosa@da.com,5562944019292,Londrina,PR,Sul,2025-06-03,31-40,F,Google Ads,Ouro,Ativo,True
+CLI351,Sra. Maria Eduarda Cavalcanti,maria-vitoriacirino@icloud.com,5515951292766,Belo Horizonte,MG,Sudeste,2026-01-01,18-24,F,Meta Ads,Ouro,Em risco,True
+CLI352,Maysa Silveira,catarinaaragao@sa.com.br,5531902767478,Sorocaba,SP,Sudeste,2026-04-10,41-50,F,Orgânico,Ouro,Ativo,False
+CLI353,Maria Helena Rodrigues,jda-luz@icloud.com,5587904765801,Curitiba,PR,Sul,2025-05-18,25-30,F,Google Ads,Ouro,Inativo,True
+CLI354,Luiz Gustavo Lopes,vitor-hugo41@bol.com.br,5582973938525,Salvador,BA,Nordeste,2025-05-31,41-50,M,Indicação,Ouro,Em risco,True
+CLI355,Anthony Rocha,albuquerquejuliana@moura.gov.br,5589953443009,Maringá,PR,Sul,2025-09-15,31-40,M,Orgânico,Prata,Ativo,True
+CLI356,Ana Laura Peixoto,santosisaque@pereira.br,5543912447174,Uberlândia,MG,Sudeste,2025-06-22,31-40,F,Email Marketing,Ouro,Em risco,True
+CLI357,Luna da Cunha,da-motadavi@gomes.br,5518944271739,Londrina,PR,Sul,2025-09-09,31-40,F,Meta Ads,Ouro,Ativo,True
+CLI358,Emanuelly Ramos,casa-grandevalentina@outlook.com.br,5547991741011,Santos,SP,Sudeste,2025-09-05,31-40,F,Orgânico,Prata,Em risco,True
+CLI359,Isis Vasconcelos,monteirokaique@gmail.com,5515964256908,Campinas,SP,Sudeste,2025-05-23,31-40,F,Email Marketing,Ouro,Churned,True
+CLI360,Sra. Pietra Lopes,nogueirarael@gmail.com,5581971985546,Pelotas,RS,Sul,2026-04-29,41-50,F,Orgânico,Ouro,Ativo,True
+CLI361,Ayla Fonseca,marquesamanda@uol.com.br,5542980634615,Petrópolis,RJ,Sudeste,2025-05-19,41-50,F,Google Ads,Ouro,Inativo,True
+CLI362,Bryan Pires,joao-lucasandrade@uol.com.br,5514993761847,Goiânia,GO,Centro-Oeste,2025-09-10,31-40,M,Email Marketing,Ouro,Em risco,True
+CLI363,Rael Almeida,daniel50@campos.net,5599978293102,São Paulo,SP,Sudeste,2025-06-16,31-40,M,Email Marketing,Bronze,Churned,True
+CLI364,Allana Melo,jose-pedroalbuquerque@pires.com.br,5527979291117,Sorocaba,SP,Sudeste,2026-03-09,31-40,F,Google Ads,Prata,Ativo,False
+CLI365,Henry Azevedo,zfernandes@duarte.com,5534953092511,Anápolis,GO,Centro-Oeste,2025-10-03,18-24,M,Orgânico,Bronze,Inativo,True
+CLI366,Cecília Sá,esternovaes@yahoo.com.br,5588939021962,Pelotas,RS,Sul,2025-10-02,18-24,F,Email Marketing,Prata,Churned,True
+CLI367,Ryan Barros,cavalcantifelipe@leao.com.br,5593923248763,Goiânia,GO,Centro-Oeste,2026-04-11,51-60,M,Orgânico,Bronze,Em risco,True
+CLI368,Arthur Miguel Peixoto,fpimenta@ferreira.br,5511983318195,Maringá,PR,Sul,2025-08-08,25-30,M,Meta Ads,Prata,Em risco,True
+CLI369,Sofia Câmara,yuriaragao@uol.com.br,5531927722005,Juiz de Fora,MG,Sudeste,2025-11-03,25-30,F,Indicação,Ouro,Ativo,True
+CLI370,Giovanna Lopes,maria01@gmail.com,5542920781137,Brasília,DF,Centro-Oeste,2025-06-15,25-30,F,Meta Ads,Prata,Em risco,True
+CLI371,Lunna Leão,raul15@brito.br,5545963179706,Campinas,SP,Sudeste,2025-09-12,25-30,F,Email Marketing,Prata,Em risco,True
+CLI372,Henrique Pimenta,hellenafreitas@yahoo.com.br,5591935435209,Belém,PA,Norte,2025-12-07,51-60,M,Influenciador,Prata,Ativo,False
+CLI373,Lara Carvalho,amarques@teixeira.org,5538992983168,Santa Maria,RS,Sul,2025-05-27,25-30,F,Influenciador,Ouro,Ativo,True
+CLI374,Henrique Pastor,ada-mota@outlook.com.br,5553935693929,Juiz de Fora,MG,Sudeste,2025-08-16,18-24,M,Influenciador,Ouro,Churned,False
+CLI375,Maria Vitória Aparecida,xsiqueira@lima.br,5594917731806,Chapecó,SC,Sul,2025-11-03,51-60,F,Meta Ads,Ouro,Ativo,True
+CLI376,Caroline Fogaça,fernandoalmeida@live.com,5566927990772,Fortaleza,CE,Nordeste,2025-04-16,31-40,F,Indicação,Ouro,Churned,True
+CLI377,Sra. Ester Vieira,osantos@gmail.com,5521965804649,Santos,SP,Sudeste,2025-12-07,18-24,F,Meta Ads,Ouro,Ativo,True
+CLI378,Giovanna Viana,daniel85@camargo.br,5592990552818,Feira de Santana,BA,Nordeste,2025-10-31,60+,F,Meta Ads,Prata,Ativo,True
+CLI379,Srta. Cecilia Farias,rezendemaria-liz@sa.br,5574948640155,Rio de Janeiro,RJ,Sudeste,2025-07-27,31-40,F,Direto,Ouro,Ativo,True
+CLI380,Ryan Montenegro,isantos@machado.gov.br,5577913711624,Porto Alegre,RS,Sul,2025-09-29,41-50,M,Meta Ads,Ouro,Em risco,True
+CLI381,Bianca Cavalcante,sampaiojuan@live.com,5537938046827,Ponta Grossa,PR,Sul,2026-05-16,41-50,F,Indicação,Ouro,Ativo,True
+CLI382,Mariah Macedo,marcos-vinicius10@moreira.br,5571957988774,São Paulo,SP,Sudeste,2025-04-26,51-60,F,Meta Ads,Ouro,Ativo,True
+CLI383,Davi Lucca Vieira,vicenteda-conceicao@live.com,5577940254729,Ribeirão Preto,SP,Sudeste,2025-09-05,31-40,M,Orgânico,Prata,Em risco,True
+CLI384,Zoe da Paz,leandrocastro@camargo.gov.br,5533974523805,Curitiba,PR,Sul,2026-05-20,31-40,F,Email Marketing,Ouro,Ativo,True
+CLI385,Sr. Marcelo Machado,joaquim06@vargas.com,5591952088547,Rio de Janeiro,RJ,Sudeste,2025-06-13,41-50,N,Orgânico,Ouro,Ativo,True
+CLI386,Diogo Nunes,henry-gabriel70@yahoo.com.br,5531940693751,Juiz de Fora,MG,Sudeste,2025-07-24,31-40,M,Google Ads,Ouro,Churned,True
+CLI387,Ana Laura Pereira,agathacosta@barros.com.br,5589918637599,Ribeirão Preto,SP,Sudeste,2026-01-28,25-30,F,Meta Ads,Ouro,Ativo,True
+CLI388,Benjamin Rios,tcasa-grande@outlook.com.br,5577965045547,São Luís,MA,Nordeste,2025-10-16,31-40,M,Google Ads,Ouro,Churned,True
+CLI389,Aurora Cunha,smacedo@yahoo.com.br,5586962991234,São Luís,MA,Nordeste,2025-08-26,51-60,F,Meta Ads,Ouro,Ativo,True
+CLI390,Vinicius Farias,aborges@porto.org,5585928792326,Petrópolis,RJ,Sudeste,2025-04-28,60+,M,Google Ads,Ouro,Ativo,False
+CLI391,Yuri Mendonça,ana-julia78@camara.com,5511924471462,Santos,SP,Sudeste,2026-01-12,25-30,M,Meta Ads,Ouro,Ativo,True
+CLI392,Isabelly Alves,marina19@pacheco.br,5587947158904,Joinville,SC,Sul,2026-05-14,25-30,F,Meta Ads,Bronze,Ativo,True
+CLI393,Ana Laura Casa Grande,isales@terra.com.br,5538904565044,Vitória,ES,Sudeste,2025-09-17,31-40,F,Orgânico,Ouro,Ativo,True
+CLI394,Ana Vitória Moraes,gabrielpeixoto@nogueira.com.br,5565945189520,Cuiabá,MT,Centro-Oeste,2026-01-09,51-60,F,Google Ads,Prata,Ativo,False
+CLI395,Valentim da Paz,vjesus@yahoo.com.br,5528932833898,Ribeirão Preto,SP,Sudeste,2025-07-16,41-50,M,Google Ads,Prata,Ativo,True
+CLI396,Bruna Leão,camargojoao@gmail.com,5594954527985,Ribeirão Preto,SP,Sudeste,2025-06-20,41-50,N,Google Ads,Ouro,Churned,True
+CLI397,Kevin Alves,jose-miguelsales@sales.com,5546921611076,Petrópolis,RJ,Sudeste,2025-04-19,51-60,M,Influenciador,Diamante,Em risco,True
+CLI398,Fernanda Caldeira,meloisaac@aparecida.com,5565901193932,Belém,PA,Norte,2025-11-10,25-30,F,Google Ads,Prata,Ativo,True
+CLI399,Sra. Ana Borges,cecilia52@montenegro.com,5512983342801,Chapecó,SC,Sul,2026-03-10,60+,F,Meta Ads,Bronze,Ativo,True
+CLI400,Sofia Santos,leo71@yahoo.com.br,5574966383615,Campinas,SP,Sudeste,2025-08-27,31-40,F,Orgânico,Ouro,Ativo,True
+CLI401,Nina Camargo,xteixeira@novais.com.br,5516915716479,Niterói,RJ,Sudeste,2026-01-05,31-40,F,Indicação,Prata,Ativo,True
+CLI402,Sra. Melina Câmara,liz31@live.com,5577920716781,Manaus,AM,Norte,2025-08-18,25-30,N,Meta Ads,Prata,Ativo,True
+CLI403,Cecília Gonçalves,sousalucca@hotmail.com,5575935396136,São Luís,MA,Nordeste,2025-12-13,31-40,F,Meta Ads,Prata,Ativo,True
+CLI404,Dr. João Lucas Teixeira,efogaca@outlook.com.br,5595984271147,Curitiba,PR,Sul,2025-09-09,31-40,M,Indicação,Prata,Em risco,True
+CLI405,Igor Pires,britocaue@monteiro.com,5542969524991,Recife,PE,Nordeste,2025-03-05,18-24,M,Meta Ads,Ouro,Inativo,True
+CLI406,Vicente Vargas,scosta@live.com,5595984858800,Vitória,ES,Sudeste,2025-06-10,31-40,M,Orgânico,Ouro,Inativo,True
+CLI407,Bárbara Gomes,fernanda77@gmail.com,5515928427624,Niterói,RJ,Sudeste,2025-07-19,31-40,F,Google Ads,Ouro,Churned,True
+CLI408,Dr. Ryan Teixeira,jribeiro@melo.edu.br,5538980647969,Salvador,BA,Nordeste,2025-08-31,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI409,Sra. Larissa Duarte,pastorcaleb@fonseca.gov.br,5514956165565,Curitiba,PR,Sul,2025-11-13,31-40,F,Email Marketing,Ouro,Inativo,True
+CLI410,Isabelly da Cruz,enzo-gabriel14@fernandes.com,5568907698640,São Paulo,SP,Sudeste,2025-04-04,25-30,F,Influenciador,Ouro,Ativo,True
+CLI411,Sra. Alícia Dias,kduarte@hotmail.com,5595913578529,Chapecó,SC,Sul,2025-04-21,31-40,F,Meta Ads,Ouro,Churned,True
+CLI412,Maria Clara Lopes,yporto@nascimento.org,5555904963919,Olinda,PE,Nordeste,2025-08-24,51-60,F,Orgânico,Ouro,Ativo,True
+CLI413,Maitê da Mata,nlima@vieira.com,5565984685366,Curitiba,PR,Sul,2026-02-27,25-30,F,Indicação,Prata,Ativo,True
+CLI414,Sophie Marques,pirespietra@oliveira.gov.br,5592948969083,Ribeirão Preto,SP,Sudeste,2025-11-06,31-40,F,Orgânico,Prata,Ativo,False
+CLI415,Ravi Casa Grande,ana-claralopes@dias.com.br,5519936442493,Vitória,ES,Sudeste,2025-05-10,31-40,M,Orgânico,Prata,Ativo,True
+CLI416,Isabella Camargo,benjaminda-cruz@martins.br,5587960324204,Rio de Janeiro,RJ,Sudeste,2025-03-24,51-60,F,Direto,Ouro,Churned,True
+CLI417,Emanuelly Ramos,bviana@barros.gov.br,5565916516231,Petrópolis,RJ,Sudeste,2025-07-22,31-40,F,Orgânico,Prata,Ativo,True
+CLI418,Sarah Campos,pborges@hotmail.com,5567959636321,Fortaleza,CE,Nordeste,2025-09-13,25-30,F,Orgânico,Ouro,Em risco,True
+CLI419,Hadassa da Mota,lda-cunha@gmail.com,5595985158673,Campinas,SP,Sudeste,2026-02-20,31-40,F,Google Ads,Prata,Ativo,True
+CLI420,Clara Fonseca,ana-liz09@gmail.com,5517934864518,Salvador,BA,Nordeste,2025-04-18,31-40,F,Meta Ads,Ouro,Ativo,False
+CLI421,Pedro Miguel Gomes,tda-cunha@sa.org,5546927560417,Belo Horizonte,MG,Sudeste,2025-12-27,41-50,M,Meta Ads,Ouro,Ativo,True
+CLI422,Maria Sophia Farias,castrovicente@icloud.com,5519956985700,Salvador,BA,Nordeste,2025-06-11,25-30,F,Direto,Ouro,Ativo,True
+CLI423,Dra. Ester Pires,andreguerra@uol.com.br,5566959112382,Olinda,PE,Nordeste,2026-03-12,51-60,F,Google Ads,Ouro,Ativo,True
+CLI424,Maria Sophia Vieira,vmendes@yahoo.com.br,5555929543165,Feira de Santana,BA,Nordeste,2025-12-28,51-60,F,Orgânico,Ouro,Ativo,True
+CLI425,Maria Júlia Garcia,almeidaraul@martins.org,5541906969421,Recife,PE,Nordeste,2025-12-25,41-50,F,Orgânico,Bronze,Ativo,True
+CLI426,Eloá Nunes,silvasara@vargas.br,5596913334476,Santos,SP,Sudeste,2026-02-07,25-30,F,Meta Ads,Prata,Ativo,False
+CLI427,Pedro Costela,marcos-vinicius62@vieira.com,5514944397359,Porto Alegre,RS,Sul,2025-07-17,25-30,M,Email Marketing,Ouro,Inativo,True
+CLI428,Dr. Bryan Albuquerque,aylasales@outlook.com.br,5547966941180,Londrina,PR,Sul,2026-04-13,41-50,M,Google Ads,Prata,Em risco,True
+CLI429,Lucas Gabriel da Costa,caleb04@icloud.com,5579946528092,Ponta Grossa,PR,Sul,2025-08-27,31-40,M,Orgânico,Ouro,Ativo,True
+CLI430,Enzo Gabriel Montenegro,maria-helena21@terra.com.br,5587924150274,Petrópolis,RJ,Sudeste,2025-12-13,41-50,M,Email Marketing,Ouro,Em risco,True
+CLI431,Sra. Marina da Paz,pietra56@yahoo.com.br,5567972870320,Pelotas,RS,Sul,2026-03-26,31-40,F,Orgânico,Ouro,Ativo,False
+CLI432,Emilly Andrade,luan76@hotmail.com,5596907587771,Fortaleza,CE,Nordeste,2025-03-12,41-50,F,Orgânico,Ouro,Churned,True
+CLI433,Srta. Camila Ferreira,alicecirino@souza.gov.br,5547990892613,Sorocaba,SP,Sudeste,2026-01-30,31-40,F,Direto,Ouro,Ativo,True
+CLI434,Aylla Farias,joaquim65@duarte.com,5522977749050,Maringá,PR,Sul,2026-01-11,31-40,F,Orgânico,Prata,Ativo,True
+CLI435,Dra. Milena Duarte,caleberamos@duarte.com.br,5518918961642,Curitiba,PR,Sul,2025-12-31,18-24,F,Orgânico,Prata,Em risco,True
+CLI436,Murilo Borges,luangomes@da.gov.br,5537914764925,Vitória,ES,Sudeste,2025-05-16,31-40,N,Google Ads,Prata,Churned,True
+CLI437,Srta. Maria Eduarda Moraes,ymachado@da.gov.br,5586916592661,Caxias do Sul,RS,Sul,2025-06-02,51-60,F,Meta Ads,Prata,Ativo,False
+CLI438,Sophie Fernandes,leonardomonteiro@icloud.com,5522947617422,Santos,SP,Sudeste,2025-08-23,25-30,F,Meta Ads,Prata,Inativo,True
+CLI439,Sra. Isadora Moreira,calebe81@gmail.com,5598918661794,Niterói,RJ,Sudeste,2025-09-18,41-50,F,Email Marketing,Ouro,Ativo,True
+CLI440,José Miguel Pacheco,camargomaria-eduarda@viana.com,5522964597794,Campinas,SP,Sudeste,2025-07-18,31-40,M,Google Ads,Ouro,Ativo,True
+CLI441,Ester Cunha,souzavalentim@lopes.com,5511961027769,Santos,SP,Sudeste,2026-03-04,41-50,F,Direto,Prata,Ativo,True
+CLI442,Dr. Kevin Pinto,fda-rosa@yahoo.com.br,5534903103037,Ribeirão Preto,SP,Sudeste,2025-01-27,25-30,M,Email Marketing,Diamante,Churned,True
+CLI443,Sr. Isaque Lopes,da-rosamaria-fernanda@melo.com,5541927770793,Ponta Grossa,PR,Sul,2025-08-07,41-50,M,Email Marketing,Ouro,Em risco,False
+CLI444,Juan Nunes,fariasantony@hotmail.com,5587967998407,Sorocaba,SP,Sudeste,2025-04-23,31-40,M,Orgânico,Ouro,Inativo,True
+CLI445,Raquel Moraes,davimoura@gmail.com,5586995814671,Campinas,SP,Sudeste,2026-04-12,51-60,F,Orgânico,Prata,Ativo,True
+CLI446,Luiz Felipe Machado,castroalicia@uol.com.br,5593957383959,Goiânia,GO,Centro-Oeste,2025-11-05,41-50,M,Orgânico,Prata,Em risco,False
+CLI447,Dr. Davi Lucca da Rocha,procha@terra.com.br,5593929341722,Londrina,PR,Sul,2025-08-29,25-30,M,Indicação,Ouro,Em risco,True
+CLI448,Eduarda Pereira,vieirakamilly@live.com,5565933800545,Pelotas,RS,Sul,2025-05-16,41-50,F,Indicação,Ouro,Ativo,True
+CLI449,Sr. Erick Montenegro,fernandeslorena@pinto.com,5548974550842,Cascavel,PR,Sul,2025-11-06,31-40,M,Google Ads,Ouro,Ativo,True
+CLI450,Dra. Bella Santos,wmarques@caldeira.gov.br,5528980812135,Recife,PE,Nordeste,2025-04-21,31-40,F,Google Ads,Ouro,Ativo,True
+CLI451,João Vitor Santos,gsiqueira@yahoo.com.br,5575952137603,Belo Horizonte,MG,Sudeste,2025-10-22,60+,M,Direto,Prata,Ativo,False
+CLI452,Manuela da Paz,da-mataesther@fonseca.gov.br,5553928632666,Uberlândia,MG,Sudeste,2026-04-05,31-40,F,Google Ads,Ouro,Ativo,False
+CLI453,Valentim Vieira,macedojoao-vitor@gmail.com,5599911556260,Sorocaba,SP,Sudeste,2026-03-29,18-24,M,Meta Ads,Ouro,Ativo,True
+CLI454,Arthur Miguel Ribeiro,piresraquel@leao.br,5565955048926,Olinda,PE,Nordeste,2025-06-04,31-40,M,Orgânico,Ouro,Ativo,True
+CLI455,Gustavo Nogueira,jade34@hotmail.com,5515985628843,Sorocaba,SP,Sudeste,2026-03-16,31-40,M,Google Ads,Prata,Ativo,True
+CLI456,Sophia Novaes,liam00@icloud.com,5555934681054,Vitória,ES,Sudeste,2025-03-02,31-40,F,Meta Ads,Diamante,Churned,False
+CLI457,Sofia Fogaça,sajosue@da.gov.br,5511975399893,Porto Alegre,RS,Sul,2025-08-08,25-30,N,Meta Ads,Prata,Churned,True
+CLI458,Kaique da Paz,vmoreira@caldeira.gov.br,5544957126611,Ponta Grossa,PR,Sul,2025-06-09,25-30,M,Orgânico,Prata,Churned,True
+CLI459,Mariana Cardoso,maitebarbosa@terra.com.br,5583998864976,Caxias do Sul,RS,Sul,2025-02-18,25-30,F,Indicação,Ouro,Churned,True
+CLI460,Rebeca Siqueira,joao-pedromontenegro@yahoo.com.br,5595972881377,Cuiabá,MT,Centro-Oeste,2025-12-27,25-30,F,Google Ads,Ouro,Ativo,True
+CLI461,Eduarda Novais,pereirajulia@hotmail.com,5532959408215,Brasília,DF,Centro-Oeste,2026-02-13,31-40,F,Meta Ads,Ouro,Ativo,True
+CLI462,Marcelo da Rosa,yalves@yahoo.com.br,5535996044327,Belém,PA,Norte,2026-01-30,31-40,M,Orgânico,Ouro,Ativo,False
+CLI463,Camila Novaes,aparecidalara@live.com,5566997567922,Campinas,SP,Sudeste,2025-10-30,25-30,F,Google Ads,Prata,Ativo,True
+CLI464,Raul Teixeira,ucassiano@terra.com.br,5524999663658,Cascavel,PR,Sul,2025-10-26,18-24,M,Influenciador,Ouro,Ativo,True
+CLI465,Pedro Miguel Sousa,cavalcantebenicio@bol.com.br,5532981398909,Londrina,PR,Sul,2026-05-08,25-30,M,Direto,Bronze,Ativo,True
+CLI466,Esther Sá,campossophia@yahoo.com.br,5513943397189,Santa Maria,RS,Sul,2025-07-26,25-30,F,Google Ads,Prata,Em risco,True
+CLI467,Murilo Pastor,valmeida@cirino.br,5514985641118,Fortaleza,CE,Nordeste,2025-11-07,25-30,M,Indicação,Bronze,Churned,True
+CLI468,Laura Casa Grande,felipe24@rocha.com,5518995200461,Belo Horizonte,MG,Sudeste,2025-06-24,60+,F,Google Ads,Ouro,Ativo,True
+CLI469,Diego Jesus,fernanda10@uol.com.br,5551999378861,Fortaleza,CE,Nordeste,2026-02-04,25-30,M,Orgânico,Prata,Em risco,True
+CLI470,Ana Liz Dias,eazevedo@gmail.com,5584930489138,Recife,PE,Nordeste,2026-01-24,31-40,F,Orgânico,Bronze,Em risco,True
+CLI471,Sr. Kevin Nunes,obarros@icloud.com,5546925823868,Sorocaba,SP,Sudeste,2025-10-22,41-50,M,Google Ads,Prata,Em risco,True
+CLI472,Asafe Abreu,lucas-gabriel00@live.com,5561994653984,Maringá,PR,Sul,2025-10-27,41-50,M,Indicação,Ouro,Ativo,True
+CLI473,Enrico Sousa,felipe61@silveira.br,5546998554743,Feira de Santana,BA,Nordeste,2025-09-12,51-60,M,Indicação,Prata,Ativo,True
+CLI474,Dr. Luigi Costela,arthur-gabriel20@live.com,5511902687681,Ponta Grossa,PR,Sul,2025-10-28,60+,M,Direto,Ouro,Inativo,True
+CLI475,Dra. Ana Vitória Nascimento,hrocha@garcia.com.br,5574962017537,Campinas,SP,Sudeste,2025-03-17,51-60,F,Orgânico,Ouro,Inativo,True
+CLI476,Hellena Souza,elisa31@silva.net,5549975047930,Belém,PA,Norte,2025-11-07,31-40,F,Orgânico,Ouro,Em risco,True
+CLI477,Miguel Camargo,jcavalcante@uol.com.br,5542919212493,Florianópolis,SC,Sul,2026-04-27,31-40,M,Direto,Ouro,Ativo,True
+CLI478,João Guilherme Correia,maria06@duarte.com.br,5584941877580,Ponta Grossa,PR,Sul,2025-07-11,41-50,M,Indicação,Ouro,Ativo,True
+CLI479,Sr. Benicio da Mota,adias@outlook.com.br,5544951903613,Campinas,SP,Sudeste,2025-10-21,25-30,M,Email Marketing,Ouro,Ativo,True
+CLI480,Enzo Farias,piresgael@gmail.com,5594960954317,Niterói,RJ,Sudeste,2025-08-19,31-40,N,Orgânico,Prata,Em risco,True
+CLI481,Manuela Aragão,diogovasconcelos@live.com,5527979110065,Maringá,PR,Sul,2025-07-04,51-60,F,Google Ads,Ouro,Churned,True
+CLI482,Sr. Davi Lucas Araújo,da-rosaluana@hotmail.com,5528908046619,Porto Alegre,RS,Sul,2026-01-16,25-30,M,Influenciador,Ouro,Ativo,True
+CLI483,Igor Peixoto,dgomes@pinto.gov.br,5527950785931,Belém,PA,Norte,2025-07-19,31-40,M,Indicação,Ouro,Em risco,False
+CLI484,Alice Peixoto,joseporto@fogaca.br,5594997232002,Ribeirão Preto,SP,Sudeste,2026-01-09,51-60,F,Orgânico,Ouro,Ativo,True
+CLI485,Maya Moraes,vitoria22@live.com,5566995450892,Campinas,SP,Sudeste,2025-10-06,25-30,F,Google Ads,Ouro,Inativo,True
+CLI486,Isabela Montenegro,mferreira@porto.br,5544977959959,Ribeirão Preto,SP,Sudeste,2025-04-06,31-40,F,Indicação,Ouro,Ativo,True
+CLI487,Mariah Farias,marquesbryan@camara.com,5548937933756,Curitiba,PR,Sul,2025-06-13,18-24,F,Google Ads,Ouro,Em risco,True
+CLI488,Murilo Cirino,antonio15@novais.com,5564973950033,Santos,SP,Sudeste,2025-10-08,25-30,M,Direto,Ouro,Ativo,False
+CLI489,Emanuella Câmara,camilanovaes@uol.com.br,5542930241026,Petrópolis,RJ,Sudeste,2025-08-11,31-40,F,Google Ads,Ouro,Ativo,True
+CLI490,Sr. Lucca Costela,xda-costa@terra.com.br,5541989611223,Campinas,SP,Sudeste,2025-08-08,25-30,M,Meta Ads,Prata,Em risco,True
+CLI491,Yasmin Garcia,liz30@uol.com.br,5564925304289,Blumenau,SC,Sul,2025-09-15,31-40,F,Influenciador,Bronze,Ativo,True
+CLI492,Giovanna Siqueira,qvieira@cavalcante.br,5598957872558,Niterói,RJ,Sudeste,2025-06-24,25-30,F,Influenciador,Prata,Em risco,True
+CLI493,Dr. Thales Melo,yporto@gmail.com,5546933736346,Recife,PE,Nordeste,2025-05-14,60+,M,Email Marketing,Ouro,Ativo,True
+CLI494,Emanuel Freitas,carvalhoenzo-gabriel@bol.com.br,5588985390789,Juiz de Fora,MG,Sudeste,2025-11-08,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI495,Mariane Machado,xjesus@live.com,5567946027341,Santos,SP,Sudeste,2025-01-22,18-24,F,Direto,Diamante,Churned,True
+CLI496,Bryan da Rocha,rafael11@fonseca.edu.br,5545953544439,Manaus,AM,Norte,2025-07-21,25-30,M,Indicação,Ouro,Inativo,True
+CLI497,Ísis da Luz,alexia56@pacheco.com.br,5512978263337,Goiânia,GO,Centro-Oeste,2025-10-31,41-50,F,Direto,Ouro,Inativo,False
+CLI498,Stella Pastor,yfernandes@hotmail.com,5567936637780,Rio de Janeiro,RJ,Sudeste,2026-03-17,25-30,F,Orgânico,Ouro,Ativo,True
+CLI499,Cecilia Oliveira,antony75@camara.br,5586968459090,Goiânia,GO,Centro-Oeste,2025-08-18,41-50,F,Meta Ads,Prata,Inativo,True
+CLI500,Eduardo Farias,zcostela@hotmail.com,5581937159741,São Luís,MA,Nordeste,2026-04-28,31-40,M,Google Ads,Prata,Ativo,True
+CLI501,Bella Rocha,salesmariana@cirino.com,5581943348170,Florianópolis,SC,Sul,2025-05-13,31-40,F,Google Ads,Prata,Inativo,True
+CLI502,Valentim Albuquerque,juliana62@cardoso.br,5594916323467,Campinas,SP,Sudeste,2025-11-15,51-60,M,Email Marketing,Prata,Ativo,True
+CLI503,Luana Pastor,mda-mota@casa.com,5583993859777,Joinville,SC,Sul,2025-08-25,41-50,F,Email Marketing,Prata,Churned,False
+CLI504,Asafe Sousa,maria-alice54@pimenta.com.br,5542963296762,Petrópolis,RJ,Sudeste,2025-04-21,31-40,M,Google Ads,Prata,Inativo,True
+CLI505,Dra. Aylla Gonçalves,levida-mota@rios.com,5547976815118,Ribeirão Preto,SP,Sudeste,2026-01-12,41-50,F,Direto,Bronze,Ativo,True
+CLI506,Nicolas Machado,oliver80@alves.com,5592965636004,Belém,PA,Norte,2025-09-05,25-30,M,Orgânico,Prata,Churned,True
+CLI507,Catarina Duarte,emartins@hotmail.com,5553972742209,Caxias do Sul,RS,Sul,2025-04-20,25-30,F,Google Ads,Ouro,Ativo,True
+CLI508,Emanuelly da Rocha,ecavalcante@rocha.com,5588952308370,Brasília,DF,Centro-Oeste,2025-11-24,25-30,F,Meta Ads,Ouro,Ativo,True
+CLI509,Dra. Bella Gomes,maragao@gmail.com,5517963353310,Florianópolis,SC,Sul,2025-03-22,51-60,F,Google Ads,Prata,Churned,True
+CLI510,Ana Albuquerque,davi-lucascamara@hotmail.com,5541920681558,Manaus,AM,Norte,2025-12-25,41-50,F,Direto,Ouro,Ativo,True
+CLI511,Sr. Gustavo Henrique Nogueira,ocampos@uol.com.br,5528955206506,Pelotas,RS,Sul,2025-06-06,31-40,M,Meta Ads,Prata,Ativo,True
+CLI512,Natália Câmara,emilly01@jesus.br,5528989241956,Curitiba,PR,Sul,2026-07-10,41-50,F,Google Ads,Ouro,Ativo,True
+CLI513,Dra. Catarina Farias,maria-luisa15@pereira.br,5579983890309,Ribeirão Preto,SP,Sudeste,2025-06-30,31-40,F,Meta Ads,Prata,Em risco,True
+CLI514,Leonardo da Costa,emanuelaraujo@yahoo.com.br,5577974326303,Juiz de Fora,MG,Sudeste,2025-09-05,41-50,M,Indicação,Ouro,Ativo,True
+CLI515,Dr. Lucas Carvalho,bruno86@bol.com.br,5514935533803,Fortaleza,CE,Nordeste,2025-11-09,18-24,M,Meta Ads,Bronze,Em risco,True
+CLI516,Dra. Hellena Pereira,luiz-otavio70@hotmail.com,5595913023212,Brasília,DF,Centro-Oeste,2025-07-02,41-50,F,Orgânico,Ouro,Ativo,True
+CLI517,Gabrielly da Costa,dsilveira@cavalcante.com.br,5545936293449,Chapecó,SC,Sul,2026-02-12,41-50,F,Meta Ads,Ouro,Em risco,True
+CLI518,Guilherme da Mata,fonsecaisabella@outlook.com.br,5541977689627,Rio de Janeiro,RJ,Sudeste,2025-10-06,25-30,M,Google Ads,Prata,Em risco,True
+CLI519,Mateus Lima,stephany28@da.org,5591946897152,Pelotas,RS,Sul,2025-02-28,41-50,M,Meta Ads,Ouro,Churned,True
+CLI520,Sra. Fernanda Cassiano,albuquerquemelissa@mendonca.br,5585965674916,Uberlândia,MG,Sudeste,2025-04-03,25-30,F,Meta Ads,Ouro,Em risco,True
+CLI521,Davi Gomes,luizada-cunha@moraes.com.br,5595950663370,Santa Maria,RS,Sul,2026-03-04,25-30,M,Google Ads,Ouro,Ativo,True
+CLI522,Ana Sampaio,maria-alice24@pereira.com.br,5538901166918,São Paulo,SP,Sudeste,2025-08-26,25-30,F,Meta Ads,Prata,Em risco,True
+CLI523,Otávio Cavalcante,ana-julia88@outlook.com.br,5566961195243,Sorocaba,SP,Sudeste,2025-08-25,31-40,M,Meta Ads,Ouro,Ativo,True
+CLI524,Dr. Leandro Abreu,gabreu@vasconcelos.br,5585946225223,Ribeirão Preto,SP,Sudeste,2025-08-22,31-40,M,Google Ads,Prata,Em risco,True
+CLI525,Emilly Montenegro,nnunes@costa.com,5544946791214,Salvador,BA,Nordeste,2025-05-18,25-30,F,Meta Ads,Ouro,Ativo,False
+CLI526,Marcos Vinicius Campos,fernandesbento@uol.com.br,5594971004090,Florianópolis,SC,Sul,2025-08-22,51-60,M,Email Marketing,Ouro,Ativo,True
+CLI527,Heitor Moreira,hpereira@mendonca.br,5571996555535,Brasília,DF,Centro-Oeste,2025-08-19,31-40,M,Google Ads,Ouro,Churned,True
+CLI528,Sra. Maria Flor Pimenta,bianca10@sampaio.br,5534909184357,Brasília,DF,Centro-Oeste,2026-06-27,31-40,F,Influenciador,Bronze,Ativo,True
+CLI529,Olívia Moraes,andreporto@terra.com.br,5513950573976,Florianópolis,SC,Sul,2025-10-07,51-60,N,Meta Ads,Ouro,Ativo,True
+CLI530,Dra. Anna Liz Ferreira,sribeiro@hotmail.com,5581949328980,Campinas,SP,Sudeste,2025-09-18,25-30,N,Meta Ads,Ouro,Ativo,True
+CLI531,Sara Vieira,agatha72@camargo.br,5551933211602,Manaus,AM,Norte,2025-09-10,51-60,F,Meta Ads,Prata,Ativo,False
+CLI532,Maria Isis Vargas,theorios@live.com,5532928715399,Ribeirão Preto,SP,Sudeste,2025-09-20,31-40,F,Orgânico,Bronze,Inativo,True
+CLI533,Manuela Garcia,oda-conceicao@bol.com.br,5531941115931,Goiânia,GO,Centro-Oeste,2025-08-22,41-50,F,Orgânico,Ouro,Em risco,True
+CLI534,Maria Eduarda Cardoso,voliveira@gmail.com,5566909836655,Rio de Janeiro,RJ,Sudeste,2025-12-18,31-40,N,Orgânico,Ouro,Ativo,True
+CLI535,Srta. Stephany Ribeiro,goncalvesantony@dias.com,5564937729420,São Paulo,SP,Sudeste,2025-08-13,41-50,F,Influenciador,Ouro,Churned,False
+CLI536,Liam das Neves,maria-liz37@santos.br,5518952330276,Ponta Grossa,PR,Sul,2026-03-06,31-40,M,Orgânico,Prata,Em risco,True
+CLI537,Emanuel Almeida,lavinia75@outlook.com.br,5582918443861,Chapecó,SC,Sul,2025-08-05,18-24,M,Influenciador,Ouro,Ativo,True
+CLI538,Luna Sá,maria-cecilia29@macedo.org,5535933305912,Feira de Santana,BA,Nordeste,2026-01-26,51-60,F,Google Ads,Ouro,Ativo,True
+CLI539,Mariane Rocha,britoeduarda@cavalcanti.com,5532985962630,Ponta Grossa,PR,Sul,2026-02-15,51-60,N,Indicação,Ouro,Ativo,True
+CLI540,Isabella Gonçalves,luiz-felipe61@live.com,5579947501111,Ponta Grossa,PR,Sul,2025-07-01,41-50,F,Meta Ads,Ouro,Ativo,True
+CLI541,Sophia Câmara,sda-mota@vieira.com,5581976492151,Ribeirão Preto,SP,Sudeste,2025-04-06,25-30,F,Email Marketing,Ouro,Ativo,True
+CLI542,Sr. Nathan Sampaio,inovais@azevedo.edu.br,5532931292087,Brasília,DF,Centro-Oeste,2026-04-22,31-40,M,Google Ads,Ouro,Ativo,True
+CLI543,Davi Aparecida,lorenzoborges@sa.com,5522918458260,Sorocaba,SP,Sudeste,2025-08-09,51-60,M,Google Ads,Ouro,Ativo,False
+CLI544,Kaique Aparecida,kcarvalho@live.com,5567985988310,Fortaleza,CE,Nordeste,2025-10-05,18-24,M,Google Ads,Ouro,Ativo,True
+CLI545,Arthur Miguel Correia,pedro29@pastor.com,5586918446267,Ponta Grossa,PR,Sul,2025-06-14,31-40,M,Indicação,Ouro,Em risco,True
+CLI546,Jade Rocha,stellacostela@hotmail.com,5561935989262,Petrópolis,RJ,Sudeste,2025-07-02,31-40,F,Direto,Prata,Ativo,True
+CLI547,Pedro Henrique Garcia,eduardoda-mata@nascimento.gov.br,5584915155423,Maringá,PR,Sul,2026-03-28,41-50,M,Indicação,Bronze,Ativo,True
+CLI548,Anthony Brito,gabrielacaldeira@hotmail.com,5542984971859,Sorocaba,SP,Sudeste,2026-03-16,41-50,M,Google Ads,Ouro,Ativo,True
+CLI549,Yuri da Mata,cavalcanteanna-liz@cirino.br,5583979240822,Ribeirão Preto,SP,Sudeste,2025-10-31,31-40,N,Influenciador,Ouro,Ativo,True
+CLI550,Marcos Vinicius Nunes,silveiraester@uol.com.br,5585972757844,Belo Horizonte,MG,Sudeste,2025-08-23,41-50,M,Orgânico,Prata,Ativo,True

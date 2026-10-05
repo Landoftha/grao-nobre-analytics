@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais Python
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI arquivos temporários
+*.pbix.bak
+*.pbit.bak
+
+# IDEs
+.idea/
+.vscode/

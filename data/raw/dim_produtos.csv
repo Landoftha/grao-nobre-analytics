@@ -1,0 +1,26 @@
+produto_id,nome_produto,categoria,subcategoria,preco_venda,custo_unitario,peso_g,pontuacao_scaa,data_lancamento,margem_percentual,ativo
+PRD01,Café Arábica Especial Notas de Chocolate (250g),Café em Grãos,Origem Única,45.0,18.0,250,85.0,2025-01-15,60.0,True
+PRD02,Café Exótico Geisha Microlote (250g),Café em Grãos,Microlote,95.0,40.0,250,92.0,2025-01-15,57.89,True
+PRD03,Blend da Casa Torra Média (500g),Café em Grãos,Blend,78.0,30.0,500,84.0,2025-01-15,61.54,True
+PRD04,Café Bourbon Amarelo Cerrado (250g),Café em Grãos,Origem Única,52.0,20.0,250,86.5,2025-03-01,61.54,True
+PRD05,Café Catuaí Vermelho Natural (250g),Café em Grãos,Origem Única,48.0,19.0,250,85.5,2025-04-15,60.42,True
+PRD06,Café Moído Premium Torra Escura (250g),Café Moído,Premium,38.0,16.0,250,83.0,2025-01-15,57.89,True
+PRD07,Café Moído Orgânico Mantiqueira (250g),Café Moído,Orgânico,55.0,24.0,250,87.0,2025-06-01,56.36,True
+PRD08,Cápsulas Intenso (10un),Cápsulas,Intenso,32.0,11.0,55,,2025-02-01,65.62,True
+PRD09,Cápsulas Suave Floral (10un),Cápsulas,Suave,32.0,11.0,55,,2025-02-01,65.62,True
+PRD10,Cápsulas Descafeinado (10un),Cápsulas,Descafeinado,35.0,13.0,55,,2025-05-01,62.86,True
+PRD11,Moedor de Café Manual em Aço Inox,Equipamentos,Moedores,165.0,70.0,450,,2025-01-15,57.58,True
+PRD12,Cafeteira Prensa Francesa 800ml,Equipamentos,Cafeteiras,130.0,50.0,600,,2025-01-15,61.54,True
+PRD13,Cafeteira Hario V60 Kit Completo,Equipamentos,Cafeteiras,189.0,78.0,550,,2025-01-15,58.73,True
+PRD14,Balança Digital de Precisão 0.1g,Equipamentos,Acessórios,120.0,45.0,300,,2025-03-15,62.5,True
+PRD15,Chaleira Bico de Ganso 700ml,Equipamentos,Acessórios,210.0,85.0,650,,2025-02-01,59.52,True
+PRD16,Moedor Elétrico Cônico Profissional,Equipamentos,Moedores,450.0,180.0,1800,,2025-06-01,60.0,True
+PRD17,Kit Completo Barista Iniciante,Kits Especiais,Kit Iniciante,320.0,130.0,2000,,2025-01-15,59.38,True
+PRD18,Kit Degustação 4 Origens (4x100g),Kits Especiais,Degustação,89.0,35.0,400,,2025-04-01,60.67,True
+PRD19,Kit Presente Premium Caixa Madeira,Kits Especiais,Presente,280.0,110.0,1500,,2025-05-01,60.71,True
+PRD20,Assinatura Mensal Descoberta (250g/mês),Assinatura,Mensal,42.0,20.0,250,,2025-03-01,52.38,True
+PRD21,Assinatura Mensal Premium (2x250g/mês),Assinatura,Mensal,75.0,32.0,500,,2025-03-01,57.33,True
+PRD22,Espresso Duplo,Bebidas (loja),Espresso,12.0,2.5,,,2025-01-15,79.17,True
+PRD23,Cappuccino Tradicional,Bebidas (loja),Leite,16.0,4.0,,,2025-01-15,75.0,True
+PRD24,Cold Brew 350ml,Bebidas (loja),Gelado,18.0,4.5,,,2025-06-01,75.0,True
+PRD25,Bolo de Cenoura com Cobertura de Chocolate,Alimentos (loja),Doces,14.0,4.2,,,2025-01-15,70.0,True

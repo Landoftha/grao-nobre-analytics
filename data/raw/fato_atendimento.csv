@@ -1,0 +1,651 @@
+atendimento_id,data_abertura,cliente_id,pedido_id,canal_atendimento,tipo_ocorrencia,prioridade,status,tempo_resposta_min,tempo_resolucao_min,nota_nps,satisfacao
+ATD0001,2025-02-02,CLI495,PED0026,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,3,304,10,Satisfeito
+ATD0002,2025-01-27,CLI495,PED0028,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,20,91,8,Neutro
+ATD0003,2025-02-10,CLI495,PED0050,WhatsApp,Atraso na entrega,Alta,Resolvido,10,164,4,Insatisfeito
+ATD0004,2025-02-06,CLI495,PED0055,WhatsApp,Dúvida sobre produto,Baixa,Aberto,19,,5,Insatisfeito
+ATD0005,2025-02-12,CLI442,PED0058,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,17,17,8,Neutro
+ATD0006,2025-02-16,CLI495,PED0065,WhatsApp,Reclamação de qualidade,Alta,Resolvido,1,277,9,Satisfeito
+ATD0007,2025-02-14,CLI281,PED0069,Email,Atraso na entrega,Alta,Resolvido,529,529,7,Neutro
+ATD0008,2025-02-16,CLI281,PED0080,Email,Problema no pagamento,Alta,Resolvido,391,519,9,Satisfeito
+ATD0009,2025-02-25,CLI495,PED0092,WhatsApp,Reclamação de qualidade,Alta,Resolvido,3,13,8,Neutro
+ATD0010,2025-02-21,CLI495,PED0094,Email,Informação sobre rastreio,Baixa,Resolvido,20,156,7,Neutro
+ATD0011,2025-02-18,CLI442,PED0095,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,55,4,Insatisfeito
+ATD0012,2025-02-27,CLI442,PED0107,Telefone,Atraso na entrega,Alta,Resolvido,1,465,10,Satisfeito
+ATD0013,2025-03-05,CLI495,PED0127,WhatsApp,Reclamação de qualidade,Alta,Em andamento,1,,6,Insatisfeito
+ATD0014,2025-03-02,CLI122,PED0131,Instagram DM,Reclamação de qualidade,Alta,Resolvido,12,238,10,Satisfeito
+ATD0015,2025-03-10,CLI442,PED0141,Email,Problema no pagamento,Alta,Resolvido,149,614,6,Insatisfeito
+ATD0016,2025-03-11,CLI456,PED0148,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,197,9,Satisfeito
+ATD0017,2025-03-13,CLI442,PED0149,Email,Dúvida sobre produto,Baixa,Em andamento,226,,8,Neutro
+ATD0018,2025-03-17,CLI519,PED0163,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,9,144,10,Satisfeito
+ATD0019,2025-03-11,CLI442,PED0167,Instagram DM,Reclamação de qualidade,Alta,Resolvido,12,53,7,Neutro
+ATD0020,2025-03-21,CLI122,PED0172,Email,Problema no pagamento,Alta,Resolvido,210,267,9,Satisfeito
+ATD0021,2025-03-18,CLI495,PED0174,Instagram DM,Reclamação de qualidade,Alta,Resolvido,24,148,7,Neutro
+ATD0022,2025-03-15,CLI456,PED0178,Instagram DM,Atraso na entrega,Alta,Resolvido,56,318,9,Satisfeito
+ATD0023,2025-03-18,CLI281,PED0196,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,71,8,Neutro
+ATD0024,2025-03-28,CLI495,PED0218,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,33,189,10,Satisfeito
+ATD0025,2025-04-01,CLI519,PED0220,Email,Dúvida sobre produto,Baixa,Resolvido,131,270,7,Neutro
+ATD0026,2025-03-27,CLI495,PED0226,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,7,63,9,Satisfeito
+ATD0027,2025-04-02,CLI442,PED0228,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,54,271,9,Satisfeito
+ATD0028,2025-03-31,CLI509,PED0229,WhatsApp,Troca/Devolução,Média,Resolvido,13,470,9,Satisfeito
+ATD0029,2025-04-01,CLI208,PED0232,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,240,9,Satisfeito
+ATD0030,2025-04-01,CLI281,PED0244,WhatsApp,Atraso na entrega,Alta,Resolvido,4,70,5,Insatisfeito
+ATD0031,2025-04-02,CLI081,PED0245,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,3,64,8,Neutro
+ATD0032,2025-04-04,CLI475,PED0249,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,6,46,6,Insatisfeito
+ATD0033,2025-04-05,CLI456,PED0250,WhatsApp,Problema no pagamento,Alta,Resolvido,1,126,6,Insatisfeito
+ATD0034,2025-04-11,CLI442,PED0270,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,69,5,Insatisfeito
+ATD0035,2025-04-13,CLI232,PED0274,Instagram DM,Problema no pagamento,Alta,Resolvido,10,493,9,Satisfeito
+ATD0036,2025-04-17,CLI495,PED0292,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,26,169,7,Neutro
+ATD0037,2025-04-15,CLI410,PED0295,WhatsApp,Problema no pagamento,Alta,Resolvido,4,491,9,Satisfeito
+ATD0038,2025-04-16,CLI122,PED0298,Instagram DM,Troca/Devolução,Média,Resolvido,3,33,7,Neutro
+ATD0039,2025-04-20,CLI067,PED0300,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,5,197,6,Insatisfeito
+ATD0040,2025-04-17,CLI442,PED0302,WhatsApp,Atraso na entrega,Alta,Resolvido,3,23,1,Insatisfeito
+ATD0041,2025-04-19,CLI129,PED0308,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,3,234,7,Neutro
+ATD0042,2025-04-28,CLI187,PED0328,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,24,35,7,Neutro
+ATD0043,2025-04-27,CLI174,PED0331,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,9,,4,Insatisfeito
+ATD0044,2025-04-27,CLI189,PED0333,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,8,127,10,Satisfeito
+ATD0045,2025-04-25,CLI081,PED0358,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,3,239,0,Insatisfeito
+ATD0046,2025-04-27,CLI139,PED0359,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,142,7,Neutro
+ATD0047,2025-04-28,CLI130,PED0362,Chat no site,Troca/Devolução,Média,Resolvido,1,111,7,Neutro
+ATD0048,2025-05-02,CLI194,PED0363,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,94,10,Satisfeito
+ATD0049,2025-04-28,CLI129,PED0367,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,187,10,Satisfeito
+ATD0050,2025-05-06,CLI397,PED0371,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,135,7,Neutro
+ATD0051,2025-04-30,CLI034,PED0374,WhatsApp,Problema no pagamento,Alta,Aberto,19,,5,Insatisfeito
+ATD0052,2025-05-02,CLI129,PED0383,WhatsApp,Troca/Devolução,Média,Resolvido,9,324,10,Satisfeito
+ATD0053,2025-05-10,CLI187,PED0391,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,13,52,8,Neutro
+ATD0054,2025-05-11,CLI390,PED0393,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,19,41,8,Neutro
+ATD0055,2025-05-06,CLI411,PED0394,Chat no site,Troca/Devolução,Média,Resolvido,1,328,10,Satisfeito
+ATD0056,2025-05-07,CLI382,PED0396,Instagram DM,Problema no pagamento,Alta,Resolvido,11,129,9,Satisfeito
+ATD0057,2025-05-08,CLI376,PED0400,Email,Dúvida sobre produto,Baixa,Em andamento,118,,10,Satisfeito
+ATD0058,2025-05-12,CLI044,PED0401,Instagram DM,Atraso na entrega,Alta,Resolvido,40,956,4,Insatisfeito
+ATD0059,2025-05-06,CLI081,PED0404,WhatsApp,Problema no pagamento,Alta,Aberto,9,,9,Satisfeito
+ATD0060,2025-05-12,CLI223,PED0405,Email,Problema no pagamento,Alta,Resolvido,207,840,9,Satisfeito
+ATD0061,2025-05-08,CLI307,PED0406,Email,Dúvida sobre produto,Baixa,Resolvido,19,31,10,Satisfeito
+ATD0062,2025-05-14,CLI475,PED0408,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,208,1,Insatisfeito
+ATD0063,2025-05-08,CLI253,PED0419,Chat no site,Troca/Devolução,Média,Resolvido,3,128,7,Neutro
+ATD0064,2025-05-15,CLI390,PED0425,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,69,10,Satisfeito
+ATD0065,2025-05-11,CLI405,PED0436,Instagram DM,Reclamação de qualidade,Alta,Aberto,6,,8,Neutro
+ATD0066,2025-05-16,CLI420,PED0452,Telefone,Atraso na entrega,Alta,Resolvido,1,532,3,Insatisfeito
+ATD0067,2025-05-20,CLI129,PED0454,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,210,2,Insatisfeito
+ATD0068,2025-05-20,CLI015,PED0461,WhatsApp,Reclamação de qualidade,Alta,Resolvido,6,326,9,Satisfeito
+ATD0069,2025-05-26,CLI253,PED0469,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,49,9,Satisfeito
+ATD0070,2025-05-18,CLI327,PED0473,Email,Reclamação de qualidade,Alta,Resolvido,18,1172,8,Neutro
+ATD0071,2025-05-29,CLI231,PED0482,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,19,73,8,Neutro
+ATD0072,2025-05-31,CLI168,PED0493,WhatsApp,Problema no pagamento,Alta,Resolvido,3,975,8,Neutro
+ATD0073,2025-05-29,CLI117,PED0496,WhatsApp,Reclamação de qualidade,Alta,Resolvido,5,63,10,Satisfeito
+ATD0074,2025-05-23,CLI015,PED0502,Chat no site,Problema no pagamento,Alta,Resolvido,1,1036,2,Insatisfeito
+ATD0075,2025-05-25,CLI214,PED0506,WhatsApp,Atraso na entrega,Alta,Resolvido,1,97,8,Neutro
+ATD0076,2025-05-30,CLI117,PED0510,WhatsApp,Atraso na entrega,Alta,Resolvido,33,67,6,Insatisfeito
+ATD0077,2025-05-30,CLI156,PED0513,Telefone,Dúvida sobre produto,Baixa,Em andamento,1,,3,Insatisfeito
+ATD0078,2025-05-29,CLI231,PED0516,WhatsApp,Reclamação de qualidade,Alta,Resolvido,10,712,9,Satisfeito
+ATD0079,2025-05-31,CLI214,PED0524,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,625,9,Satisfeito
+ATD0080,2025-06-03,CLI017,PED0530,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,13,13,0,Insatisfeito
+ATD0081,2025-06-04,CLI475,PED0539,Instagram DM,Troca/Devolução,Média,Resolvido,118,125,7,Neutro
+ATD0082,2025-06-04,CLI168,PED0542,Chat no site,Troca/Devolução,Média,Resolvido,1,195,3,Insatisfeito
+ATD0083,2025-06-08,CLI117,PED0555,Telefone,Troca/Devolução,Média,Em andamento,1,,9,Satisfeito
+ATD0084,2025-05-31,CLI202,PED0556,Email,Problema no pagamento,Alta,Resolvido,17,17,0,Insatisfeito
+ATD0085,2025-06-06,CLI319,PED0564,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,14,217,9,Satisfeito
+ATD0086,2025-06-05,CLI327,PED0567,WhatsApp,Troca/Devolução,Média,Resolvido,10,1713,10,Satisfeito
+ATD0087,2025-06-10,CLI420,PED0577,Email,Elogio/Sugestão,Baixa,Resolvido,64,64,7,Neutro
+ATD0088,2025-06-11,CLI031,PED0580,WhatsApp,Atraso na entrega,Alta,Resolvido,2,64,8,Neutro
+ATD0089,2025-06-07,CLI312,PED0581,WhatsApp,Atraso na entrega,Alta,Resolvido,4,566,10,Satisfeito
+ATD0090,2025-06-11,CLI117,PED0591,Chat no site,Atraso na entrega,Alta,Resolvido,3,1329,10,Satisfeito
+ATD0091,2025-06-11,CLI520,PED0592,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,3,255,10,Satisfeito
+ATD0092,2025-06-07,CLI290,PED0600,WhatsApp,Atraso na entrega,Alta,Resolvido,4,43,9,Satisfeito
+ATD0093,2025-06-13,CLI298,PED0619,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,24,121,9,Satisfeito
+ATD0094,2025-06-13,CLI541,PED0620,Chat no site,Troca/Devolução,Média,Aberto,1,,6,Insatisfeito
+ATD0095,2025-06-13,CLI493,PED0625,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,6,,9,Satisfeito
+ATD0096,2025-06-19,CLI448,PED0648,Chat no site,Informação sobre rastreio,Baixa,Aberto,1,,0,Insatisfeito
+ATD0097,2025-06-26,CLI186,PED0671,Email,Dúvida sobre produto,Baixa,Resolvido,256,256,9,Satisfeito
+ATD0098,2025-06-27,CLI085,PED0674,Email,Informação sobre rastreio,Baixa,Resolvido,870,870,1,Insatisfeito
+ATD0099,2025-06-27,CLI509,PED0677,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,10,78,3,Insatisfeito
+ATD0100,2025-06-26,CLI487,PED0688,Telefone,Atraso na entrega,Alta,Resolvido,1,136,7,Neutro
+ATD0101,2025-06-27,CLI085,PED0691,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,31,249,10,Satisfeito
+ATD0102,2025-06-28,CLI197,PED0706,Instagram DM,Reclamação de qualidade,Alta,Resolvido,67,588,9,Satisfeito
+ATD0103,2025-06-25,CLI103,PED0723,Chat no site,Atraso na entrega,Alta,Resolvido,3,287,10,Satisfeito
+ATD0104,2025-07-05,CLI292,PED0741,Email,Dúvida sobre produto,Baixa,Resolvido,335,335,10,Satisfeito
+ATD0105,2025-07-01,CLI098,PED0744,Email,Atraso na entrega,Alta,Resolvido,97,137,8,Neutro
+ATD0106,2025-07-05,CLI231,PED0747,Instagram DM,Problema no pagamento,Alta,Resolvido,15,121,7,Neutro
+ATD0107,2025-07-03,CLI034,PED0754,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,39,45,6,Insatisfeito
+ATD0108,2025-07-01,CLI110,PED0759,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,89,9,Satisfeito
+ATD0109,2025-07-01,CLI211,PED0767,Instagram DM,Atraso na entrega,Alta,Em andamento,1,,6,Insatisfeito
+ATD0110,2025-07-09,CLI410,PED0793,Email,Dúvida sobre produto,Baixa,Resolvido,22,29,9,Satisfeito
+ATD0111,2025-07-07,CLI127,PED0804,Chat no site,Atraso na entrega,Alta,Resolvido,1,204,6,Insatisfeito
+ATD0112,2025-07-17,CLI039,PED0820,Instagram DM,Atraso na entrega,Alta,Resolvido,38,484,9,Satisfeito
+ATD0113,2025-07-14,CLI080,PED0825,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,13,48,5,Insatisfeito
+ATD0114,2025-07-17,CLI139,PED0827,Email,Dúvida sobre produto,Baixa,Resolvido,73,178,3,Insatisfeito
+ATD0115,2025-07-11,CLI376,PED0834,WhatsApp,Problema no pagamento,Alta,Aberto,1,,1,Insatisfeito
+ATD0116,2025-07-10,CLI307,PED0836,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,190,10,Satisfeito
+ATD0117,2025-07-17,CLI175,PED0839,Email,Dúvida sobre produto,Baixa,Resolvido,124,124,9,Satisfeito
+ATD0118,2025-07-17,CLI056,PED0843,Email,Dúvida sobre produto,Baixa,Resolvido,51,323,6,Insatisfeito
+ATD0119,2025-07-20,CLI130,PED0853,WhatsApp,Problema no pagamento,Alta,Em andamento,23,,8,Neutro
+ATD0120,2025-07-16,CLI050,PED0856,Telefone,Troca/Devolução,Média,Resolvido,1,157,5,Insatisfeito
+ATD0121,2025-07-19,CLI216,PED0879,WhatsApp,Problema no pagamento,Alta,Resolvido,8,1331,7,Neutro
+ATD0122,2025-07-25,CLI397,PED0891,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,40,40,10,Satisfeito
+ATD0123,2025-07-19,CLI546,PED0895,Chat no site,Reclamação de qualidade,Alta,Resolvido,2,79,10,Satisfeito
+ATD0124,2025-07-20,CLI084,PED0897,WhatsApp,Atraso na entrega,Alta,Resolvido,2,405,10,Satisfeito
+ATD0125,2025-07-21,CLI345,PED0906,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,321,6,Insatisfeito
+ATD0126,2025-07-23,CLI035,PED0911,Chat no site,Dúvida sobre produto,Baixa,Em andamento,1,,5,Insatisfeito
+ATD0127,2025-07-31,CLI385,PED0914,Instagram DM,Atraso na entrega,Alta,Resolvido,17,902,9,Satisfeito
+ATD0128,2025-07-28,CLI540,PED0916,Chat no site,Troca/Devolução,Média,Resolvido,3,40,10,Satisfeito
+ATD0129,2025-08-01,CLI513,PED0921,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,5,115,7,Neutro
+ATD0130,2025-07-29,CLI044,PED0925,Instagram DM,Informação sobre rastreio,Baixa,Em andamento,4,,6,Insatisfeito
+ATD0131,2025-07-30,CLI150,PED0930,Email,Dúvida sobre produto,Baixa,Resolvido,661,661,10,Satisfeito
+ATD0132,2025-08-04,CLI118,PED0938,Instagram DM,Reclamação de qualidade,Alta,Resolvido,4,46,8,Neutro
+ATD0133,2025-08-01,CLI267,PED0941,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,2,288,8,Neutro
+ATD0134,2025-07-27,CLI405,PED0948,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,64,6,Insatisfeito
+ATD0135,2025-07-28,CLI187,PED0949,WhatsApp,Troca/Devolução,Média,Em andamento,7,,7,Neutro
+ATD0136,2025-07-30,CLI496,PED0951,Telefone,Atraso na entrega,Alta,Aberto,1,,6,Insatisfeito
+ATD0137,2025-08-04,CLI139,PED0953,Email,Elogio/Sugestão,Baixa,Resolvido,14,30,9,Satisfeito
+ATD0138,2025-08-09,CLI416,PED0972,Instagram DM,Atraso na entrega,Alta,Resolvido,64,860,9,Satisfeito
+ATD0139,2025-08-07,CLI163,PED0982,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,2,2,Insatisfeito
+ATD0140,2025-08-09,CLI056,PED0989,Chat no site,Troca/Devolução,Média,Resolvido,1,237,9,Satisfeito
+ATD0141,2025-08-12,CLI459,PED0996,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,288,9,Satisfeito
+ATD0142,2025-08-09,CLI302,PED1011,WhatsApp,Problema no pagamento,Alta,Resolvido,12,26,5,Insatisfeito
+ATD0143,2025-08-12,CLI411,PED1015,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,57,379,8,Neutro
+ATD0144,2025-08-09,CLI483,PED1021,WhatsApp,Troca/Devolução,Média,Resolvido,1,182,8,Neutro
+ATD0145,2025-08-15,CLI292,PED1023,Chat no site,Problema no pagamento,Alta,Resolvido,1,179,7,Neutro
+ATD0146,2025-08-16,CLI302,PED1024,WhatsApp,Problema no pagamento,Alta,Resolvido,2,310,10,Satisfeito
+ATD0147,2025-08-15,CLI411,PED1033,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,38,83,3,Insatisfeito
+ATD0148,2025-08-14,CLI385,PED1035,Email,Informação sobre rastreio,Baixa,Resolvido,16,116,9,Satisfeito
+ATD0149,2025-08-14,CLI490,PED1043,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,4,232,8,Neutro
+ATD0150,2025-08-19,CLI359,PED1051,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,25,8,Neutro
+ATD0151,2025-08-21,CLI151,PED1053,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,175,9,Satisfeito
+ATD0152,2025-08-23,CLI214,PED1064,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,3,174,9,Satisfeito
+ATD0153,2025-08-28,CLI396,PED1082,Email,Problema no pagamento,Alta,Aberto,44,,5,Insatisfeito
+ATD0154,2025-08-26,CLI160,PED1086,Chat no site,Elogio/Sugestão,Baixa,Resolvido,1,75,10,Satisfeito
+ATD0155,2025-08-24,CLI149,PED1102,Telefone,Dúvida sobre produto,Baixa,Resolvido,2,322,5,Insatisfeito
+ATD0156,2025-08-28,CLI411,PED1107,WhatsApp,Dúvida sobre produto,Baixa,Aberto,2,,7,Neutro
+ATD0157,2025-09-03,CLI475,PED1125,Chat no site,Troca/Devolução,Média,Resolvido,1,38,8,Neutro
+ATD0158,2025-08-26,CLI406,PED1126,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,8,74,0,Insatisfeito
+ATD0159,2025-09-03,CLI267,PED1129,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,27,319,10,Satisfeito
+ATD0160,2025-09-04,CLI125,PED1131,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,11,81,7,Neutro
+ATD0161,2025-08-29,CLI361,PED1148,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,27,197,9,Satisfeito
+ATD0162,2025-08-31,CLI129,PED1151,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,46,9,Satisfeito
+ATD0163,2025-09-02,CLI324,PED1153,WhatsApp,Dúvida sobre produto,Baixa,Aberto,6,,4,Insatisfeito
+ATD0164,2025-08-30,CLI495,PED1155,Instagram DM,Problema no pagamento,Alta,Resolvido,6,80,7,Neutro
+ATD0165,2025-09-04,CLI040,PED1161,Chat no site,Problema no pagamento,Alta,Resolvido,1,371,9,Satisfeito
+ATD0166,2025-09-05,CLI454,PED1164,Email,Problema no pagamento,Alta,Resolvido,58,58,10,Satisfeito
+ATD0167,2025-09-09,CLI158,PED1171,Instagram DM,Atraso na entrega,Alta,Aberto,6,,9,Satisfeito
+ATD0168,2025-09-02,CLI540,PED1175,WhatsApp,Atraso na entrega,Alta,Resolvido,19,686,10,Satisfeito
+ATD0169,2025-09-05,CLI117,PED1176,Email,Dúvida sobre produto,Baixa,Resolvido,126,126,7,Neutro
+ATD0170,2025-09-06,CLI328,PED1177,Email,Dúvida sobre produto,Baixa,Resolvido,731,731,8,Neutro
+ATD0171,2025-09-08,CLI337,PED1179,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,41,10,Satisfeito
+ATD0172,2025-09-11,CLI540,PED1180,Chat no site,Problema no pagamento,Alta,Resolvido,1,171,8,Neutro
+ATD0173,2025-09-04,CLI025,PED1182,WhatsApp,Atraso na entrega,Alta,Resolvido,29,343,9,Satisfeito
+ATD0174,2025-09-09,CLI211,PED1194,Email,Atraso na entrega,Alta,Em andamento,101,,8,Neutro
+ATD0175,2025-09-09,CLI220,PED1208,WhatsApp,Troca/Devolução,Média,Aberto,32,,1,Insatisfeito
+ATD0176,2025-09-14,CLI031,PED1225,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,1,,2,Insatisfeito
+ATD0177,2025-09-14,CLI535,PED1228,WhatsApp,Reclamação de qualidade,Alta,Resolvido,2,300,0,Insatisfeito
+ATD0178,2025-09-15,CLI068,PED1231,Email,Dúvida sobre produto,Baixa,Resolvido,183,183,6,Insatisfeito
+ATD0179,2025-09-19,CLI090,PED1233,WhatsApp,Problema no pagamento,Alta,Resolvido,6,377,7,Neutro
+ATD0180,2025-09-15,CLI149,PED1238,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,14,121,6,Insatisfeito
+ATD0181,2025-09-18,CLI199,PED1243,WhatsApp,Problema no pagamento,Alta,Resolvido,4,35,8,Neutro
+ATD0182,2025-09-20,CLI486,PED1258,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,16,10,Satisfeito
+ATD0183,2025-09-30,CLI137,PED1264,Email,Elogio/Sugestão,Baixa,Resolvido,566,566,10,Satisfeito
+ATD0184,2025-09-23,CLI006,PED1270,WhatsApp,Atraso na entrega,Alta,Resolvido,4,523,8,Neutro
+ATD0185,2025-09-30,CLI503,PED1275,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,8,44,2,Insatisfeito
+ATD0186,2025-10-01,CLI489,PED1276,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,20,242,10,Satisfeito
+ATD0187,2025-09-23,CLI105,PED1277,Email,Reclamação de qualidade,Alta,Aberto,214,,4,Insatisfeito
+ATD0188,2025-10-02,CLI457,PED1281,WhatsApp,Troca/Devolução,Média,Resolvido,1,200,8,Neutro
+ATD0189,2025-10-02,CLI504,PED1284,WhatsApp,Problema no pagamento,Alta,Resolvido,17,52,7,Neutro
+ATD0190,2025-09-26,CLI093,PED1285,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,3,256,9,Satisfeito
+ATD0191,2025-09-28,CLI073,PED1293,WhatsApp,Atraso na entrega,Alta,Resolvido,1,503,9,Satisfeito
+ATD0192,2025-09-25,CLI444,PED1294,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,7,71,9,Satisfeito
+ATD0193,2025-09-27,CLI328,PED1297,WhatsApp,Atraso na entrega,Alta,Resolvido,1,616,8,Neutro
+ATD0194,2025-09-30,CLI283,PED1301,WhatsApp,Problema no pagamento,Alta,Resolvido,5,280,9,Satisfeito
+ATD0195,2025-09-27,CLI008,PED1305,Chat no site,Atraso na entrega,Alta,Resolvido,1,436,9,Satisfeito
+ATD0196,2025-09-28,CLI527,PED1318,Instagram DM,Atraso na entrega,Alta,Aberto,74,,9,Satisfeito
+ATD0197,2025-10-06,CLI064,PED1329,WhatsApp,Reclamação de qualidade,Alta,Resolvido,9,183,8,Neutro
+ATD0198,2025-10-01,CLI088,PED1335,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,73,123,9,Satisfeito
+ATD0199,2025-10-05,CLI356,PED1342,Email,Atraso na entrega,Alta,Resolvido,67,67,7,Neutro
+ATD0200,2025-10-11,CLI261,PED1359,Telefone,Dúvida sobre produto,Baixa,Aberto,1,,5,Insatisfeito
+ATD0201,2025-10-09,CLI290,PED1373,Email,Informação sobre rastreio,Baixa,Resolvido,86,129,9,Satisfeito
+ATD0202,2025-10-15,CLI118,PED1381,Email,Dúvida sobre produto,Baixa,Aberto,122,,3,Insatisfeito
+ATD0203,2025-10-21,CLI008,PED1387,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,2,,1,Insatisfeito
+ATD0204,2025-10-14,CLI094,PED1396,Chat no site,Elogio/Sugestão,Baixa,Resolvido,1,7,10,Satisfeito
+ATD0205,2025-10-23,CLI443,PED1401,Instagram DM,Informação sobre rastreio,Baixa,Em andamento,12,,4,Insatisfeito
+ATD0206,2025-10-23,CLI298,PED1403,WhatsApp,Reclamação de qualidade,Alta,Resolvido,9,206,9,Satisfeito
+ATD0207,2025-10-16,CLI028,PED1410,WhatsApp,Problema no pagamento,Alta,Resolvido,16,633,8,Neutro
+ATD0208,2025-10-19,CLI151,PED1411,Telefone,Troca/Devolução,Média,Resolvido,1,9,3,Insatisfeito
+ATD0209,2025-10-20,CLI385,PED1413,Telefone,Dúvida sobre produto,Baixa,Aberto,1,,1,Insatisfeito
+ATD0210,2025-10-19,CLI533,PED1440,Chat no site,Atraso na entrega,Alta,Resolvido,1,983,8,Neutro
+ATD0211,2025-10-28,CLI269,PED1448,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,21,221,10,Satisfeito
+ATD0212,2025-10-28,CLI242,PED1454,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,67,7,Neutro
+ATD0213,2025-10-23,CLI171,PED1458,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,20,3,Insatisfeito
+ATD0214,2025-10-26,CLI042,PED1463,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,352,10,Satisfeito
+ATD0215,2025-10-31,CLI023,PED1472,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,32,4,Insatisfeito
+ATD0216,2025-11-01,CLI190,PED1476,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,316,10,Satisfeito
+ATD0217,2025-11-04,CLI308,PED1480,Email,Elogio/Sugestão,Baixa,Em andamento,166,,9,Satisfeito
+ATD0218,2025-11-02,CLI077,PED1489,Instagram DM,Troca/Devolução,Média,Resolvido,26,582,9,Satisfeito
+ATD0219,2025-11-05,CLI412,PED1490,WhatsApp,Troca/Devolução,Média,Resolvido,5,233,3,Insatisfeito
+ATD0220,2025-11-03,CLI098,PED1492,WhatsApp,Atraso na entrega,Alta,Resolvido,1,74,9,Satisfeito
+ATD0221,2025-11-01,CLI350,PED1494,WhatsApp,Troca/Devolução,Média,Resolvido,21,349,10,Satisfeito
+ATD0222,2025-10-28,CLI297,PED1495,Chat no site,Dúvida sobre produto,Baixa,Em andamento,1,,10,Satisfeito
+ATD0223,2025-10-30,CLI410,PED1500,WhatsApp,Reclamação de qualidade,Alta,Resolvido,5,274,8,Neutro
+ATD0224,2025-11-05,CLI382,PED1502,Email,Dúvida sobre produto,Baixa,Aberto,1,,4,Insatisfeito
+ATD0225,2025-11-06,CLI324,PED1508,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,3,28,4,Insatisfeito
+ATD0226,2025-11-04,CLI046,PED1511,WhatsApp,Atraso na entrega,Alta,Em andamento,3,,2,Insatisfeito
+ATD0227,2025-11-08,CLI224,PED1512,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,39,39,10,Satisfeito
+ATD0228,2025-11-05,CLI157,PED1517,Email,Informação sobre rastreio,Baixa,Resolvido,40,84,10,Satisfeito
+ATD0229,2025-11-01,CLI187,PED1521,WhatsApp,Atraso na entrega,Alta,Resolvido,24,99,9,Satisfeito
+ATD0230,2025-11-04,CLI545,PED1528,Email,Reclamação de qualidade,Alta,Em andamento,15,,0,Insatisfeito
+ATD0231,2025-11-10,CLI157,PED1534,Telefone,Reclamação de qualidade,Alta,Resolvido,1,495,10,Satisfeito
+ATD0232,2025-11-12,CLI246,PED1546,Chat no site,Dúvida sobre produto,Baixa,Em andamento,1,,0,Insatisfeito
+ATD0233,2025-11-10,CLI064,PED1550,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,20,,7,Neutro
+ATD0234,2025-11-04,CLI266,PED1553,WhatsApp,Atraso na entrega,Alta,Aberto,38,,8,Neutro
+ATD0235,2025-11-11,CLI550,PED1555,Chat no site,Troca/Devolução,Média,Resolvido,2,222,10,Satisfeito
+ATD0236,2025-11-06,CLI350,PED1556,Email,Elogio/Sugestão,Baixa,Resolvido,130,130,0,Insatisfeito
+ATD0237,2025-11-10,CLI063,PED1557,WhatsApp,Problema no pagamento,Alta,Resolvido,49,174,7,Neutro
+ATD0238,2025-11-13,CLI447,PED1568,Email,Atraso na entrega,Alta,Em andamento,31,,8,Neutro
+ATD0239,2025-11-13,CLI533,PED1569,Email,Dúvida sobre produto,Baixa,Aberto,210,,7,Neutro
+ATD0240,2025-11-08,CLI382,PED1573,WhatsApp,Atraso na entrega,Alta,Resolvido,4,317,8,Neutro
+ATD0241,2025-11-14,CLI212,PED1576,WhatsApp,Atraso na entrega,Alta,Aberto,10,,5,Insatisfeito
+ATD0242,2025-11-09,CLI280,PED1579,Chat no site,Elogio/Sugestão,Baixa,Resolvido,1,217,10,Satisfeito
+ATD0243,2025-11-13,CLI100,PED1581,Chat no site,Atraso na entrega,Alta,Resolvido,1,214,6,Insatisfeito
+ATD0244,2025-11-17,CLI219,PED1599,Chat no site,Atraso na entrega,Alta,Resolvido,1,392,10,Satisfeito
+ATD0245,2025-11-18,CLI478,PED1612,WhatsApp,Troca/Devolução,Média,Resolvido,18,120,8,Neutro
+ATD0246,2025-11-11,CLI353,PED1623,Telefone,Reclamação de qualidade,Alta,Resolvido,1,58,6,Insatisfeito
+ATD0247,2025-11-17,CLI014,PED1628,Email,Elogio/Sugestão,Baixa,Resolvido,517,517,9,Satisfeito
+ATD0248,2025-11-13,CLI109,PED1634,WhatsApp,Atraso na entrega,Alta,Resolvido,15,15,9,Satisfeito
+ATD0249,2025-11-12,CLI371,PED1637,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,2,80,10,Satisfeito
+ATD0250,2025-11-21,CLI485,PED1639,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,50,89,6,Insatisfeito
+ATD0251,2025-11-18,CLI383,PED1642,Email,Dúvida sobre produto,Baixa,Resolvido,510,510,9,Satisfeito
+ATD0252,2025-11-22,CLI513,PED1647,Telefone,Atraso na entrega,Alta,Resolvido,1,45,10,Satisfeito
+ATD0253,2025-11-23,CLI032,PED1651,WhatsApp,Atraso na entrega,Alta,Resolvido,19,102,8,Neutro
+ATD0254,2025-11-24,CLI457,PED1655,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,27,290,6,Insatisfeito
+ATD0255,2025-11-21,CLI156,PED1657,WhatsApp,Troca/Devolução,Média,Resolvido,34,176,8,Neutro
+ATD0256,2025-11-15,CLI472,PED1660,WhatsApp,Informação sobre rastreio,Baixa,Aberto,13,,8,Neutro
+ATD0257,2025-11-23,CLI497,PED1661,Email,Problema no pagamento,Alta,Resolvido,289,289,8,Neutro
+ATD0258,2025-11-21,CLI247,PED1662,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,11,11,5,Insatisfeito
+ATD0259,2025-11-22,CLI009,PED1663,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,20,7,Neutro
+ATD0260,2025-11-21,CLI348,PED1664,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,54,10,Satisfeito
+ATD0261,2025-11-24,CLI125,PED1666,WhatsApp,Atraso na entrega,Alta,Em andamento,6,,7,Neutro
+ATD0262,2025-11-20,CLI037,PED1667,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,9,7,Neutro
+ATD0263,2025-11-18,CLI373,PED1670,Chat no site,Problema no pagamento,Alta,Resolvido,1,72,8,Neutro
+ATD0264,2025-11-21,CLI057,PED1673,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,20,121,7,Neutro
+ATD0265,2025-11-22,CLI464,PED1674,Chat no site,Problema no pagamento,Alta,Resolvido,1,482,9,Satisfeito
+ATD0266,2025-11-26,CLI294,PED1680,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,4,173,7,Neutro
+ATD0267,2025-11-20,CLI025,PED1683,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,6,79,8,Neutro
+ATD0268,2025-11-20,CLI045,PED1690,Email,Problema no pagamento,Alta,Resolvido,200,200,10,Satisfeito
+ATD0269,2025-11-19,CLI316,PED1693,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,12,115,9,Satisfeito
+ATD0270,2025-11-24,CLI093,PED1697,WhatsApp,Troca/Devolução,Média,Resolvido,4,21,6,Insatisfeito
+ATD0271,2025-11-21,CLI105,PED1701,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,308,9,Satisfeito
+ATD0272,2025-12-01,CLI337,PED1716,WhatsApp,Troca/Devolução,Média,Aberto,14,,10,Satisfeito
+ATD0273,2025-11-27,CLI225,PED1725,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,52,8,Neutro
+ATD0274,2025-11-28,CLI418,PED1733,Email,Dúvida sobre produto,Baixa,Resolvido,172,216,4,Insatisfeito
+ATD0275,2025-11-24,CLI285,PED1740,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,1,32,8,Neutro
+ATD0276,2025-11-28,CLI157,PED1743,Instagram DM,Atraso na entrega,Alta,Resolvido,52,52,10,Satisfeito
+ATD0277,2025-11-26,CLI507,PED1747,Email,Dúvida sobre produto,Baixa,Resolvido,43,383,10,Satisfeito
+ATD0278,2025-12-04,CLI527,PED1755,Telefone,Troca/Devolução,Média,Aberto,1,,9,Satisfeito
+ATD0279,2025-12-01,CLI149,PED1756,WhatsApp,Atraso na entrega,Alta,Resolvido,3,24,10,Satisfeito
+ATD0280,2025-12-02,CLI008,PED1800,Email,Informação sobre rastreio,Baixa,Resolvido,5,33,10,Satisfeito
+ATD0281,2025-12-06,CLI182,PED1819,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,25,64,8,Neutro
+ATD0282,2025-12-07,CLI127,PED1853,Email,Problema no pagamento,Alta,Aberto,244,,8,Neutro
+ATD0283,2025-12-08,CLI067,PED1854,Email,Dúvida sobre produto,Baixa,Resolvido,480,480,10,Satisfeito
+ATD0284,2025-12-07,CLI436,PED1865,WhatsApp,Atraso na entrega,Alta,Resolvido,2,262,10,Satisfeito
+ATD0285,2025-12-09,CLI301,PED1873,Instagram DM,Atraso na entrega,Alta,Resolvido,57,587,9,Satisfeito
+ATD0286,2025-12-08,CLI306,PED1876,WhatsApp,Atraso na entrega,Alta,Resolvido,1,424,10,Satisfeito
+ATD0287,2025-12-17,CLI463,PED1881,Telefone,Atraso na entrega,Alta,Resolvido,1,856,9,Satisfeito
+ATD0288,2025-12-09,CLI513,PED1883,WhatsApp,Problema no pagamento,Alta,Resolvido,1,274,9,Satisfeito
+ATD0289,2025-12-09,CLI280,PED1884,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,63,9,Satisfeito
+ATD0290,2025-12-16,CLI238,PED1886,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,7,8,5,Insatisfeito
+ATD0291,2025-12-12,CLI166,PED1902,Instagram DM,Informação sobre rastreio,Baixa,Aberto,7,,7,Neutro
+ATD0292,2025-12-18,CLI172,PED1903,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,348,6,Insatisfeito
+ATD0293,2025-12-21,CLI087,PED1909,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,3,74,9,Satisfeito
+ATD0294,2025-12-19,CLI136,PED1911,Email,Informação sobre rastreio,Baixa,Resolvido,213,213,8,Neutro
+ATD0295,2025-12-16,CLI117,PED1932,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,7,160,9,Satisfeito
+ATD0296,2025-12-18,CLI379,PED1952,Email,Problema no pagamento,Alta,Resolvido,387,387,10,Satisfeito
+ATD0297,2025-12-21,CLI184,PED1977,Telefone,Atraso na entrega,Alta,Resolvido,1,48,8,Neutro
+ATD0298,2025-12-27,CLI209,PED1978,Telefone,Troca/Devolução,Média,Resolvido,2,34,6,Insatisfeito
+ATD0299,2025-12-23,CLI527,PED1988,Email,Informação sobre rastreio,Baixa,Resolvido,286,286,7,Neutro
+ATD0300,2025-12-22,CLI037,PED1994,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,32,152,10,Satisfeito
+ATD0301,2025-12-25,CLI098,PED2011,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,33,33,7,Neutro
+ATD0302,2025-12-27,CLI218,PED2014,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,7,115,7,Neutro
+ATD0303,2025-12-29,CLI200,PED2017,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,17,17,8,Neutro
+ATD0304,2025-12-27,CLI439,PED2021,Chat no site,Elogio/Sugestão,Baixa,Resolvido,5,265,9,Satisfeito
+ATD0305,2025-12-28,CLI249,PED2034,WhatsApp,Atraso na entrega,Alta,Resolvido,3,622,10,Satisfeito
+ATD0306,2025-12-26,CLI266,PED2040,Instagram DM,Problema no pagamento,Alta,Em andamento,17,,5,Insatisfeito
+ATD0307,2025-12-25,CLI298,PED2057,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,45,8,Neutro
+ATD0308,2025-12-28,CLI430,PED2069,Telefone,Problema no pagamento,Alta,Resolvido,1,471,10,Satisfeito
+ATD0309,2026-01-03,CLI164,PED2099,WhatsApp,Troca/Devolução,Média,Em andamento,6,,7,Neutro
+ATD0310,2026-01-02,CLI297,PED2102,WhatsApp,Dúvida sobre produto,Baixa,Aberto,11,,9,Satisfeito
+ATD0311,2026-01-06,CLI067,PED2104,WhatsApp,Atraso na entrega,Alta,Resolvido,14,447,7,Neutro
+ATD0312,2026-01-03,CLI052,PED2105,Email,Atraso na entrega,Alta,Aberto,10,,9,Satisfeito
+ATD0313,2026-01-01,CLI234,PED2113,WhatsApp,Atraso na entrega,Alta,Resolvido,23,220,10,Satisfeito
+ATD0314,2025-12-31,CLI008,PED2115,Instagram DM,Atraso na entrega,Alta,Resolvido,7,99,10,Satisfeito
+ATD0315,2026-01-07,CLI531,PED2116,Email,Troca/Devolução,Média,Resolvido,126,522,10,Satisfeito
+ATD0316,2026-01-05,CLI046,PED2120,Chat no site,Elogio/Sugestão,Baixa,Resolvido,1,166,8,Neutro
+ATD0317,2026-01-06,CLI259,PED2125,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,77,9,Satisfeito
+ATD0318,2026-01-03,CLI443,PED2134,WhatsApp,Atraso na entrega,Alta,Aberto,57,,5,Insatisfeito
+ATD0319,2026-01-11,CLI382,PED2142,Chat no site,Dúvida sobre produto,Baixa,Resolvido,2,28,8,Neutro
+ATD0320,2026-01-13,CLI101,PED2144,Email,Dúvida sobre produto,Baixa,Resolvido,133,133,9,Satisfeito
+ATD0321,2026-01-06,CLI374,PED2153,Chat no site,Problema no pagamento,Alta,Resolvido,1,545,9,Satisfeito
+ATD0322,2026-01-17,CLI457,PED2156,WhatsApp,Atraso na entrega,Alta,Resolvido,17,93,8,Neutro
+ATD0323,2026-01-10,CLI315,PED2157,Chat no site,Atraso na entrega,Alta,Resolvido,4,323,10,Satisfeito
+ATD0324,2026-01-11,CLI158,PED2158,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,5,83,7,Neutro
+ATD0325,2026-01-10,CLI406,PED2160,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,98,10,Satisfeito
+ATD0326,2026-01-20,CLI234,PED2176,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,84,8,Neutro
+ATD0327,2026-01-20,CLI486,PED2184,Email,Informação sobre rastreio,Baixa,Resolvido,37,201,10,Satisfeito
+ATD0328,2026-01-21,CLI075,PED2188,WhatsApp,Troca/Devolução,Média,Em andamento,9,,7,Neutro
+ATD0329,2026-01-25,CLI472,PED2195,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,3,174,0,Insatisfeito
+ATD0330,2026-01-22,CLI149,PED2199,Instagram DM,Atraso na entrega,Alta,Resolvido,64,1059,10,Satisfeito
+ATD0331,2026-01-22,CLI207,PED2204,WhatsApp,Atraso na entrega,Alta,Resolvido,5,52,8,Neutro
+ATD0332,2026-01-27,CLI199,PED2205,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,14,10,Satisfeito
+ATD0333,2026-01-21,CLI402,PED2213,Email,Dúvida sobre produto,Baixa,Resolvido,521,521,3,Insatisfeito
+ATD0334,2026-01-21,CLI484,PED2214,Telefone,Reclamação de qualidade,Alta,Aberto,1,,5,Insatisfeito
+ATD0335,2026-01-23,CLI320,PED2223,Chat no site,Troca/Devolução,Média,Resolvido,1,115,10,Satisfeito
+ATD0336,2026-01-27,CLI272,PED2227,Chat no site,Informação sobre rastreio,Baixa,Aberto,2,,4,Insatisfeito
+ATD0337,2026-01-27,CLI493,PED2236,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,22,7,Neutro
+ATD0338,2026-02-01,CLI015,PED2239,Email,Atraso na entrega,Alta,Resolvido,59,256,5,Insatisfeito
+ATD0339,2026-01-26,CLI137,PED2241,Telefone,Problema no pagamento,Alta,Resolvido,1,340,1,Insatisfeito
+ATD0340,2026-02-01,CLI386,PED2242,Instagram DM,Reclamação de qualidade,Alta,Em andamento,20,,6,Insatisfeito
+ATD0341,2026-02-03,CLI192,PED2248,Chat no site,Reclamação de qualidade,Alta,Resolvido,2,999,10,Satisfeito
+ATD0342,2026-02-01,CLI155,PED2250,Email,Dúvida sobre produto,Baixa,Resolvido,467,467,10,Satisfeito
+ATD0343,2026-01-30,CLI171,PED2251,Email,Problema no pagamento,Alta,Resolvido,53,53,10,Satisfeito
+ATD0344,2026-02-08,CLI118,PED2261,WhatsApp,Troca/Devolução,Média,Resolvido,4,541,10,Satisfeito
+ATD0345,2026-02-01,CLI021,PED2262,WhatsApp,Troca/Devolução,Média,Em andamento,42,,10,Satisfeito
+ATD0346,2026-02-03,CLI377,PED2268,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,23,23,7,Neutro
+ATD0347,2026-02-05,CLI046,PED2273,WhatsApp,Problema no pagamento,Alta,Resolvido,35,198,10,Satisfeito
+ATD0348,2026-02-12,CLI434,PED2278,Email,Troca/Devolução,Média,Resolvido,1,140,6,Insatisfeito
+ATD0349,2026-02-08,CLI355,PED2284,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,1,94,10,Satisfeito
+ATD0350,2026-02-06,CLI408,PED2288,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,76,8,Neutro
+ATD0351,2026-02-15,CLI377,PED2297,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,22,243,3,Insatisfeito
+ATD0352,2026-02-12,CLI351,PED2298,Chat no site,Problema no pagamento,Alta,Em andamento,1,,9,Satisfeito
+ATD0353,2026-02-07,CLI429,PED2305,WhatsApp,Atraso na entrega,Alta,Resolvido,6,616,9,Satisfeito
+ATD0354,2026-02-15,CLI530,PED2308,Instagram DM,Elogio/Sugestão,Baixa,Aberto,56,,9,Satisfeito
+ATD0355,2026-02-15,CLI200,PED2322,WhatsApp,Atraso na entrega,Alta,Resolvido,1,273,10,Satisfeito
+ATD0356,2026-02-13,CLI484,PED2330,Chat no site,Atraso na entrega,Alta,Resolvido,1,17,2,Insatisfeito
+ATD0357,2026-02-17,CLI295,PED2332,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,26,238,10,Satisfeito
+ATD0358,2026-02-12,CLI220,PED2345,Instagram DM,Problema no pagamento,Alta,Em andamento,4,,10,Satisfeito
+ATD0359,2026-02-23,CLI402,PED2349,WhatsApp,Reclamação de qualidade,Alta,Resolvido,20,691,10,Satisfeito
+ATD0360,2026-02-22,CLI467,PED2353,Email,Informação sobre rastreio,Baixa,Em andamento,471,,0,Insatisfeito
+ATD0361,2026-02-23,CLI083,PED2354,WhatsApp,Reclamação de qualidade,Alta,Resolvido,3,843,8,Neutro
+ATD0362,2026-02-15,CLI182,PED2358,Instagram DM,Troca/Devolução,Média,Resolvido,9,192,10,Satisfeito
+ATD0363,2026-02-18,CLI003,PED2366,Email,Informação sobre rastreio,Baixa,Resolvido,9,9,10,Satisfeito
+ATD0364,2026-02-17,CLI129,PED2370,Instagram DM,Troca/Devolução,Média,Resolvido,30,141,10,Satisfeito
+ATD0365,2026-02-21,CLI245,PED2377,Chat no site,Troca/Devolução,Média,Resolvido,1,50,7,Neutro
+ATD0366,2026-02-25,CLI301,PED2387,WhatsApp,Elogio/Sugestão,Baixa,Em andamento,13,,7,Neutro
+ATD0367,2026-02-20,CLI116,PED2393,Instagram DM,Dúvida sobre produto,Baixa,Em andamento,1,,6,Insatisfeito
+ATD0368,2026-02-22,CLI446,PED2395,WhatsApp,Troca/Devolução,Média,Resolvido,19,19,10,Satisfeito
+ATD0369,2026-02-24,CLI396,PED2397,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,58,4,Insatisfeito
+ATD0370,2026-03-01,CLI039,PED2412,Instagram DM,Reclamação de qualidade,Alta,Resolvido,15,157,9,Satisfeito
+ATD0371,2026-02-23,CLI074,PED2418,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,4,398,3,Insatisfeito
+ATD0372,2026-02-26,CLI356,PED2419,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,12,12,9,Satisfeito
+ATD0373,2026-03-02,CLI207,PED2432,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,13,249,10,Satisfeito
+ATD0374,2026-03-03,CLI060,PED2435,Chat no site,Problema no pagamento,Alta,Resolvido,1,35,10,Satisfeito
+ATD0375,2026-03-09,CLI442,PED2439,Chat no site,Atraso na entrega,Alta,Resolvido,2,335,10,Satisfeito
+ATD0376,2026-03-11,CLI199,PED2448,Email,Atraso na entrega,Alta,Resolvido,162,162,10,Satisfeito
+ATD0377,2026-03-08,CLI002,PED2460,Email,Informação sobre rastreio,Baixa,Resolvido,29,116,5,Insatisfeito
+ATD0378,2026-03-05,CLI483,PED2463,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,84,7,Neutro
+ATD0379,2026-03-15,CLI074,PED2468,WhatsApp,Atraso na entrega,Alta,Resolvido,9,120,8,Neutro
+ATD0380,2026-03-11,CLI058,PED2480,Email,Informação sobre rastreio,Baixa,Resolvido,569,569,8,Neutro
+ATD0381,2026-03-08,CLI142,PED2486,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,15,15,10,Satisfeito
+ATD0382,2026-03-11,CLI026,PED2487,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,81,6,Insatisfeito
+ATD0383,2026-03-16,CLI227,PED2494,Instagram DM,Problema no pagamento,Alta,Resolvido,4,1378,5,Insatisfeito
+ATD0384,2026-03-10,CLI206,PED2496,Email,Atraso na entrega,Alta,Resolvido,33,240,10,Satisfeito
+ATD0385,2026-03-10,CLI335,PED2498,WhatsApp,Atraso na entrega,Alta,Resolvido,5,367,9,Satisfeito
+ATD0386,2026-03-15,CLI228,PED2507,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,67,9,Satisfeito
+ATD0387,2026-03-16,CLI256,PED2510,Instagram DM,Troca/Devolução,Média,Aberto,7,,6,Insatisfeito
+ATD0388,2026-03-14,CLI348,PED2518,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,4,10,Satisfeito
+ATD0389,2026-03-16,CLI013,PED2528,Chat no site,Problema no pagamento,Alta,Resolvido,3,644,3,Insatisfeito
+ATD0390,2026-03-25,CLI336,PED2538,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,186,4,Insatisfeito
+ATD0391,2026-03-18,CLI285,PED2545,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,408,8,Neutro
+ATD0392,2026-03-17,CLI536,PED2550,WhatsApp,Atraso na entrega,Alta,Resolvido,8,130,10,Satisfeito
+ATD0393,2026-03-24,CLI372,PED2554,Instagram DM,Reclamação de qualidade,Alta,Resolvido,10,24,5,Insatisfeito
+ATD0394,2026-03-22,CLI120,PED2556,Email,Dúvida sobre produto,Baixa,Resolvido,872,872,10,Satisfeito
+ATD0395,2026-03-27,CLI424,PED2557,WhatsApp,Troca/Devolução,Média,Resolvido,12,140,6,Insatisfeito
+ATD0396,2026-03-29,CLI417,PED2565,Telefone,Problema no pagamento,Alta,Resolvido,2,101,7,Neutro
+ATD0397,2026-03-29,CLI045,PED2569,WhatsApp,Atraso na entrega,Alta,Resolvido,9,237,9,Satisfeito
+ATD0398,2026-03-29,CLI368,PED2573,WhatsApp,Dúvida sobre produto,Baixa,Aberto,14,,3,Insatisfeito
+ATD0399,2026-03-29,CLI455,PED2585,Email,Atraso na entrega,Alta,Resolvido,13,77,10,Satisfeito
+ATD0400,2026-03-26,CLI239,PED2596,WhatsApp,Elogio/Sugestão,Baixa,Em andamento,2,,7,Neutro
+ATD0401,2026-03-26,CLI067,PED2614,Instagram DM,Reclamação de qualidade,Alta,Resolvido,32,75,10,Satisfeito
+ATD0402,2026-03-28,CLI485,PED2618,Instagram DM,Atraso na entrega,Alta,Em andamento,20,,8,Neutro
+ATD0403,2026-04-03,CLI403,PED2620,Instagram DM,Atraso na entrega,Alta,Resolvido,5,712,9,Satisfeito
+ATD0404,2026-04-06,CLI138,PED2623,Chat no site,Elogio/Sugestão,Baixa,Resolvido,4,87,9,Satisfeito
+ATD0405,2026-03-31,CLI034,PED2627,WhatsApp,Atraso na entrega,Alta,Resolvido,5,95,9,Satisfeito
+ATD0406,2026-04-05,CLI521,PED2650,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,1,37,8,Neutro
+ATD0407,2026-04-16,CLI426,PED2691,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,12,91,10,Satisfeito
+ATD0408,2026-04-09,CLI482,PED2701,Chat no site,Reclamação de qualidade,Alta,Aberto,4,,9,Satisfeito
+ATD0409,2026-04-18,CLI026,PED2705,Instagram DM,Troca/Devolução,Média,Resolvido,12,284,7,Neutro
+ATD0410,2026-04-09,CLI317,PED2707,Email,Dúvida sobre produto,Baixa,Resolvido,129,129,6,Insatisfeito
+ATD0411,2026-04-11,CLI377,PED2709,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,3,72,9,Satisfeito
+ATD0412,2026-04-16,CLI508,PED2721,Instagram DM,Atraso na entrega,Alta,Resolvido,15,441,9,Satisfeito
+ATD0413,2026-04-15,CLI247,PED2722,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,33,47,8,Neutro
+ATD0414,2026-04-11,CLI177,PED2723,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,82,10,Satisfeito
+ATD0415,2026-04-13,CLI123,PED2733,WhatsApp,Troca/Devolução,Média,Resolvido,9,44,9,Satisfeito
+ATD0416,2026-04-21,CLI285,PED2756,Email,Atraso na entrega,Alta,Resolvido,274,1510,9,Satisfeito
+ATD0417,2026-04-20,CLI033,PED2763,WhatsApp,Reclamação de qualidade,Alta,Resolvido,34,79,0,Insatisfeito
+ATD0418,2026-04-22,CLI182,PED2770,Email,Informação sobre rastreio,Baixa,Em andamento,399,,8,Neutro
+ATD0419,2026-04-21,CLI428,PED2778,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,14,72,10,Satisfeito
+ATD0420,2026-04-25,CLI536,PED2802,Telefone,Atraso na entrega,Alta,Resolvido,1,682,7,Neutro
+ATD0421,2026-04-29,CLI012,PED2807,Email,Informação sobre rastreio,Baixa,Resolvido,125,125,10,Satisfeito
+ATD0422,2026-05-03,CLI200,PED2813,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,8,103,7,Neutro
+ATD0423,2026-05-02,CLI516,PED2849,Email,Informação sobre rastreio,Baixa,Em andamento,40,,9,Satisfeito
+ATD0424,2026-05-04,CLI488,PED2860,Chat no site,Elogio/Sugestão,Baixa,Resolvido,3,134,10,Satisfeito
+ATD0425,2026-05-10,CLI279,PED2867,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,24,24,9,Satisfeito
+ATD0426,2026-05-02,CLI534,PED2873,WhatsApp,Atraso na entrega,Alta,Resolvido,11,46,10,Satisfeito
+ATD0427,2026-05-02,CLI424,PED2876,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,89,10,Satisfeito
+ATD0428,2026-05-12,CLI270,PED2880,Chat no site,Atraso na entrega,Alta,Em andamento,1,,9,Satisfeito
+ATD0429,2026-05-12,CLI421,PED2894,WhatsApp,Troca/Devolução,Média,Resolvido,10,22,6,Insatisfeito
+ATD0430,2026-05-08,CLI543,PED2895,WhatsApp,Atraso na entrega,Alta,Em andamento,6,,4,Insatisfeito
+ATD0431,2026-05-08,CLI109,PED2899,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,2,522,9,Satisfeito
+ATD0432,2026-05-10,CLI372,PED2905,WhatsApp,Troca/Devolução,Média,Resolvido,9,279,9,Satisfeito
+ATD0433,2026-05-08,CLI109,PED2908,WhatsApp,Atraso na entrega,Alta,Resolvido,4,35,8,Neutro
+ATD0434,2026-05-11,CLI234,PED2912,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,89,89,8,Neutro
+ATD0435,2026-05-14,CLI360,PED2913,Email,Elogio/Sugestão,Baixa,Aberto,105,,9,Satisfeito
+ATD0436,2026-05-14,CLI246,PED2916,WhatsApp,Atraso na entrega,Alta,Resolvido,12,12,9,Satisfeito
+ATD0437,2026-05-11,CLI276,PED2930,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,19,92,10,Satisfeito
+ATD0438,2026-05-15,CLI036,PED2931,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,3,7,10,Satisfeito
+ATD0439,2026-05-15,CLI150,PED2933,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,4,270,9,Satisfeito
+ATD0440,2026-05-12,CLI530,PED2934,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,13,34,10,Satisfeito
+ATD0441,2026-05-17,CLI348,PED2938,Chat no site,Troca/Devolução,Média,Resolvido,1,281,9,Satisfeito
+ATD0442,2026-05-17,CLI170,PED2945,Instagram DM,Atraso na entrega,Alta,Em andamento,20,,5,Insatisfeito
+ATD0443,2026-05-19,CLI039,PED2946,Telefone,Atraso na entrega,Alta,Aberto,1,,10,Satisfeito
+ATD0444,2026-05-14,CLI413,PED2950,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,29,5,Insatisfeito
+ATD0445,2026-05-17,CLI351,PED2953,Email,Reclamação de qualidade,Alta,Resolvido,212,1270,5,Insatisfeito
+ATD0446,2026-05-11,CLI468,PED2956,Email,Elogio/Sugestão,Baixa,Resolvido,37,109,8,Neutro
+ATD0447,2026-05-19,CLI060,PED2960,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,71,1,Insatisfeito
+ATD0448,2026-05-21,CLI379,PED2974,Telefone,Problema no pagamento,Alta,Resolvido,1,627,4,Insatisfeito
+ATD0449,2026-05-23,CLI261,PED2975,Email,Atraso na entrega,Alta,Resolvido,127,282,8,Neutro
+ATD0450,2026-05-22,CLI236,PED2977,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,24,10,Satisfeito
+ATD0451,2026-05-22,CLI074,PED2979,Instagram DM,Dúvida sobre produto,Baixa,Aberto,2,,6,Insatisfeito
+ATD0452,2026-05-19,CLI229,PED2985,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,15,26,7,Neutro
+ATD0453,2026-05-24,CLI391,PED2989,WhatsApp,Troca/Devolução,Média,Resolvido,14,118,6,Insatisfeito
+ATD0454,2026-05-23,CLI536,PED3006,Telefone,Problema no pagamento,Alta,Resolvido,1,227,10,Satisfeito
+ATD0455,2026-05-26,CLI001,PED3014,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,11,12,10,Satisfeito
+ATD0456,2026-05-18,CLI305,PED3016,Telefone,Troca/Devolução,Média,Resolvido,1,261,5,Insatisfeito
+ATD0457,2026-05-26,CLI340,PED3033,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,13,,4,Insatisfeito
+ATD0458,2026-05-21,CLI018,PED3035,Instagram DM,Problema no pagamento,Alta,Resolvido,8,221,10,Satisfeito
+ATD0459,2026-05-20,CLI027,PED3042,WhatsApp,Atraso na entrega,Alta,Resolvido,2,85,7,Neutro
+ATD0460,2026-05-24,CLI498,PED3044,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,272,7,Neutro
+ATD0461,2026-05-27,CLI438,PED3066,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,2,30,10,Satisfeito
+ATD0462,2026-05-30,CLI074,PED3071,Chat no site,Troca/Devolução,Média,Resolvido,1,32,8,Neutro
+ATD0463,2026-05-27,CLI170,PED3081,Instagram DM,Atraso na entrega,Alta,Resolvido,24,28,10,Satisfeito
+ATD0464,2026-05-30,CLI546,PED3085,Instagram DM,Reclamação de qualidade,Alta,Resolvido,3,372,6,Insatisfeito
+ATD0465,2026-06-03,CLI284,PED3087,Chat no site,Atraso na entrega,Alta,Em andamento,1,,2,Insatisfeito
+ATD0466,2026-05-28,CLI329,PED3098,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,97,9,Satisfeito
+ATD0467,2026-05-29,CLI488,PED3102,Email,Informação sobre rastreio,Baixa,Resolvido,56,126,8,Neutro
+ATD0468,2026-05-28,CLI507,PED3106,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,92,8,Neutro
+ATD0469,2026-05-31,CLI230,PED3107,Email,Informação sobre rastreio,Baixa,Resolvido,110,110,10,Satisfeito
+ATD0470,2026-06-05,CLI421,PED3109,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,11,246,10,Satisfeito
+ATD0471,2026-06-04,CLI387,PED3111,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,81,112,10,Satisfeito
+ATD0472,2026-06-06,CLI445,PED3123,WhatsApp,Troca/Devolução,Média,Resolvido,6,61,7,Neutro
+ATD0473,2026-06-02,CLI090,PED3132,Email,Atraso na entrega,Alta,Resolvido,57,235,9,Satisfeito
+ATD0474,2026-05-29,CLI485,PED3133,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,5,294,10,Satisfeito
+ATD0475,2026-06-02,CLI505,PED3137,WhatsApp,Reclamação de qualidade,Alta,Resolvido,5,168,7,Neutro
+ATD0476,2026-06-06,CLI409,PED3143,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,217,4,Insatisfeito
+ATD0477,2026-06-06,CLI168,PED3145,WhatsApp,Reclamação de qualidade,Alta,Resolvido,12,342,10,Satisfeito
+ATD0478,2026-06-07,CLI492,PED3155,Email,Dúvida sobre produto,Baixa,Resolvido,78,204,10,Satisfeito
+ATD0479,2026-06-07,CLI191,PED3156,Chat no site,Elogio/Sugestão,Baixa,Resolvido,1,245,2,Insatisfeito
+ATD0480,2026-06-04,CLI216,PED3159,Instagram DM,Atraso na entrega,Alta,Resolvido,17,182,10,Satisfeito
+ATD0481,2026-06-06,CLI105,PED3163,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,8,132,7,Neutro
+ATD0482,2026-06-10,CLI235,PED3168,Email,Problema no pagamento,Alta,Resolvido,2,738,10,Satisfeito
+ATD0483,2026-06-10,CLI013,PED3180,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,50,9,Satisfeito
+ATD0484,2026-06-11,CLI233,PED3188,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,69,10,Satisfeito
+ATD0485,2026-06-05,CLI370,PED3189,Chat no site,Troca/Devolução,Média,Resolvido,1,124,10,Satisfeito
+ATD0486,2026-06-13,CLI016,PED3193,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,27,65,9,Satisfeito
+ATD0487,2026-06-04,CLI540,PED3197,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,39,109,10,Satisfeito
+ATD0488,2026-06-13,CLI534,PED3198,Chat no site,Dúvida sobre produto,Baixa,Resolvido,2,13,10,Satisfeito
+ATD0489,2026-06-12,CLI262,PED3199,Telefone,Atraso na entrega,Alta,Resolvido,1,147,3,Insatisfeito
+ATD0490,2026-06-17,CLI339,PED3256,Email,Reclamação de qualidade,Alta,Resolvido,161,710,7,Neutro
+ATD0491,2026-06-14,CLI400,PED3261,Email,Dúvida sobre produto,Baixa,Em andamento,15,,5,Insatisfeito
+ATD0492,2026-06-10,CLI230,PED3265,Instagram DM,Problema no pagamento,Alta,Resolvido,1,683,10,Satisfeito
+ATD0493,2026-06-19,CLI500,PED3271,Chat no site,Atraso na entrega,Alta,Resolvido,1,397,9,Satisfeito
+ATD0494,2026-06-13,CLI515,PED3277,Instagram DM,Reclamação de qualidade,Alta,Em andamento,18,,6,Insatisfeito
+ATD0495,2026-06-12,CLI170,PED3278,Email,Dúvida sobre produto,Baixa,Resolvido,343,343,10,Satisfeito
+ATD0496,2026-06-19,CLI542,PED3279,Chat no site,Problema no pagamento,Alta,Resolvido,1,292,9,Satisfeito
+ATD0497,2026-06-14,CLI077,PED3281,Telefone,Dúvida sobre produto,Baixa,Resolvido,2,64,6,Insatisfeito
+ATD0498,2026-06-17,CLI205,PED3283,WhatsApp,Atraso na entrega,Alta,Resolvido,4,335,8,Neutro
+ATD0499,2026-06-15,CLI247,PED3289,WhatsApp,Dúvida sobre produto,Baixa,Aberto,31,,10,Satisfeito
+ATD0500,2026-06-22,CLI333,PED3296,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,21,648,7,Neutro
+ATD0501,2026-06-19,CLI279,PED3297,Chat no site,Problema no pagamento,Alta,Resolvido,1,43,8,Neutro
+ATD0502,2026-06-20,CLI433,PED3299,Chat no site,Troca/Devolução,Média,Resolvido,1,412,10,Satisfeito
+ATD0503,2026-06-14,CLI419,PED3312,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,32,8,Neutro
+ATD0504,2026-06-21,CLI326,PED3317,WhatsApp,Reclamação de qualidade,Alta,Resolvido,18,20,10,Satisfeito
+ATD0505,2026-06-18,CLI076,PED3318,WhatsApp,Problema no pagamento,Alta,Resolvido,5,253,10,Satisfeito
+ATD0506,2026-06-21,CLI460,PED3323,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,19,156,10,Satisfeito
+ATD0507,2026-06-18,CLI067,PED3326,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,5,113,10,Satisfeito
+ATD0508,2026-06-21,CLI294,PED3337,Email,Atraso na entrega,Alta,Resolvido,169,285,10,Satisfeito
+ATD0509,2026-06-19,CLI465,PED3350,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,12,36,10,Satisfeito
+ATD0510,2026-06-18,CLI196,PED3352,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,15,9,Satisfeito
+ATD0511,2026-06-20,CLI517,PED3359,WhatsApp,Reclamação de qualidade,Alta,Resolvido,3,249,10,Satisfeito
+ATD0512,2026-06-25,CLI424,PED3368,Email,Reclamação de qualidade,Alta,Resolvido,352,434,9,Satisfeito
+ATD0513,2026-06-24,CLI099,PED3369,Chat no site,Dúvida sobre produto,Baixa,Resolvido,2,51,10,Satisfeito
+ATD0514,2026-06-28,CLI300,PED3413,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,6,60,9,Satisfeito
+ATD0515,2026-06-30,CLI091,PED3433,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,7,10,Satisfeito
+ATD0516,2026-07-04,CLI084,PED3453,Email,Atraso na entrega,Alta,Resolvido,171,1630,6,Insatisfeito
+ATD0517,2026-06-27,CLI264,PED3463,WhatsApp,Problema no pagamento,Alta,Resolvido,2,17,3,Insatisfeito
+ATD0518,2026-07-03,CLI076,PED3467,Telefone,Troca/Devolução,Média,Resolvido,1,69,9,Satisfeito
+ATD0519,2026-07-02,CLI392,PED3468,Email,Informação sobre rastreio,Baixa,Resolvido,339,339,10,Satisfeito
+ATD0520,2026-06-26,CLI284,PED3470,Telefone,Informação sobre rastreio,Baixa,Resolvido,2,63,8,Neutro
+ATD0521,2026-07-05,CLI416,PED3475,Email,Informação sobre rastreio,Baixa,Resolvido,208,208,10,Satisfeito
+ATD0522,2026-07-04,CLI422,PED3495,WhatsApp,Troca/Devolução,Média,Resolvido,11,143,10,Satisfeito
+ATD0523,2026-07-08,CLI202,PED3503,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,85,7,Neutro
+ATD0524,2026-07-02,CLI188,PED3510,Email,Problema no pagamento,Alta,Resolvido,144,599,10,Satisfeito
+ATD0525,2026-07-04,CLI421,PED3542,WhatsApp,Problema no pagamento,Alta,Resolvido,15,392,7,Neutro
+ATD0526,2026-07-11,CLI346,PED3544,Email,Problema no pagamento,Alta,Resolvido,23,459,8,Neutro
+ATD0527,2026-07-05,CLI521,PED3545,WhatsApp,Atraso na entrega,Alta,Em andamento,8,,3,Insatisfeito
+ATD0528,2026-07-13,CLI237,PED3551,Instagram DM,Atraso na entrega,Alta,Resolvido,53,908,9,Satisfeito
+ATD0529,2026-07-07,CLI430,PED3554,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,206,10,Satisfeito
+ATD0530,2026-07-13,CLI399,PED3558,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,54,9,Satisfeito
+ATD0531,2026-07-11,CLI091,PED3566,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,18,19,9,Satisfeito
+ATD0532,2026-07-08,CLI181,PED3568,Email,Troca/Devolução,Média,Resolvido,263,263,10,Satisfeito
+ATD0533,2026-07-08,CLI381,PED3577,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,2,104,9,Satisfeito
+ATD0534,2026-07-06,CLI336,PED3584,Email,Troca/Devolução,Média,Resolvido,240,596,7,Neutro
+ATD0535,2026-07-06,CLI197,PED3586,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,133,9,Satisfeito
+ATD0536,2026-07-12,CLI328,PED3589,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,12,12,10,Satisfeito
+ATD0537,2026-07-06,CLI437,PED3596,Instagram DM,Reclamação de qualidade,Alta,Resolvido,3,275,8,Neutro
+ATD0538,2026-07-17,CLI476,PED3609,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,64,10,Satisfeito
+ATD0539,2026-07-17,CLI191,PED3620,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,31,88,9,Satisfeito
+ATD0540,2026-07-13,CLI011,PED3623,Telefone,Troca/Devolução,Média,Resolvido,1,51,9,Satisfeito
+ATD0541,2026-07-16,CLI453,PED3625,Chat no site,Atraso na entrega,Alta,Resolvido,2,464,9,Satisfeito
+ATD0542,2026-07-16,CLI145,PED3638,Telefone,Problema no pagamento,Alta,Em andamento,1,,6,Insatisfeito
+ATD0543,2026-07-11,CLI534,PED3644,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,555,10,Satisfeito
+ATD0544,2026-07-18,CLI049,PED3652,Email,Reclamação de qualidade,Alta,Resolvido,45,45,6,Insatisfeito
+ATD0545,2026-07-18,CLI379,PED3663,Telefone,Atraso na entrega,Alta,Resolvido,4,118,3,Insatisfeito
+ATD0546,2026-07-18,CLI369,PED3666,Chat no site,Atraso na entrega,Alta,Resolvido,1,69,9,Satisfeito
+ATD0547,2026-07-16,CLI357,PED3669,Email,Dúvida sobre produto,Baixa,Aberto,166,,10,Satisfeito
+ATD0548,2026-07-23,CLI506,PED3676,Email,Problema no pagamento,Alta,Resolvido,450,450,8,Neutro
+ATD0549,2026-07-15,CLI367,PED3677,WhatsApp,Problema no pagamento,Alta,Resolvido,13,74,0,Insatisfeito
+ATD0550,2026-07-24,CLI428,PED3695,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,11,49,10,Satisfeito
+ATD0551,2026-07-22,CLI003,PED3711,WhatsApp,Dúvida sobre produto,Baixa,Em andamento,2,,3,Insatisfeito
+ATD0552,2026-07-27,CLI131,PED3726,Telefone,Reclamação de qualidade,Alta,Resolvido,1,70,10,Satisfeito
+ATD0553,2026-07-23,CLI075,PED3728,WhatsApp,Problema no pagamento,Alta,Em andamento,27,,0,Insatisfeito
+ATD0554,2026-07-25,CLI323,PED3734,Chat no site,Problema no pagamento,Alta,Resolvido,1,101,9,Satisfeito
+ATD0555,2026-07-23,CLI028,PED3740,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,46,10,Satisfeito
+ATD0556,2026-07-30,CLI433,PED3745,Email,Dúvida sobre produto,Baixa,Resolvido,261,425,9,Satisfeito
+ATD0557,2026-07-27,CLI119,PED3746,Chat no site,Elogio/Sugestão,Baixa,Em andamento,1,,9,Satisfeito
+ATD0558,2026-07-24,CLI230,PED3752,Chat no site,Problema no pagamento,Alta,Aberto,3,,4,Insatisfeito
+ATD0559,2026-07-30,CLI489,PED3753,WhatsApp,Atraso na entrega,Alta,Resolvido,10,61,5,Insatisfeito
+ATD0560,2026-07-28,CLI264,PED3755,Chat no site,Atraso na entrega,Alta,Resolvido,1,259,9,Satisfeito
+ATD0561,2026-07-27,CLI514,PED3757,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,25,264,6,Insatisfeito
+ATD0562,2026-07-25,CLI152,PED3769,WhatsApp,Atraso na entrega,Alta,Resolvido,6,833,8,Neutro
+ATD0563,2026-08-03,CLI032,PED3782,Email,Atraso na entrega,Alta,Resolvido,266,266,9,Satisfeito
+ATD0564,2026-07-30,CLI289,PED3785,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,22,47,6,Insatisfeito
+ATD0565,2026-07-30,CLI014,PED3791,Chat no site,Atraso na entrega,Alta,Resolvido,6,396,10,Satisfeito
+ATD0566,2026-07-26,CLI198,PED3794,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,47,7,Neutro
+ATD0567,2026-08-01,CLI520,PED3803,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,11,11,5,Insatisfeito
+ATD0568,2026-07-31,CLI273,PED3808,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,71,8,Neutro
+ATD0569,2026-07-27,CLI063,PED3810,WhatsApp,Problema no pagamento,Alta,Resolvido,4,207,5,Insatisfeito
+ATD0570,2026-07-30,CLI091,PED3814,Email,Dúvida sobre produto,Baixa,Resolvido,58,58,9,Satisfeito
+ATD0571,2026-07-31,CLI172,PED3820,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,14,86,9,Satisfeito
+ATD0572,2026-07-29,CLI186,PED3832,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,5,46,10,Satisfeito
+ATD0573,2026-08-06,CLI304,PED3848,Email,Problema no pagamento,Alta,Em andamento,172,,0,Insatisfeito
+ATD0574,2026-08-02,CLI258,PED3856,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,1,19,6,Insatisfeito
+ATD0575,2026-08-10,CLI239,PED3868,Chat no site,Atraso na entrega,Alta,Resolvido,1,602,5,Insatisfeito
+ATD0576,2026-08-04,CLI248,PED3874,Chat no site,Elogio/Sugestão,Baixa,Resolvido,2,167,6,Insatisfeito
+ATD0577,2026-08-12,CLI300,PED3875,Telefone,Informação sobre rastreio,Baixa,Resolvido,1,132,9,Satisfeito
+ATD0578,2026-08-10,CLI128,PED3886,WhatsApp,Informação sobre rastreio,Baixa,Em andamento,7,,9,Satisfeito
+ATD0579,2026-08-12,CLI084,PED3892,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,4,10,Satisfeito
+ATD0580,2026-08-12,CLI103,PED3915,Email,Reclamação de qualidade,Alta,Resolvido,186,541,9,Satisfeito
+ATD0581,2026-08-09,CLI092,PED3917,WhatsApp,Problema no pagamento,Alta,Resolvido,8,159,9,Satisfeito
+ATD0582,2026-08-17,CLI549,PED3920,WhatsApp,Reclamação de qualidade,Alta,Resolvido,3,370,9,Satisfeito
+ATD0583,2026-08-17,CLI505,PED3923,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,14,245,8,Neutro
+ATD0584,2026-08-14,CLI531,PED3944,WhatsApp,Problema no pagamento,Alta,Resolvido,5,528,9,Satisfeito
+ATD0585,2026-08-22,CLI112,PED3945,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,9,257,7,Neutro
+ATD0586,2026-08-16,CLI222,PED3964,Telefone,Atraso na entrega,Alta,Resolvido,1,262,7,Neutro
+ATD0587,2026-08-22,CLI225,PED3968,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,10,166,9,Satisfeito
+ATD0588,2026-08-16,CLI217,PED3969,WhatsApp,Problema no pagamento,Alta,Resolvido,40,40,9,Satisfeito
+ATD0589,2026-08-20,CLI463,PED3979,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,1,332,9,Satisfeito
+ATD0590,2026-08-16,CLI273,PED3980,Telefone,Troca/Devolução,Média,Resolvido,1,229,10,Satisfeito
+ATD0591,2026-08-24,CLI528,PED3984,WhatsApp,Reclamação de qualidade,Alta,Resolvido,7,35,10,Satisfeito
+ATD0592,2026-08-19,CLI086,PED3990,Email,Atraso na entrega,Alta,Resolvido,280,495,8,Neutro
+ATD0593,2026-08-25,CLI199,PED4007,Telefone,Atraso na entrega,Alta,Resolvido,1,131,9,Satisfeito
+ATD0594,2026-08-25,CLI183,PED4025,Chat no site,Informação sobre rastreio,Baixa,Resolvido,2,9,8,Neutro
+ATD0595,2026-08-23,CLI032,PED4031,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,51,51,8,Neutro
+ATD0596,2026-08-26,CLI016,PED4033,Email,Informação sobre rastreio,Baixa,Em andamento,172,,6,Insatisfeito
+ATD0597,2026-08-25,CLI072,PED4036,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,65,136,9,Satisfeito
+ATD0598,2026-08-26,CLI548,PED4038,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,12,140,10,Satisfeito
+ATD0599,2026-08-24,CLI154,PED4044,WhatsApp,Problema no pagamento,Alta,Resolvido,5,116,7,Neutro
+ATD0600,2026-09-01,CLI157,PED4068,Instagram DM,Troca/Devolução,Média,Resolvido,137,333,8,Neutro
+ATD0601,2026-08-25,CLI401,PED4070,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,12,52,9,Satisfeito
+ATD0602,2026-09-02,CLI088,PED4076,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,1,3,8,Neutro
+ATD0603,2026-09-01,CLI163,PED4078,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,19,172,7,Neutro
+ATD0604,2026-08-28,CLI051,PED4080,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,18,220,6,Insatisfeito
+ATD0605,2026-08-28,CLI033,PED4087,Chat no site,Dúvida sobre produto,Baixa,Aberto,1,,9,Satisfeito
+ATD0606,2026-09-03,CLI289,PED4105,Telefone,Elogio/Sugestão,Baixa,Em andamento,1,,5,Insatisfeito
+ATD0607,2026-09-06,CLI233,PED4116,Instagram DM,Troca/Devolução,Média,Resolvido,6,142,10,Satisfeito
+ATD0608,2026-08-29,CLI166,PED4124,WhatsApp,Troca/Devolução,Média,Resolvido,1,739,5,Insatisfeito
+ATD0609,2026-09-03,CLI453,PED4152,Email,Atraso na entrega,Alta,Resolvido,48,919,10,Satisfeito
+ATD0610,2026-09-06,CLI479,PED4164,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,508,10,Satisfeito
+ATD0611,2026-09-11,CLI101,PED4166,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,320,9,Satisfeito
+ATD0612,2026-09-05,CLI317,PED4168,WhatsApp,Atraso na entrega,Alta,Resolvido,1,496,8,Neutro
+ATD0613,2026-09-04,CLI196,PED4169,WhatsApp,Reclamação de qualidade,Alta,Resolvido,28,54,10,Satisfeito
+ATD0614,2026-09-09,CLI176,PED4172,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,2,66,10,Satisfeito
+ATD0615,2026-09-05,CLI096,PED4173,Email,Atraso na entrega,Alta,Resolvido,520,520,10,Satisfeito
+ATD0616,2026-09-06,CLI512,PED4184,WhatsApp,Problema no pagamento,Alta,Resolvido,8,54,10,Satisfeito
+ATD0617,2026-09-10,CLI486,PED4188,WhatsApp,Dúvida sobre produto,Baixa,Resolvido,1,199,9,Satisfeito
+ATD0618,2026-09-06,CLI276,PED4189,Instagram DM,Reclamação de qualidade,Alta,Resolvido,2,361,5,Insatisfeito
+ATD0619,2026-09-11,CLI091,PED4196,Chat no site,Troca/Devolução,Média,Em andamento,3,,7,Neutro
+ATD0620,2026-09-08,CLI460,PED4210,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,131,8,Neutro
+ATD0621,2026-09-16,CLI276,PED4213,Chat no site,Atraso na entrega,Alta,Em andamento,1,,10,Satisfeito
+ATD0622,2026-09-10,CLI236,PED4221,WhatsApp,Elogio/Sugestão,Baixa,Resolvido,11,21,10,Satisfeito
+ATD0623,2026-09-16,CLI344,PED4223,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,15,43,9,Satisfeito
+ATD0624,2026-09-10,CLI381,PED4228,WhatsApp,Atraso na entrega,Alta,Resolvido,7,329,5,Insatisfeito
+ATD0625,2026-09-15,CLI344,PED4232,Instagram DM,Reclamação de qualidade,Alta,Resolvido,4,487,10,Satisfeito
+ATD0626,2026-09-18,CLI542,PED4233,Email,Atraso na entrega,Alta,Resolvido,69,390,1,Insatisfeito
+ATD0627,2026-09-10,CLI199,PED4235,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,4,139,8,Neutro
+ATD0628,2026-09-11,CLI196,PED4236,Telefone,Dúvida sobre produto,Baixa,Resolvido,1,66,9,Satisfeito
+ATD0629,2026-09-11,CLI147,PED4250,Chat no site,Troca/Devolução,Média,Resolvido,1,331,10,Satisfeito
+ATD0630,2026-09-15,CLI200,PED4259,Instagram DM,Informação sobre rastreio,Baixa,Resolvido,7,256,9,Satisfeito
+ATD0631,2026-09-13,CLI249,PED4261,Telefone,Elogio/Sugestão,Baixa,Resolvido,1,26,8,Neutro
+ATD0632,2026-09-18,CLI377,PED4268,Email,Atraso na entrega,Alta,Resolvido,182,182,8,Neutro
+ATD0633,2026-09-22,CLI116,PED4286,Chat no site,Dúvida sobre produto,Baixa,Resolvido,1,149,10,Satisfeito
+ATD0634,2026-09-16,CLI499,PED4289,WhatsApp,Problema no pagamento,Alta,Resolvido,12,352,10,Satisfeito
+ATD0635,2026-09-22,CLI014,PED4312,WhatsApp,Reclamação de qualidade,Alta,Resolvido,3,170,8,Neutro
+ATD0636,2026-09-27,CLI121,PED4314,Email,Dúvida sobre produto,Baixa,Resolvido,20,152,7,Neutro
+ATD0637,2026-09-23,CLI010,PED4329,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,8,148,7,Neutro
+ATD0638,2026-09-29,CLI422,PED4331,Chat no site,Informação sobre rastreio,Baixa,Resolvido,1,47,10,Satisfeito
+ATD0639,2026-09-25,CLI072,PED4333,Chat no site,Reclamação de qualidade,Alta,Resolvido,1,9,6,Insatisfeito
+ATD0640,2026-09-24,CLI229,PED4334,WhatsApp,Troca/Devolução,Média,Resolvido,5,390,10,Satisfeito
+ATD0641,2026-09-25,CLI109,PED4337,Instagram DM,Elogio/Sugestão,Baixa,Resolvido,54,87,8,Neutro
+ATD0642,2026-09-29,CLI460,PED4341,Telefone,Atraso na entrega,Alta,Resolvido,1,11,8,Neutro
+ATD0643,2026-09-30,CLI535,PED4346,Instagram DM,Dúvida sobre produto,Baixa,Resolvido,50,50,8,Neutro
+ATD0644,2026-09-26,CLI030,PED4352,Chat no site,Problema no pagamento,Alta,Resolvido,4,241,10,Satisfeito
+ATD0645,2026-09-28,CLI378,PED4354,Chat no site,Dúvida sobre produto,Baixa,Em andamento,1,,3,Insatisfeito
+ATD0646,2026-09-30,CLI119,PED4360,Telefone,Dúvida sobre produto,Baixa,Resolvido,2,2,2,Insatisfeito
+ATD0647,2026-09-29,CLI285,PED4371,Instagram DM,Troca/Devolução,Média,Resolvido,20,191,8,Neutro
+ATD0648,2026-09-30,CLI539,PED4373,Email,Elogio/Sugestão,Baixa,Aberto,47,,7,Neutro
+ATD0649,2026-09-30,CLI454,PED4394,WhatsApp,Informação sobre rastreio,Baixa,Resolvido,6,126,10,Satisfeito
+ATD0650,2026-09-30,CLI408,PED4403,Chat no site,Troca/Devolução,Média,Resolvido,2,2,9,Satisfeito

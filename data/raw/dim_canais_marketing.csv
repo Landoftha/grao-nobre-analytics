@@ -1,0 +1,9 @@
+canal_id,canal_nome,canal_grupo,canal_tipo,plataforma,budget_mensal,cpa_alvo,roas_alvo
+CAN01,Google Ads (Search),Paid Search,Pago,Google,6000.0,35.0,4.0
+CAN02,Google Ads (Shopping),Paid Search,Pago,Google,4000.0,28.0,5.0
+CAN03,Meta Ads (Instagram),Paid Social,Pago,Meta,5000.0,40.0,3.5
+CAN04,Meta Ads (Facebook),Paid Social,Pago,Meta,3000.0,45.0,3.0
+CAN05,Email Marketing,Email,Próprio,Email,800.0,8.0,10.0
+CAN06,Orgânico (SEO),Organic Search,Orgânico,Google,2000.0,15.0,8.0
+CAN07,Influenciadores,Influencer,Pago,Multi,3000.0,50.0,3.0
+CAN08,Direto,Direct,Orgânico,Direto,0.0,0.0,0.0

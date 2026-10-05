@@ -1,0 +1,5 @@
+loja_id,nome_loja,tipo,cidade,estado,data_abertura,capacidade_lugares,ativa
+LOJ01,Grão Nobre — Batel,Física,Curitiba,PR,2025-01-15,40,True
+LOJ02,Grão Nobre — Vila Madalena,Física,São Paulo,SP,2025-06-01,55,True
+LOJ03,Grão Nobre — Centro,Física,Florianópolis,SC,2025-09-15,35,True
+WEB01,E-commerce,E-commerce,Nacional,BR,2025-01-15,,True
