@@ -25,13 +25,13 @@
 
 | # | Task | Prioridade | Status | Entregável |
 |---|------|-----------|--------|------------|
-| 1.2.1 | Importar dados no Power BI | Alta | ⬜ Todo | Modelo de dados |
-| 1.2.2 | Criar modelo dimensional no PBI | Alta | ⬜ Todo | Star Schema |
-| 1.2.3 | Criar medidas DAX | Alta | ⬜ Todo | Tabela de medidas |
-| 1.2.4 | Dashboard — Visão Executiva | Alta | ⬜ Todo | Página 1 |
-| 1.2.5 | Dashboard — Vendas Detalhado | Alta | ⬜ Todo | Página 2 |
-| 1.2.6 | Dashboard — Marketing | Alta | ⬜ Todo | Página 3 |
-| 1.2.7 | Dashboard — Clientes | Média | ⬜ Todo | Página 4 |
+| 1.2.1 | Importar dados no Power BI | Alta | ✅ Done | 10 CSVs carregados no Power BI Desktop |
+| 1.2.2 | Criar modelo dimensional no PBI | Alta | 🟡 In Progress | Star Schema com relacionamentos 1:N |
+| 1.2.3 | Criar medidas DAX | Alta | ✅ Done | Catálogo `powerbi/medidas_dax.md` |
+| 1.2.4 | Dashboard — Visão Executiva | Alta | ⬜ Todo | Página 1 (Tasks YOH-19 a YOH-23 no Linear) |
+| 1.2.5 | Dashboard — Vendas Detalhado | Alta | ⬜ Todo | Página 2 (Tasks YOH-24 a YOH-27 no Linear) |
+| 1.2.6 | Dashboard — Marketing | Alta | ⬜ Todo | Página 3 (Tasks YOH-28 a YOH-32 no Linear) |
+| 1.2.7 | Dashboard — Clientes | Média | ⬜ Todo | Página 4 (Tasks YOH-33 a YOH-36 no Linear) |
 | 1.2.8 | Dashboard — Estoque | Média | ⬜ Todo | Página 5 |
 | 1.2.9 | Dashboard — Atendimento | Média | ⬜ Todo | Página 6 |
 
