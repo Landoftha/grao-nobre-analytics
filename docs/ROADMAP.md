@@ -28,7 +28,7 @@
 | 1.2.1 | Importar dados no Power BI | Alta | ✅ Done | 10 CSVs carregados no Power BI Desktop (`YOH-13`) |
 | 1.2.2 | Criar modelo dimensional no PBI | Alta | ✅ Done | Star Schema completo com relacionamentos 1:N (`YOH-14`) |
 | 1.2.3 | Criar medidas DAX | Alta | ✅ Done | Catálogo `powerbi/medidas_dax.md` (5 áreas completas) (`YOH-15`) |
-| 1.2.4 | Dashboard — Visão Executiva | Alta | 🟡 In Progress | Página 1 (`YOH-16` \| Subtasks `YOH-19` a `YOH-23`) |
+| 1.2.4 | Dashboard — Visão Executiva | Alta | ✅ Done | Página 1 em `powerbi/Business Analytics.pbit` (`YOH-16` \| Subtasks `YOH-19` a `YOH-23`) |
 | 1.2.5 | Dashboard — Vendas Detalhado | Alta | ⬜ Todo | Página 2 (`YOH-17` \| Subtasks `YOH-24` a `YOH-27`) |
 | 1.2.6 | Dashboard — Marketing | Alta | ⬜ Todo | Página 3 (`YOH-18` \| Subtasks `YOH-28` a `YOH-32`) |
 | 1.2.7 | Dashboard — Clientes | Média | ⬜ Todo | Página 4 (`YOH-44` \| Subtasks `YOH-33` a `YOH-36`) |

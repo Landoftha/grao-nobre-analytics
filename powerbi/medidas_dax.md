@@ -27,24 +27,36 @@ Vendas | Total Descontos = SUM(fato_vendas[valor_desconto])
 
 ### `Vendas | Receita Líquida`
 ```dax
-Vendas | Receita Líquida = SUM(fato_vendas[valor_liquido])
+Vendas | Receita Líquida = 
+CALCULATE(
+    SUM(fato_vendas[valor_liquido]),
+    fato_vendas[status_pedido] = "entregue"
+)
 ```
 * **Formato:** Moeda (R$ 0,00)
-* **Descrição:** Faturamento real após abatimento de descontos (`valor_bruto - valor_desconto`).
+* **Descrição:** Faturamento real após descontos, devoluções e cancelamentos. Considera apenas pedidos entregues, conforme a DRE em `docs/BUSINESS_RULES.md`.
 
 ### `Vendas | Custo Total (CPV)`
 ```dax
-Vendas | Custo Total = SUM(fato_vendas[custo_total])
+Vendas | Custo Total = 
+CALCULATE(
+    SUM(fato_vendas[custo_total]),
+    fato_vendas[status_pedido] = "entregue"
+)
 ```
 * **Formato:** Moeda (R$ 0,00)
-* **Descrição:** Custo dos Produtos Vendidos (quantidade × custo unitário do café/acessório).
+* **Descrição:** Custo dos Produtos Vendidos (quantidade × custo unitário do café/acessório) dos pedidos entregues.
 
 ### `Vendas | Lucro Bruto`
 ```dax
-Vendas | Lucro Bruto = SUM(fato_vendas[lucro_bruto])
+Vendas | Lucro Bruto = 
+CALCULATE(
+    SUM(fato_vendas[lucro_bruto]),
+    fato_vendas[status_pedido] = "entregue"
+)
 ```
 * **Formato:** Moeda (R$ 0,00)
-* **Descrição:** Receita Líquida deduzido o Custo Total dos produtos.
+* **Descrição:** Receita Líquida deduzido o Custo Total dos produtos, considerando apenas pedidos entregues.
 
 ### `Vendas | Margem Bruta %`
 ```dax
@@ -60,10 +72,14 @@ DIVIDE(
 
 ### `Vendas | Qtd Pedidos`
 ```dax
-Vendas | Qtd Pedidos = DISTINCTCOUNT(fato_vendas[pedido_id])
+Vendas | Qtd Pedidos = 
+CALCULATE(
+    DISTINCTCOUNT(fato_vendas[pedido_id]),
+    fato_vendas[status_pedido] = "entregue"
+)
 ```
 * **Formato:** Número Inteiro
-* **Descrição:** Volume único de transações/pedidos efetuados.
+* **Descrição:** Volume único de pedidos entregues.
 
 ### `Vendas | Qtd Itens Vendidos`
 ```dax
