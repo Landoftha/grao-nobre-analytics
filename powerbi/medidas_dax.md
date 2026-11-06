@@ -124,7 +124,7 @@ DIVIDE(
 )
 ```
 * **Formato:** Porcentagem (0,00%)
-* **Descrição:** Click-Through Rate. Eficiência de atratividade dos anúncios.
+* **Descrição:** Click-Through Rate. Eficiência de atratividade dos anúncios. Meta: > 3,0%.
 
 ### `Mkt | CPC Médio`
 ```dax
@@ -136,7 +136,7 @@ DIVIDE(
 )
 ```
 * **Formato:** Moeda (R$ 0,00)
-* **Descrição:** Custo Médio por Clique.
+* **Descrição:** Custo Médio por Clique. Meta: < R$ 1,50.
 
 ### `Mkt | Conversões`
 ```dax
@@ -187,6 +187,27 @@ DIVIDE(
 ```
 * **Formato:** Porcentagem (0,00%)
 
+### `Mkt | Sessões Site`
+```dax
+Mkt | Sessões Site = SUM(fato_marketing[sessoes_site])
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Total de sessões iniciadas no e-commerce originadas pelos canais de marketing.
+
+### `Mkt | Novos Leads`
+```dax
+Mkt | Novos Leads = SUM(fato_marketing[novos_leads])
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Total de novos leads captados nas campanhas e canais digitais.
+
+### `Mkt | Bounce Rate Médio %`
+```dax
+Mkt | Bounce Rate Médio % = DIVIDE(AVERAGE(fato_marketing[bounce_rate]), 100, 0)
+```
+* **Formato:** Porcentagem (0,0%)
+* **Descrição:** Taxa média de rejeição das páginas de destino.
+
 ---
 
 ## 3. 👥 Clientes, LTV e Churn
@@ -214,6 +235,16 @@ Clientes | Em Risco =
 CALCULATE(
     [Clientes | Total Base],
     dim_clientes[status_churn] = "Em risco"
+)
+```
+* **Formato:** Número Inteiro
+
+### `Clientes | Inativos`
+```dax
+Clientes | Inativos = 
+CALCULATE(
+    [Clientes | Total Base],
+    dim_clientes[status_churn] = "Inativo"
 )
 ```
 * **Formato:** Número Inteiro
@@ -249,7 +280,7 @@ DIVIDE(
 )
 ```
 * **Formato:** Moeda (R$ 0,00)
-* **Descrição:** Custo de Aquisição por Cliente da base.
+* **Descrição:** Custo de Aquisição por Cliente da base. Meta: < R$ 45,00.
 
 ### `Clientes | LTV Médio`
 ```dax
@@ -303,3 +334,152 @@ Atd | NPS Médio = AVERAGE(fato_atendimento[nota_nps])
 ```
 * **Formato:** Decimal (0,0)
 * **Descrição:** Média de satisfação nas avaliações pós-atendimento.
+
+### `Atd | NPS Score`
+```dax
+Atd | NPS Score = 
+VAR TotalAvaliacoes = 
+    CALCULATE(
+        COUNTROWS(fato_atendimento),
+        NOT(ISBLANK(fato_atendimento[nota_nps]))
+    )
+VAR Promotores = 
+    CALCULATE(
+        COUNTROWS(fato_atendimento),
+        fato_atendimento[nota_nps] >= 9
+    )
+VAR Detratores = 
+    CALCULATE(
+        COUNTROWS(fato_atendimento),
+        fato_atendimento[nota_nps] <= 6
+    )
+RETURN
+    DIVIDE(Promotores - Detratores, TotalAvaliacoes, 0) * 100
+```
+* **Formato:** Número Decimal (0,0)
+* **Descrição:** Net Promoter Score oficial (`% Promotores - % Detratores`). Meta da Grão Nobre: ≥ 70.
+
+### `Atd | % Tickets Resolvidos`
+```dax
+Atd | % Tickets Resolvidos = 
+VAR Resolvidos = 
+    CALCULATE(
+        [Atd | Total Ocorrências],
+        fato_atendimento[status] = "Resolvido"
+    )
+RETURN
+    DIVIDE(Resolvidos, [Atd | Total Ocorrências], 0)
+```
+* **Formato:** Porcentagem (0,0%)
+* **Descrição:** Proporção de chamados já solucionados pela equipe de atendimento.
+
+### `Atd | % Dentro do SLA`
+```dax
+Atd | % Dentro do SLA = 
+VAR TicketsNoSLA = 
+    COUNTROWS(
+        FILTER(
+            fato_atendimento,
+            SWITCH(
+                fato_atendimento[canal_atendimento],
+                "Telefone", fato_atendimento[tempo_resposta_min] <= 1,
+                "Chat no site", fato_atendimento[tempo_resposta_min] <= 2,
+                "WhatsApp", fato_atendimento[tempo_resposta_min] <= 15,
+                "Instagram DM", fato_atendimento[tempo_resposta_min] <= 30,
+                "Email", fato_atendimento[tempo_resposta_min] <= 240,
+                fato_atendimento[tempo_resposta_min] <= 30
+            )
+        )
+    )
+RETURN
+    DIVIDE(TicketsNoSLA, [Atd | Total Ocorrências], 0)
+```
+* **Formato:** Porcentagem (0,0%)
+* **Descrição:** Percentual de atendimentos cuja primeira resposta ocorreu dentro do SLA definido nas regras de negócio por canal.
+
+---
+
+## 5. 📦 Estoque e Operações
+
+### `Est | Qtd em Estoque Atual`
+```dax
+Est | Qtd em Estoque Atual = 
+VAR UltimaData = LASTDATE(fato_estoque[data])
+RETURN
+    CALCULATE(
+        SUM(fato_estoque[qtd_estoque]),
+        fato_estoque[data] = UltimaData
+    )
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Saldo semi-aditivo de unidades em estoque na última data disponível no contexto de filtro.
+
+### `Est | SKUs em Ruptura`
+```dax
+Est | SKUs em Ruptura = 
+VAR UltimaData = LASTDATE(fato_estoque[data])
+RETURN
+    CALCULATE(
+        DISTINCTCOUNT(fato_estoque[produto_id]),
+        fato_estoque[data] = UltimaData,
+        fato_estoque[is_ruptura] = TRUE()
+    )
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Quantidade de produtos distintos com estoque zerado (`qtd_estoque = 0`) na data mais recente do período selecionado.
+
+### `Est | SKUs Abaixo do Mínimo`
+```dax
+Est | SKUs Abaixo do Mínimo = 
+VAR UltimaData = LASTDATE(fato_estoque[data])
+RETURN
+    CALCULATE(
+        DISTINCTCOUNT(fato_estoque[produto_id]),
+        fato_estoque[data] = UltimaData,
+        fato_estoque[is_abaixo_minimo] = TRUE()
+    )
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Quantidade de produtos distintos com estoque abaixo do mínimo de segurança (`< 20 unidades`) na data mais recente do período.
+
+### `Est | Taxa de Ruptura %`
+```dax
+Est | Taxa de Ruptura % = 
+VAR UltimaData = LASTDATE(fato_estoque[data])
+VAR TotalSKUs = 
+    CALCULATE(
+        DISTINCTCOUNT(fato_estoque[produto_id]),
+        fato_estoque[data] = UltimaData
+    )
+RETURN
+    DIVIDE([Est | SKUs em Ruptura], TotalSKUs, 0)
+```
+* **Formato:** Porcentagem (0,0%)
+* **Descrição:** Percentual do catálogo ativo que se encontra em ruptura de estoque.
+
+### `Est | Cobertura Média (Dias)`
+```dax
+Est | Cobertura Média (Dias) = 
+VAR UltimaData = LASTDATE(fato_estoque[data])
+RETURN
+    CALCULATE(
+        AVERAGE(fato_estoque[dias_cobertura]),
+        fato_estoque[data] = UltimaData
+    )
+```
+* **Formato:** Número Inteiro (0 dias)
+* **Descrição:** Média de dias que o estoque atual suporta com base no giro diário de vendas.
+
+### `Est | Giro de Saída (Unidades Vendidas)`
+```dax
+Est | Giro de Saída = SUM(fato_estoque[qtd_vendida_dia])
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Total de unidades baixadas do estoque por venda no período filtrado.
+
+### `Est | Total Recebido (Reposição)`
+```dax
+Est | Total Recebido = SUM(fato_estoque[qtd_recebida_dia])
+```
+* **Formato:** Número Inteiro
+* **Descrição:** Total de unidades entradas por reposição de torra/fornecedores no período filtrado.
