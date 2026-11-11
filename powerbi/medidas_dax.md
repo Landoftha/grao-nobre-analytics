@@ -499,3 +499,107 @@ Est | Total Recebido = SUM(fato_estoque[qtd_recebida_dia])
 ```
 * **Formato:** Número Inteiro
 * **Descrição:** Total de unidades entradas por reposição de torra/fornecedores no período filtrado.
+
+---
+
+## Comparativos e destaque da Visão Executiva
+> `Comp | *` compara a seleção atual com o mesmo intervalo do ano anterior, usando apenas as datas que têm base de comparação.
+
+### `Vendas | Receita Último Mês`
+```dax
+Vendas | Receita Último Mês = 
+VAR U = CALCULATE(MAX(fato_vendas[data_pedido]), ALLSELECTED(dim_calendario))
+RETURN IF(MAX(dim_calendario[AnoMes]) = YEAR(U) * 100 + MONTH(U), [Vendas | Receita Líquida])
+```
+
+### `Vendas | Receita Var. Mês %`
+```dax
+Vendas | Receita Var. Mês % = 
+VAR A = SELECTEDVALUE(dim_calendario[AnoMes])
+VAR Ant = IF(MOD(A, 100) = 1, A - 89, A - 1)
+VAR R = CALCULATE([Vendas | Receita Líquida], REMOVEFILTERS(dim_calendario), dim_calendario[AnoMes] = Ant)
+RETURN IF(NOT ISBLANK(A), DIVIDE([Vendas | Receita Líquida] - R, R))
+```
+
+### `Vendas | Destaque Último Mês`
+```dax
+Vendas | Destaque Último Mês = 
+VAR U = CALCULATE(MAX(fato_vendas[data_pedido]), ALLSELECTED(dim_calendario))
+VAR A = YEAR(U) * 100 + MONTH(U)
+VAR Ant = IF(MONTH(U) = 1, A - 89, A - 1)
+VAR DataAnt = DATE(YEAR(U), MONTH(U) - 1, 1)
+VAR RU = CALCULATE([Vendas | Receita Líquida], REMOVEFILTERS(dim_calendario), dim_calendario[AnoMes] = A)
+VAR RA = CALCULATE([Vendas | Receita Líquida], REMOVEFILTERS(dim_calendario), dim_calendario[AnoMes] = Ant)
+VAR Delta = DIVIDE(RU - RA, RA)
+RETURN FORMAT(U, "mmm/yy") & ": R$ " & FORMAT(RU, "#,0") & IF(ISBLANK(Delta), "", " (" & IF(Delta >= 0, "↑ ", "↓ ") & FORMAT(ABS(Delta), "0.0%") & " vs. " & FORMAT(DataAnt, "mmm/yy") & ")")
+```
+
+### `Comp | Receita`
+```dax
+Comp | Receita = 
+VAR Prim = CALCULATE(MIN(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Ult = CALCULATE(MAX(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Atual = FILTER(VALUES(dim_calendario[data]), EDATE(dim_calendario[data], -12) >= Prim && dim_calendario[data] <= Ult)
+VAR Base = TREATAS(SELECTCOLUMNS(Atual, "d", EDATE(dim_calendario[data], -12)), dim_calendario[data])
+VAR Ini = MINX(Atual, EDATE(dim_calendario[data], -12))
+VAR Fim = MAXX(Atual, EDATE(dim_calendario[data], -12))
+VAR Rotulo = IF(FORMAT(Ini, "yyyymm") = FORMAT(Fim, "yyyymm"), FORMAT(Fim, "mmm/yy"), FORMAT(Ini, "mmm") & "–" & FORMAT(Fim, "mmm/yy"))
+VAR vAtual = CALCULATE([Vendas | Receita Líquida], Atual)
+VAR vBase = CALCULATE([Vendas | Receita Líquida], REMOVEFILTERS(dim_calendario), Base)
+VAR Delta = DIVIDE(vAtual - vBase, vBase)
+RETURN IF(ISBLANK(Delta), "sem base de comparação", IF(Delta >= 0, "↑ ", "↓ ") & FORMAT(ABS(Delta), "0.0%") & " vs. " & Rotulo)
+```
+
+### `Comp | Margem`
+```dax
+Comp | Margem = 
+VAR Prim = CALCULATE(MIN(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Ult = CALCULATE(MAX(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Atual = FILTER(VALUES(dim_calendario[data]), EDATE(dim_calendario[data], -12) >= Prim && dim_calendario[data] <= Ult)
+VAR Base = TREATAS(SELECTCOLUMNS(Atual, "d", EDATE(dim_calendario[data], -12)), dim_calendario[data])
+VAR Ini = MINX(Atual, EDATE(dim_calendario[data], -12))
+VAR Fim = MAXX(Atual, EDATE(dim_calendario[data], -12))
+VAR Rotulo = IF(FORMAT(Ini, "yyyymm") = FORMAT(Fim, "yyyymm"), FORMAT(Fim, "mmm/yy"), FORMAT(Ini, "mmm") & "–" & FORMAT(Fim, "mmm/yy"))
+VAR vAtual = CALCULATE([Vendas | Margem Bruta %], Atual)
+VAR vBase = CALCULATE([Vendas | Margem Bruta %], REMOVEFILTERS(dim_calendario), Base)
+VAR Delta = (vAtual - vBase) * 100
+RETURN IF(ISBLANK(vAtual) || ISBLANK(vBase), "sem base de comparação", IF(Delta >= 0, "↑ ", "↓ ") & FORMAT(ABS(Delta), "0.0") & " p.p. vs. " & Rotulo)
+```
+
+### `Comp | Ticket`
+```dax
+Comp | Ticket = 
+VAR Prim = CALCULATE(MIN(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Ult = CALCULATE(MAX(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Atual = FILTER(VALUES(dim_calendario[data]), EDATE(dim_calendario[data], -12) >= Prim && dim_calendario[data] <= Ult)
+VAR Base = TREATAS(SELECTCOLUMNS(Atual, "d", EDATE(dim_calendario[data], -12)), dim_calendario[data])
+VAR Ini = MINX(Atual, EDATE(dim_calendario[data], -12))
+VAR Fim = MAXX(Atual, EDATE(dim_calendario[data], -12))
+VAR Rotulo = IF(FORMAT(Ini, "yyyymm") = FORMAT(Fim, "yyyymm"), FORMAT(Fim, "mmm/yy"), FORMAT(Ini, "mmm") & "–" & FORMAT(Fim, "mmm/yy"))
+VAR vAtual = CALCULATE([Vendas | Ticket Médio], Atual)
+VAR vBase = CALCULATE([Vendas | Ticket Médio], REMOVEFILTERS(dim_calendario), Base)
+VAR Delta = DIVIDE(vAtual - vBase, vBase)
+RETURN IF(ISBLANK(Delta), "sem base de comparação", IF(Delta >= 0, "↑ ", "↓ ") & FORMAT(ABS(Delta), "0.0%") & " vs. " & Rotulo)
+```
+
+### `Comp | ROAS`
+```dax
+Comp | ROAS = 
+VAR Prim = CALCULATE(MIN(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Ult = CALCULATE(MAX(fato_vendas[data_pedido]), REMOVEFILTERS())
+VAR Atual = FILTER(VALUES(dim_calendario[data]), EDATE(dim_calendario[data], -12) >= Prim && dim_calendario[data] <= Ult)
+VAR Base = TREATAS(SELECTCOLUMNS(Atual, "d", EDATE(dim_calendario[data], -12)), dim_calendario[data])
+VAR Ini = MINX(Atual, EDATE(dim_calendario[data], -12))
+VAR Fim = MAXX(Atual, EDATE(dim_calendario[data], -12))
+VAR Rotulo = IF(FORMAT(Ini, "yyyymm") = FORMAT(Fim, "yyyymm"), FORMAT(Fim, "mmm/yy"), FORMAT(Ini, "mmm") & "–" & FORMAT(Fim, "mmm/yy"))
+VAR vAtual = CALCULATE([Mkt | ROAS], Atual)
+VAR vBase = CALCULATE([Mkt | ROAS], REMOVEFILTERS(dim_calendario), Base)
+VAR Delta = DIVIDE(vAtual - vBase, vBase)
+RETURN IF(ISBLANK(Delta), "sem base de comparação", IF(Delta >= 0, "↑ ", "↓ ") & FORMAT(ABS(Delta), "0.0%") & " vs. " & Rotulo)
+```
+
+### `Comp | Clientes`
+```dax
+Comp | Clientes = 
+FORMAT(DIVIDE([Clientes | Ativos], [Clientes | Total Base]), "0.0%") & " da base"
+```
